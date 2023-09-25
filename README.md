@@ -12,4 +12,4 @@
 - 💬 Ask me about *`Travel, Military Life, Technology`*
 - 📫 How to reach me: pawankapkoti3889@gmail.com
 - 😄 Pronouns: *`He/him`*
-- ⚡ Fun fact: *`I like to Trek.`*   
+- ⚡ Fun fact: *`I'm a good listener.`*   
