@@ -8,7 +8,7 @@
 - 🌱 I did my graduation in *`Bachelor of Computer Applications`* from Amity University Uttar pradesh in 2022.
 - 🌱 I’m currently studying *`MSc Data Analytics`* from Aston University Birmingham, UK.
 - 👯 I’m looking to collaborate on *`Data Science Projects`*
-- 🤔 I’m looking for help with *`Machine learning`*
+- 🤔 I’m looking for help with *`Cloud Services`* and *`Machine learning`* 
 - 💬 Ask me about *`Travel, Military Life, Technology`*
 - 📫 How to reach me: pawankapkoti3889@gmail.com
 - 😄 Pronouns: *`He/him`*
