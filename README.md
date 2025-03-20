@@ -31,16 +31,13 @@ MSc Data Analytics (2:1) | Aston University | Jan 2023 - Mar 2024
 
 BSc Computer Applications (1st) | Amity University | Aug 2019 - Aug 2022
 
-**Work Experience**
-
-*No Cranswick Convenience Foods experience listed as per your request.*
-
 **Projects**
 
 1.  **Crime Data Analysis Project (2022-2024)**
     * **Goal:** To understand crime trends across the UK by analyzing crime type, geographical location (LSOAs), and reporting police agency.
     * **Data Processing:** Developed an **ETL pipeline** using AWS services. Raw crime data, stored in Amazon S3, was cataloged and made queryable using **Glue Crawler**. Amazon Athena was used to query and aggregate this data. Amazon QuickSight was used for creating visualizations such as bar charts (for crime types and police force reporting trends) and stacked bar charts (for crime distribution across LSOAs).
-    * **Key Findings:** Identified **violence and sexual offences** as the most frequent crime type with **5,937,043** incidents. **Anti-social behaviour** was the second most common with **2,741,817** incidents. Other high-frequency crimes included **public order (1,348,841)**, **criminal damage and arson (1,344,782)**, **other theft (1,298,173)**, and **shoplifting (1,111,324)**. The **Metropolitan Police Service** reported the highest number of total crimes: approximately **1.1 million in 2022**, **1.13 million in 2023**, and **0.95 million in 2024**. Crime type distribution varied across different Local Super Output Areas (LSOAs). Note: Data quality issues were identified with some LSOA names appearing as crime types.
+    * **Key Findings:** Identified **violence and sexual offences** as the most frequent crime type with **5,937,043** incidents. **Anti-social behaviour** was the second most common with **2,741,817** incidents. Other high-frequency crimes included **public order (1,348,841)**, **criminal damage and arson (1,344,782)**, **other theft (1,298,173)**, and **shoplifting (1,111,324)**. The **Metropolitan Police Service** reported the highest number of total crimes: approximately **1.1 million in 2022**, **1.13 million in 2023**, and **0.95 million in 2024**. Crime type distribution varied across different Local Super Output Areas (LSOAs).
+   * **Github link:** [Crime Analysis Repository](https://github.com/Pawansingh3889/Crime_Analysis)
 2.  Data Analysis Project: The Effects of Ethnicity on Students' Behaviour and Outcomes | Aston University
     * Data Extraction and Manipulation: Utilized Python and SQL to extract and manipulate a large dataset of student information, including demographics, socioeconomic factors, and academic performance metrics. Data sources: Higher Education Statistics Agency (HESA), National Pupil Database (NPD) (with necessary approvals).
     * Data Analysis and Visualization: Employed statistical techniques (Normality Testing, Variance Analysis, Non-parametric Tests, Post-Hoc Analysis, Predictive Modeling, Correlation Analysis) to analyze data and identify trends. Visualizations created to communicate findings.
