@@ -9,7 +9,6 @@ MSc Data Analytics (Aston University, 2:1) · AWS Certified DEA-C01 · Remote, U
 
 Production-grade data pipelines — from raw ingestion through transformation, ML, validation, and orchestration. I work across the full stack: Python ETL, dbt transformation layers, cloud analytics on AWS and Azure, ML-powered anomaly detection, and local LLM integration.
 
-Currently transitioning full-time into data engineering after obtaining AWS certifications and building the Apex portfolio project independently.
 
 ---
 
