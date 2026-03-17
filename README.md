@@ -1,74 +1,86 @@
-### Hi there 👋
+# Pawan Singh Kapkoti
 
+**Data Engineer · Analytics Engineer**  
+MSc Data Analytics (Aston University, 2:1) · AWS Certified DEA-C01 · Remote, UK
 
+---
 
-***Have a brief glimpse on my profile:***
+## What I build
 
-- 🔭 I’m currently working on *`Data Science`*
-- 🌱 I did my graduation in *`Bachelor of Computer Applications`* from Amity University Uttar pradesh in 2022.
-- 🌱 I’ve recently completed my Masters in *`MSc Data Analytics`* from Aston University Birmingham, UK.
-- 👯 I’m looking to collaborate on *`Data Science Projects`*
-- 🤔 I’m looking for help with *`Cloud Services`* and *`Machine learning`* 
-- 💬 Ask me about *`Travel, Military Life, Technology`*
-- 📫 How to reach me: pawankapkoti3889@gmail.com
-- 😄 Pronouns: *`He/him`*
-- ⚡ Fun fact: *`I'm a good listener.`*   
+Production-grade data pipelines — from raw ingestion through transformation, ML, validation, and orchestration. I work across the full stack: Python ETL, dbt transformation layers, cloud analytics on AWS and Azure, ML-powered anomaly detection, and local LLM integration.
 
+Currently transitioning full-time into data engineering after obtaining AWS certifications and building the Apex portfolio project independently.
 
-*Resume*
+---
 
-**Pawan Singh Kapkoti**
-Flat 2, Kingston villas, 16-17 Pearson park, Hull, HU5 2DE
-+44 7742382622 | pawankapkoti3889@gmail.com
+## Featured project
 
-**Summary**
+### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
+`Python` `dbt` `DuckDB` `Polars` `XGBoost` `Isolation Forest` `Mistral 7B` `Prefect` `Power BI`
 
-Highly motivated graduate with an MSc in Data Analytics and a BSc in Computer Applications. Possessing strong data analysis techniques and programming languages (Python, SQL, Excel, Power BI), I'm eager to apply my skills in a Junior Data Analyst or Database role.
+Simulates diagnosing and migrating a failing production database — the right way, before touching production.
 
-**Education**
+- 10-task **Prefect pipeline** orchestrates all phases automatically with parallel execution and retry logic
+- **XGBoost** CPU spike predictor — 93% accuracy, ROC-AUC 0.97, no data leakage
+- **Isolation Forest** anomaly detection on 15,000 server logs — no labelled data required
+- **Mistral 7B via Ollama** replaced VADER for Portuguese sentiment — fully offline, zero API cost
+- **dbt** transformation layer — 7 models, 53 automated quality tests, auto-generated lineage graph
+- **94 automated checks** (53 dbt + 39 custom) — caught a live LLM label corruption bug before it reached Power BI
+- **Power BI** 3-page dashboard — delivery performance across 96,470 orders, product sentiment by category, server health
 
-MSc Data Analytics (2:1) | Aston University | Jan 2023 - Mar 2024
+---
 
-BSc Computer Applications (1st) | Amity University | Aug 2019 - Aug 2022
+## Other projects
 
-**Projects**
+**[UK Crime Data Analysis](https://github.com/Pawansingh3889/Crime_Analysis)** · `AWS S3` `Glue` `Athena` `QuickSight`  
+Serverless AWS pipeline analysing 43 UK police forces across 2022–2024. Violence and sexual offences: 5.9M+ incidents. Metropolitan Police volume declined from 1.1M (2022) to 0.95M (2024).
 
-1.  **Crime Data Analysis Project (2022-2024)**
-    * **Goal:** To understand crime trends across the UK by analyzing crime type, geographical location (LSOAs), and reporting police agency.
-    * **Data Processing:** Developed an **ETL pipeline** using AWS services. Raw crime data, stored in Amazon S3, was cataloged and made queryable using **Glue Crawler**. Amazon Athena was used to query and aggregate this data. Amazon QuickSight was used for creating visualizations such as bar charts (for crime types and police force reporting trends) and stacked bar charts (for crime distribution across LSOAs).
-    * **Key Findings:** Identified **violence and sexual offences** as the most frequent crime type with **5,937,043** incidents. **Anti-social behaviour** was the second most common with **2,741,817** incidents. Other high-frequency crimes included **public order (1,348,841)**, **criminal damage and arson (1,344,782)**, **other theft (1,298,173)**, and **shoplifting (1,111,324)**. The **Metropolitan Police Service** reported the highest number of total crimes: approximately **1.1 million in 2022**, **1.13 million in 2023**, and **0.95 million in 2024**. Crime type distribution varied across different Local Super Output Areas (LSOAs).
-   * **Github link:** [Crime Analysis Repository](https://github.com/Pawansingh3889/Crime_Analysis)
-2.  Data Analysis Project: The Effects of Ethnicity on Students' Behaviour and Outcomes | Aston University
-    * Data Extraction and Manipulation: Utilized Python and SQL to extract and manipulate a large dataset of student information, including demographics, socioeconomic factors, and academic performance metrics. Data sources: Higher Education Statistics Agency (HESA), National Pupil Database (NPD) (with necessary approvals).
-    * Data Analysis and Visualization: Employed statistical techniques (Normality Testing, Variance Analysis, Non-parametric Tests, Post-Hoc Analysis, Predictive Modeling, Correlation Analysis) to analyze data and identify trends. Visualizations created to communicate findings.
-    * Outcomes: Identified a 15% performance gap between certain ethnic groups, highlighting the impact of socioeconomic factors. Developed a predictive model with 80% accuracy for identifying at-risk students.
-3.  Electoral Bond Data Analysis
-    * Data Extraction and Manipulation: Extracted and cleaned electoral bond data from the Election Commission of India's website.
-    * Data Analysis and Visualization: Analyzed data using Power BI. Visualized transaction trends, donor information, key insights.
-    * Outcomes: Showcased a 300% increase in electoral bond transactions between 2019 and 2023. Identified the top 3 purchasers, responsible for 40% of total transactions. Highlighted seasonal trends, with 60% of transactions occurring in the first quarter.
-4.  Global University Performance Analysis
-    * Data Extraction, Transformation, and Loading (ETL): ETL workflow used to extract data from Times Higher Education, QS World University Rankings, and ARWU. Transformed using Azure Databricks, loaded into Azure Synapse Analytics.
-    * Data Analysis and Visualization: Analyzed global university rankings, funding impacts, and attainment levels. Visualizations created using Power BI.
-    * Outcomes: Found a 0.8 correlation between research funding and university ranking. Identified key performance indicators with 95% confidence intervals.
+**[MSc Dissertation — Ethnicity & Academic Outcomes](https://github.com/Pawansingh3889/MSc-Dissertation-Project)** · `Python` `SQL` `Random Forest` `Statistical Testing`  
+Analysed HESA and National Pupil Database data. Identified a 15% performance gap across ethnic groups. Random Forest model: 80% accuracy identifying at-risk students. Submitted to Aston University Mathematics Department.
 
-**Skills**
+**[OnlyBuddy — Hull Errand App](https://onlybuddy.vercel.app)** · `React 18` `Firebase` `Stripe` `Vercel`  
+Live production app — community errand and grocery service for Hull. 25 Vercel deployments, Firebase auth + real-time database, Stripe payments, PWA.
 
-Data Extraction, Transformation, and Loading (ETL): ETL workflow used to extract data from Times Higher Education, QS World University Rankings, and ARWU. Transformed using Azure Databricks, loaded into Azure Synapse Analytics.
+**[Electoral Bond Data Analysis](https://github.com/Pawansingh3889)** · `Power BI` `Python`  
+Analysed Election Commission of India public data. 300% transaction increase 2019–2023. Top 3 purchasers = 40% of total value. 60% of transactions in Q1.
 
-Data Analysis and Visualization: Analyzed global university rankings, funding impacts, and attainment levels. Visualizations created using Power BI.
+**[Global University Performance Analysis](https://github.com/Pawansingh3889)** · `Azure Databricks` `Synapse Analytics` `Power BI`  
+ETL from 3 ranking sources (THE, QS, ARWU) → Databricks → Synapse. 0.8 correlation between research funding and ranking across 500+ institutions.
 
-Programming Languages: Python, SQL, Java
+---
 
-Data Analysis Tools: Excel, Power BI, Azure Databricks, Azure Synapse Analytics, S3, Athena, Glue, Redshift, IAM User Roles Groups, QuickSight, Virtual Machine, CloudWatch, Git
+## Tech stack
 
-Other: Teamwork, Time Management, Adaptability, Statistical Analysis, Data Mining, Predictive Modeling
+| | |
+|---|---|
+| **Core** | Python 3.11, SQL (window functions, CTEs, aggregations), Git |
+| **Data engineering** | dbt Core, Polars, DuckDB, PyArrow, ETL/ELT design |
+| **AWS** | S3, Glue, Athena, Redshift, QuickSight, CloudWatch, IAM |
+| **Azure** | Databricks, Synapse Analytics |
+| **ML / AI** | XGBoost, Isolation Forest, Scikit-Learn, Random Forest, Mistral 7B via Ollama |
+| **Orchestration** | Prefect 3 |
+| **BI** | Power BI, Matplotlib, Seaborn |
+| **Web** | React 18, Firebase, REST APIs, Vercel CI/CD |
 
-**Certifications**
+---
 
-AWS Cloud Practitioner Essentials
-AWS Data Engineer Associate DEA-C01
-Google Data Analytics Certificate
+## Certifications
 
-**Hobbies & Interests**
+- AWS Data Engineer Associate (DEA-C01)
+- AWS Cloud Practitioner (CLF-C02)
+- Google Data Analytics Professional Certificate
+- Microsoft Azure for Data Engineering
+- Python for Data Science & AI — IBM
 
-Football, Chess, Hiking
+---
+
+## Background
+
+Six years at Sainik School Ghorakhal (residential military school) — NCC A & B Certificate holder. After MSc graduation, took operational roles in food manufacturing and stadium hospitality while self-studying for AWS certifications and building this portfolio independently.
+
+Currently: Technical & Operations Team Leader at Copernus Fresh Fish — primary ERP super user, OPC data integration, yield control systems.
+
+---
+
+📧 pawankapkoti3889@gmail.com  
+💼 [linkedin.com/in/pawan-singh-kapkoti-100176347](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
