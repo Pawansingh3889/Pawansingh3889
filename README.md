@@ -91,9 +91,7 @@ Live production app — community errand and grocery service for Hull. 25 Vercel
 
 ## Background
 
-Six years at Sainik School Ghorakhal (residential military school) — NCC A & B Certificate holder. After MSc graduation, took operational roles in food manufacturing and stadium hospitality while self-studying for AWS certifications and building this portfolio independently.
-
-Currently: Technical & Operations Team Leader at Copernus Fresh Fish — primary ERP super user, OPC data integration, yield control systems.
+Six years at Sainik School Ghorakhal (residential military school) — NCC A & B Certificate holder. After graduating in March 2024, worked in hospitality and stadium operations while self-studying for and passing two AWS certifications independently. Currently Team Leader at Copernus Fresh Fish — managing production lines, traceability, and compliance for Lidl and Iceland retailer codes of practice.
 
 ---
 
