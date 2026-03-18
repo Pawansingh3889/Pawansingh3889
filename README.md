@@ -1,13 +1,13 @@
 # Pawan Singh Kapkoti
 
 **Data Engineer · Analytics Engineer**
-MSc Data Analytics (Aston University, 2:1) · AWS Certified DEA-C01 · Remote, UK
+MSc Data Analytics (Aston University, 2:1) · AWS Certified DEA-C01 · Microsoft PL-300 · Remote, UK
 
 ---
 
 ## What I build
 
-Production-grade data pipelines — from raw ingestion through transformation, ML, validation, orchestration, and deployment. I work across the full stack: Python ETL, dbt transformation layers, cloud analytics on AWS and Azure, ML-powered anomaly detection, local LLM integration, PostgreSQL, and live Streamlit dashboards.
+Data pipelines — ingestion, transformation, validation, and deployment. Python ETL, dbt, cloud analytics on AWS and Azure, PostgreSQL, and Streamlit dashboards. Some projects include ML components (XGBoost, Isolation Forest) and local LLM integration.
 
 ---
 
@@ -30,7 +30,7 @@ Simulates diagnosing and migrating a failing production database — the right w
 ---
 
 ### [UK Crime Analytics Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) · [Live Dashboard ↗](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app)
-`Python` `PostgreSQL` `dbt-postgres` `Prefect` `Streamlit` `Neon` `Docker`
+`Python` `PostgreSQL` `dbt-postgres` `Streamlit` `Neon` `GitHub Actions`
 
 Live end-to-end pipeline ingesting real government crime data — publicly deployed.
 
@@ -38,6 +38,7 @@ Live end-to-end pipeline ingesting real government crime data — publicly deplo
 - Loads into **PostgreSQL** with idempotent upserts — safe to re-run without duplicating data
 - **dbt** transforms raw data into 4 mart models: crime trends, city comparisons, category breakdowns, street-level hotspots
 - **Streamlit dashboard** deployed on Streamlit Cloud with **Neon cloud PostgreSQL** — fully public, zero infrastructure cost
+- **GitHub Actions CI/CD** — automated linting, API health checks, dbt validation against a Postgres service container on every push. Weekly scheduled ingestion and daily health monitoring
 
 ---
 
@@ -81,6 +82,7 @@ Live production app — community errand and grocery service for Hull. 25 Vercel
 
 ## Certifications
 
+- Microsoft Power BI Data Analyst (PL-300)
 - AWS Data Engineer Associate (DEA-C01)
 - AWS Cloud Practitioner (CLF-C02)
 - Google Data Analytics Professional Certificate
