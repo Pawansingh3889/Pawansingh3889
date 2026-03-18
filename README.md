@@ -42,6 +42,13 @@ Live end-to-end pipeline ingesting real government crime data — publicly deplo
 
 ---
 
+### [UK Crime SQL Analytics](https://github.com/Pawansingh3889/sql-crime-analytics)
+`SQL` `PostgreSQL` `Window Functions` `CTEs`
+
+14 analytical SQL queries against 99,673 crime records. Covers city rankings, temporal trends, resolution analysis, and hotspot identification using RANK, ROW_NUMBER, LAG, LEAD, FILTER, STRING_AGG, and self-joins.
+
+---
+
 ### [UK Crime Data Analysis](https://github.com/Pawansingh3889/Crime_Analysis)
 `AWS S3` `Glue Crawler` `Athena` `QuickSight`
 
