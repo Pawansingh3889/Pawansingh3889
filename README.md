@@ -49,6 +49,13 @@ Live end-to-end pipeline ingesting real government crime data — publicly deplo
 
 ---
 
+### [UK Regional Employment Analysis — Excel](https://github.com/Pawansingh3889/uk-employment-excel)
+`Excel` `AVERAGEIF` `INDEX/MATCH` `SUMPRODUCT` `Charts` `Data Validation`
+
+Excel workbook analysing employment rates, wages, and unemployment across 12 UK regions (2019–2024). Includes a personal case study using the data to justify relocating from Birmingham to Hull. 5 business questions answered with formulas and charts.
+
+---
+
 ### [UK Crime Data Analysis](https://github.com/Pawansingh3889/Crime_Analysis)
 `AWS S3` `Glue Crawler` `Athena` `QuickSight`
 
