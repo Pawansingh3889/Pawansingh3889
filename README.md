@@ -50,9 +50,15 @@ Live end-to-end pipeline ingesting real government crime data — publicly deplo
 ---
 
 ### [UK Regional Employment Analysis — Excel](https://github.com/Pawansingh3889/uk-employment-excel)
-`Excel` `AVERAGEIF` `INDEX/MATCH` `SUMPRODUCT` `Charts` `Data Validation`
+`Excel` `AVERAGEIF` `INDEX/MATCH` `SUMPRODUCT` `Charts` `Data Validation` `RANK` `CAGR`
 
-Excel workbook analysing employment rates, wages, and unemployment across 12 UK regions (2019–2024). Includes a personal case study using the data to justify relocating from Birmingham to Hull. 5 business questions answered with formulas and charts.
+Excel workbook analysing employment rates, wages, and unemployment across 12 UK regions (2019–2024). Based on ONS data.
+
+- **Case study: Birmingham to Hull** — used this data to make a real relocation decision in 2024. Compared West Midlands vs Yorkshire across wages, employment rates, cost of living, and disposable income. Moved to Hull in June 2024 with under £1,000 in savings — the numbers showed Hull would stretch my runway long enough to find work
+- **5 business questions** answered with formulas and charts — office location scoring, levelling-up gap analysis, labour market tightness, regional economic momentum, graduate wage-to-cost ratio
+- **Regional summary** with AVERAGEIF, SUMPRODUCT, RANK, conditional formatting
+- **Lookup tool** with INDEX/MATCH and data validation dropdowns
+- **YoY analysis** with CAGR formula and colour-scale formatting
 
 ---
 
