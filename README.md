@@ -62,6 +62,13 @@ Excel workbook analysing employment rates, wages, and unemployment across 12 UK 
 
 ---
 
+### [PSW Graduate Tax Contribution Analysis](https://github.com/Pawansingh3889/uk-immigration-tax-fairness)
+`Excel` `HMRC Data` `Payslip Analysis` `Immigration Policy`
+
+Data-driven analysis of how much I contributed to the UK economy as a PSW graduate vs what the government charged me. Built from real payslip data across two employers over 20 months. Net contribution: ~£30,000 put in, £150 taken out. Includes NHS double-charge analysis (NI + IHS), pension tracker, and side-by-side comparison with a UK citizen doing the same job.
+
+---
+
 ### [UK Crime Data Analysis](https://github.com/Pawansingh3889/Crime_Analysis)
 `AWS S3` `Glue Crawler` `Athena` `QuickSight`
 
