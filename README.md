@@ -1,128 +1,150 @@
 # Pawan Singh Kapkoti
 
-**Data Engineer · Analytics Engineer**
-MSc Data Analytics (Aston University, 2:1) · Microsoft PL-300 · Google Data Analytics · Remote, UK
+**Data Engineer | Analytics Engineer | Pipeline Builder**
+
+MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data Analytics | Hull, UK
 
 ---
 
-## What I build
+## About Me
 
-Data pipelines — ingestion, transformation, validation, and deployment. Python ETL, dbt, cloud analytics on AWS and Azure, PostgreSQL, and Streamlit dashboards. Some projects include ML components (XGBoost, Isolation Forest) and local LLM integration.
+I build data pipelines that turn messy, raw data into reliable business decisions. My work covers the full lifecycle — ingestion from live APIs, transformation with dbt, orchestration with Prefect, validation with automated testing, and delivery through Power BI and Streamlit dashboards.
+
+Every project in this portfolio uses **real data, not tutorials**. The crime pipeline pulls live government data. The tax analysis uses my actual payslips. The relocation study guided a real move. I build things that solve problems I've actually faced.
 
 ---
 
-## Projects
+## Key Numbers
 
-### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
+| Metric | Value |
+|---|---|
+| Records processed | 196,000+ across all projects |
+| dbt models | 11 models, 94+ automated quality checks |
+| Live dashboards | 2 deployed (Streamlit + Power BI) |
+| CI/CD pipelines | 3 GitHub Actions workflows (lint, test, deploy) |
+| SQL queries | 14 analytical queries with window functions, CTEs |
+| ML models | XGBoost (93% accuracy), Isolation Forest, Random Forest |
+
+---
+
+## Featured Projects
+
+### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration) — Full Data Engineering Pipeline
 `Python` `dbt` `DuckDB` `Polars` `XGBoost` `Isolation Forest` `Mistral 7B` `Prefect` `Docker` `Power BI`
 
 Simulates diagnosing and migrating a failing production database — the right way, before touching production.
 
-- **10-task Prefect pipeline** orchestrates all phases automatically with parallel execution, retry logic, and monitoring dashboard
-- **Containerised with Docker** — reproducible environment, one command to run the full pipeline
-- **XGBoost** CPU spike predictor — 93% accuracy, ROC-AUC 0.97, no data leakage
-- **Isolation Forest** unsupervised anomaly detection — independently confirmed both injected production faults
-- **Mistral 7B via Ollama** replaced VADER for Portuguese sentiment — fully offline, zero API cost
-- **dbt** transformation layer — 7 models, 53 automated quality tests, lineage graph
-- **94 automated checks** caught a live LLM label corruption bug before it reached Power BI
-- **Power BI** 3-page dashboard — delivery performance (96,470 orders), product sentiment, server health
+- **10-task Prefect pipeline** — parallel execution, retry logic, monitoring dashboard
+- **XGBoost** CPU spike predictor — 93% accuracy, ROC-AUC 0.97, zero data leakage
+- **Isolation Forest** — unsupervised anomaly detection, confirmed both injected faults
+- **Mistral 7B via Ollama** — offline Portuguese sentiment analysis, zero API cost
+- **dbt** — 7 models, 53 quality tests, full lineage graph
+- **94 automated checks** caught a live LLM label corruption bug before Power BI
+- **Power BI** 3-page dashboard — 96,470 orders analysed
 
 ---
 
-### [UK Crime Analytics Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) · [Live Dashboard ↗](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app)
-`Python` `PostgreSQL` `dbt-postgres` `Streamlit` `Neon` `GitHub Actions`
+### [UK Crime Analytics Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | [Live Dashboard](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app)
+`Python` `PostgreSQL` `dbt` `Streamlit` `Neon` `GitHub Actions`
 
-Live end-to-end pipeline ingesting real government crime data — publicly deployed.
+End-to-end pipeline ingesting real government crime data — publicly deployed.
 
-- Ingests **99,675 crime records** from the Police UK API across 10 cities and 6 months — real live API, not static CSVs
-- Loads into **PostgreSQL** with idempotent upserts — safe to re-run without duplicating data
-- **dbt** transforms raw data into 4 mart models: crime trends, city comparisons, category breakdowns, street-level hotspots
-- **Streamlit dashboard** deployed on Streamlit Cloud with **Neon cloud PostgreSQL** — fully public, zero infrastructure cost
-- **GitHub Actions CI/CD** — automated linting, API health checks, dbt validation against a Postgres service container on every push. Weekly scheduled ingestion and daily health monitoring
+- **99,675 crime records** from Police UK API across 10 cities
+- **PostgreSQL** with idempotent upserts — safe to re-run
+- **dbt** transforms into 4 mart models
+- **Streamlit Cloud** + **Neon PostgreSQL** — zero infrastructure cost
+- **3 GitHub Actions workflows** — CI (lint + dbt test), weekly scheduled ingestion, daily health monitoring
 
 ---
 
-### [UK Crime SQL Analytics](https://github.com/Pawansingh3889/sql-crime-analytics)
+### [SQL Crime Analytics](https://github.com/Pawansingh3889/sql-crime-analytics)
 `SQL` `PostgreSQL` `Window Functions` `CTEs`
 
-14 analytical SQL queries against 99,673 crime records. Covers city rankings, temporal trends, resolution analysis, and hotspot identification using RANK, ROW_NUMBER, LAG, LEAD, FILTER, STRING_AGG, and self-joins.
+14 analytical queries across 99,673 records. Demonstrates RANK, ROW_NUMBER, LAG, LEAD, FILTER, STRING_AGG, self-joins, and CTEs. Includes a [reusable SQL cheatsheet](https://github.com/Pawansingh3889/sql-crime-analytics/blob/main/SQL_CHEATSHEET.md) and [complete SQL reference guide](https://github.com/Pawansingh3889/sql-crime-analytics/blob/main/SQL_COMPLETE_REFERENCE.md).
 
 ---
 
-### [UK Regional Employment Analysis — Excel](https://github.com/Pawansingh3889/uk-employment-excel)
-`Excel` `AVERAGEIF` `INDEX/MATCH` `SUMPRODUCT` `Charts` `Data Validation` `RANK` `CAGR`
+### [UK Employment Analysis — Excel](https://github.com/Pawansingh3889/uk-employment-excel)
+`Excel` `AVERAGEIF` `INDEX/MATCH` `SUMPRODUCT` `Charts` `Data Validation` `CAGR`
 
-Excel workbook analysing employment rates, wages, and unemployment across 12 UK regions (2019–2024). Based on ONS data.
-
-- **Case study: Birmingham to Hull** — used this data to make a real relocation decision in 2024. Compared West Midlands vs Yorkshire across wages, employment rates, cost of living, and disposable income. Moved to Hull in June 2024 with under £1,000 in savings — the numbers showed Hull would stretch my runway long enough to find work
-- **5 business questions** answered with formulas and charts — office location scoring, levelling-up gap analysis, labour market tightness, regional economic momentum, graduate wage-to-cost ratio
-- **Regional summary** with AVERAGEIF, SUMPRODUCT, RANK, conditional formatting
-- **Lookup tool** with INDEX/MATCH and data validation dropdowns
-- **YoY analysis** with CAGR formula and colour-scale formatting
+Excel workbook analysing employment across 12 UK regions (2019-2024). Includes a **personal case study** — used this data to justify relocating from Birmingham to Hull in 2024 with under 1,000 in savings.
 
 ---
 
 ### [PSW Graduate Tax Contribution Analysis](https://github.com/Pawansingh3889/uk-immigration-tax-fairness)
-`Excel` `HMRC Data` `Payslip Analysis` `Immigration Policy`
+`Python` `Jupyter` `Excel` `HMRC Data` `Payslip Analysis`
 
-Data-driven analysis of how much I contributed to the UK economy as a PSW graduate vs what the government charged me. Built from real payslip data across two employers over 20 months. Net contribution: ~£30,000 put in, £150 taken out. Includes NHS double-charge analysis (NI + IHS), pension tracker, and side-by-side comparison with a UK citizen doing the same job.
+Data-driven analysis built from my real payslips across two employers over 20 months. Net contribution: approximately 30,000 put into the UK economy, 150 taken out in NHS services. Includes pension tracker, NHS double-charge analysis (NI + IHS), and side-by-side comparison with a UK citizen.
 
 ---
 
-### [UK Crime Data Analysis](https://github.com/Pawansingh3889/Crime_Analysis)
-`AWS S3` `Glue Crawler` `Athena` `QuickSight`
+### [UK Crime Data Analysis — AWS](https://github.com/Pawansingh3889/Crime_Analysis)
+`AWS S3` `Glue` `Athena` `QuickSight`
 
-Serverless AWS analytics pipeline across all 43 UK police forces, 2022–2024. Violence and sexual offences: 5.9M+ incidents. Metropolitan Police volume declined from 1.1M (2022) to 0.95M (2024).
+Serverless analytics pipeline across all 43 UK police forces (2022-2024). 5.9M+ violence and sexual offence records processed.
 
 ---
 
 ### [MSc Dissertation — Ethnicity & Academic Outcomes](https://github.com/Pawansingh3889/MSc-Dissertation-Project)
 `Python` `SQL` `Random Forest` `Statistical Testing`
 
-Processed HESA and National Pupil Database data under institutional approval. Identified a 15% performance gap across ethnic groups. Random Forest model: 80% accuracy identifying at-risk students. Submitted to Aston University Mathematics Department.
+Processed HESA and National Pupil Database data under institutional approval. Identified a 15% performance gap. Random Forest model: 80% accuracy. Submitted to Aston University.
 
 ---
 
-### [OnlyBuddy — Hull Errand App](https://onlybuddy.vercel.app) · [GitHub](https://github.com/Pawansingh3889/onlybuddy)
-`React 18` `Firebase` `Stripe` `Google Maps` `Vercel CI/CD` `PWA`
+### [OnlyBuddy — Community Errand App](https://onlybuddy.vercel.app) | [GitHub](https://github.com/Pawansingh3889/onlybuddy)
+`React 18` `Firebase` `Stripe` `Google Maps` `Vercel` `PWA`
 
-Live production app — community errand and grocery service for Hull. 25 Vercel deployments, Firebase auth + real-time database, Stripe payments, PWA.
+Live production app for Hull. 25 deployments, Firebase auth, Stripe payments, PWA.
 
 ---
 
-## Tech stack
+## Tech Stack
 
-| | |
+| Layer | Tools |
 |---|---|
-| **Core** | Python 3.11, SQL (window functions, CTEs, aggregations), Git |
-| **Data engineering** | dbt Core, Polars, DuckDB, PyArrow, PostgreSQL, ETL/ELT design |
+| **Languages** | Python 3.11, SQL (window functions, CTEs, aggregations), JavaScript |
+| **Data Engineering** | dbt Core, Polars, DuckDB, PyArrow, PostgreSQL, ETL/ELT |
 | **Orchestration** | Prefect 3 |
 | **AWS** | S3, Glue, Athena, Redshift, QuickSight, CloudWatch, IAM |
 | **Azure** | Databricks, Synapse Analytics |
-| **ML / AI** | XGBoost, Isolation Forest, Scikit-Learn, Random Forest, Mistral 7B via Ollama |
+| **ML / AI** | XGBoost, Isolation Forest, Scikit-Learn, Random Forest, Mistral 7B |
 | **BI & Viz** | Power BI, Streamlit, Plotly, Matplotlib, Seaborn |
-| **Cloud DB** | Neon (PostgreSQL serverless) |
-| **DevOps** | Docker, Vercel CI/CD, GitHub Actions |
+| **Cloud DB** | Neon (PostgreSQL serverless), DuckDB |
+| **DevOps** | Docker, GitHub Actions, Vercel CI/CD |
 | **Web** | React 18, Firebase, REST APIs |
 
 ---
 
 ## Certifications
 
-- Microsoft Certified: Power BI Data Analyst Associate (PL-300) — Active, Online Verifiable
-- Google Data Analytics Professional Certificate — Coursera (8 courses)
-- Microsoft Azure for Data Engineering — Coursera
-- AWS Cloud Practitioner Essentials — AWS Training
-- Python for Data Science & AI — IBM
-- AWS Data Engineer Associate (DEA-C01) — Preparing (exam scheduled)
+| Certification | Provider | Status |
+|---|---|---|
+| **Power BI Data Analyst Associate (PL-300)** | Microsoft | Active — [Verify](https://learn.microsoft.com/en-us/users/pawansinghkapkoti-3247/credentials/certification/data-analyst-associate) |
+| **Google Data Analytics Professional Certificate** | Google / Coursera | Completed — 8 courses |
+| **Azure for Data Engineering** | Microsoft / Coursera | Completed |
+| **Cloud Practitioner Essentials** | AWS Training | Completed |
+| **Python for Data Science & AI** | IBM | Completed |
+| **Data Engineer Associate (DEA-C01)** | AWS | Preparing |
 
 ---
 
 ## Background
 
-Six years at Sainik School Ghorakhal (residential military school) — NCC A & B Certificate holder. After graduating in March 2024, worked in hospitality and stadium operations while self-studying for and passing two AWS certifications independently. Currently Team Leader at Copernus Fresh Fish — managing production lines, traceability, and compliance for Lidl and Iceland retailer codes of practice.
+Six years at Sainik School Ghorakhal (residential military school) — NCC A & B Certificate holder. After completing my MSc in March 2024, I worked in hospitality and stadium operations while self-studying for certifications. Currently Operational Team Leader at Copernus Fresh Fish — managing production data through SI (Integreater) ERP, production scheduling for 11+ operatives, and audit-ready traceability for Lidl and Iceland supply chains.
 
 ---
 
-📧 pawankapkoti3889@gmail.com
-💼 [linkedin.com/in/pawan-singh-kapkoti-100176347](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
+## Currently Looking For
+
+**Remote data analyst/engineer roles** — available for full-time, contract, or freelance work across all time zones. Strong preference for companies that value real projects over whiteboard puzzles.
+
+---
+
+## Contact
+
+| | |
+|---|---|
+| **Email** | pawankapkoti3889@gmail.com |
+| **LinkedIn** | [linkedin.com/in/pawan-singh-kapkoti-100176347](https://linkedin.com/in/pawan-singh-kapkoti-100176347) |
+| **Upwork** | [upwork.com/freelancers/~01f5815a5a7386a2c3](https://www.upwork.com/freelancers/~01f5815a5a7386a2c3) |
