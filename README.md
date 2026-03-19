@@ -1,7 +1,7 @@
 # Pawan Singh Kapkoti
 
 **Data Engineer · Analytics Engineer**
-MSc Data Analytics (Aston University, 2:1) · AWS Certified DEA-C01 · Microsoft PL-300 · Remote, UK
+MSc Data Analytics (Aston University, 2:1) · Microsoft PL-300 · Google Data Analytics · Remote, UK
 
 ---
 
@@ -109,12 +109,12 @@ Live production app — community errand and grocery service for Hull. 25 Vercel
 
 ## Certifications
 
-- Microsoft Power BI Data Analyst (PL-300)
-- AWS Data Engineer Associate (DEA-C01)
-- AWS Cloud Practitioner (CLF-C02)
-- Google Data Analytics Professional Certificate
-- Microsoft Azure for Data Engineering (Azure Databricks)
+- Microsoft Certified: Power BI Data Analyst Associate (PL-300) — Active, Online Verifiable
+- Google Data Analytics Professional Certificate — Coursera (8 courses)
+- Microsoft Azure for Data Engineering — Coursera
+- AWS Cloud Practitioner Essentials — AWS Training
 - Python for Data Science & AI — IBM
+- AWS Data Engineer Associate (DEA-C01) — Preparing (exam scheduled)
 
 ---
 
