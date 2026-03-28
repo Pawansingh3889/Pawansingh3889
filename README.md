@@ -1,7 +1,5 @@
 # Pawan Singh Kapkoti
 
-**Data Engineer | Analytics Engineer | Pipeline Builder**
-
 MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data Analytics | Hull, UK
 
 ---
