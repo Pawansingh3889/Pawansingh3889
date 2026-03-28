@@ -126,6 +126,7 @@ Live production app for Hull. 25 deployments, Firebase auth, Stripe payments, PW
 | **Cloud Practitioner Essentials** | AWS Training | Completed |
 | **Python for Data Science & AI** | IBM | Completed |
 | **Data Engineer Associate (DEA-C01)** | AWS | Preparing |
+| **Microsoft Fabric Analytics Engineer (DP-600)** | Microsoft | Preparing |
 
 ---
 
@@ -148,3 +149,5 @@ Six years at Sainik School Ghorakhal (residential military school) — NCC A & B
 | **Email** | pawankapkoti3889@gmail.com |
 | **LinkedIn** | [linkedin.com/in/pawan-singh-kapkoti-100176347](https://linkedin.com/in/pawan-singh-kapkoti-100176347) |
 | **Upwork** | [upwork.com/freelancers/~01f5815a5a7386a2c3](https://www.upwork.com/freelancers/~01f5815a5a7386a2c3) |
+| **Arc.dev** | [arc.dev/@pawansinghkapkoti](https://arc.dev/@pawansinghkapkoti) |
+h
