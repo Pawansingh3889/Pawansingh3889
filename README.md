@@ -18,14 +18,31 @@ Every project in this portfolio uses **real data, not tutorials**. The crime pip
 |---|---|
 | Records processed | 196,000+ across all projects |
 | dbt models | 11 models, 94+ automated quality checks |
-| Live dashboards | 2 deployed (Streamlit + Power BI) |
+| Live dashboards | 3 deployed (Streamlit + Power BI + MediAsk) |
 | CI/CD pipelines | 3 GitHub Actions workflows (lint, test, deploy) |
 | SQL queries | 14 analytical queries with window functions, CTEs |
 | ML models | XGBoost (93% accuracy), Isolation Forest, Random Forest |
+| AI integrations | Google Gemini 2.5 Flash, Mistral 7B |
 
 ---
 
 ## Featured Projects
+
+### [MediAsk — Health Q&A for Workers](https://hackathon-ioqp.onrender.com) | [GitHub](https://github.com/Pawansingh3889/Hackathon-mediask)
+`Python` `Flask` `PostgreSQL` `Google Gemini AI` `NHS API` `Docker` `Web Speech API` `Google Translate`
+
+Community health Q&A platform built for factory workers, food processors, and manual labourers in the UK. Combines NHS-verified guidance, real worker experiences, and AI-powered responses.
+
+- **70+ seeded health Q&A** across 18 categories including a dedicated Workers Health hub
+- **Google Gemini 2.5 Flash** AI auto-responds to every question with practical, UK-specific advice
+- **Voice input** — ask questions by speaking (Web Speech API), designed for workers with gloves
+- **18-language support** via Google Translate (Hindi, Polish, Romanian, Urdu, Arabic, and more)
+- **NHS API integration** — live condition search from official NHS data
+- **Admin dashboard** — full content and user management with hazard report tracking
+- **Reputation system** — gamified levels from Newcomer to Legend
+- **Google OAuth** login + browser push notifications
+
+---
 
 ### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration) — Full Data Engineering Pipeline
 `Python` `dbt` `DuckDB` `Polars` `XGBoost` `Isolation Forest` `Mistral 7B` `Prefect` `Docker` `Power BI`
@@ -106,11 +123,11 @@ Live production app for Hull. 25 deployments, Firebase auth, Stripe payments, PW
 | **Orchestration** | Prefect 3 |
 | **AWS** | S3, Glue, Athena, Redshift, QuickSight, CloudWatch, IAM |
 | **Azure** | Databricks, Synapse Analytics |
-| **ML / AI** | XGBoost, Isolation Forest, Scikit-Learn, Random Forest, Mistral 7B |
+| **ML / AI** | XGBoost, Isolation Forest, Scikit-Learn, Random Forest, Mistral 7B, Google Gemini |
 | **BI & Viz** | Power BI, Streamlit, Plotly, Matplotlib, Seaborn |
 | **Cloud DB** | Neon (PostgreSQL serverless), DuckDB |
-| **DevOps** | Docker, GitHub Actions, Vercel CI/CD |
-| **Web** | React 18, Firebase, REST APIs |
+| **DevOps** | Docker, GitHub Actions, Vercel CI/CD, Render |
+| **Web** | Flask, React 18, Firebase, REST APIs, Web Speech API |
 
 ---
 
@@ -148,4 +165,4 @@ Six years at Sainik School Ghorakhal (residential military school) — NCC A & B
 | **LinkedIn** | [linkedin.com/in/pawan-singh-kapkoti-100176347](https://linkedin.com/in/pawan-singh-kapkoti-100176347) |
 | **Upwork** | [upwork.com/freelancers/~01f5815a5a7386a2c3](https://www.upwork.com/freelancers/~01f5815a5a7386a2c3) |
 | **Arc.dev** | [arc.dev/@pawansinghkapkoti](https://arc.dev/@pawansinghkapkoti) |
-h
+
