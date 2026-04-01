@@ -107,8 +107,17 @@ What the repo has:
 | **Azure for Data Engineering** | Microsoft / Coursera | Completed |
 | **Cloud Practitioner Essentials** | AWS Training | Completed |
 | **Python for Data Science & AI** | IBM | Completed |
-
 ---
+
+## Data Sources
+
+| Project | Source | Records |
+|---|---|---|
+| UK Crime Pipeline | [Police UK API](https://data.police.uk/docs/) | 99,675 |
+| Apex Data Migration | Synthetic production database (DuckDB) | 96,470 |
+| SQL Crime Analytics | [Police UK Open Data](https://data.police.uk/) | 99,673 |
+| OpsMind | Synthetic operational database (SQLite) | 5,600+ |
+| MediAsk | [NHS UK](https://www.nhs.uk/), [GOV.UK HSE](https://www.hse.gov.uk/), [WHO](https://www.who.int/), [CDC](https://www.cdc.gov/) | 70+ Q&A |
 
 ## Contact
 
