@@ -8,7 +8,7 @@ MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data
 
 This portfolio documents a progression from data analytics foundations to full-stack AI systems. Each project represents a step in that journey — starting with SQL and pipelines, scaling into orchestration and ML, and arriving at production-grade AI tools.
 
-Every repository uses real data. Government APIs, production databases, payslip records — not tutorials.
+Every repository uses real data. Government APIs, operational databases, payslip records — not tutorials.
 
 ---
 
@@ -17,9 +17,9 @@ Every repository uses real data. Government APIs, production databases, payslip 
 ### [OpsMind](https://pawansingh3889.github.io/OpsMind) | [GitHub](https://github.com/Pawansingh3889/OpsMind)
 `Python` `Streamlit` `SQLAlchemy` `ChromaDB` `Ollama` `Phi3/Mistral`
 
-The most recent project. This repo contains an on-premises AI assistant for food processing factories — the result of combining database querying, document search, and local LLMs into a single operational tool.
+The most recent project. This repo contains an on-premises AI assistant for operational environments — the result of combining database querying, document search, and local LLMs into a single operational tool.
 
-Started with a question: can a factory manager ask "Why did we lose money on Salmon today?" and get an answer in seconds, without cloud costs or data leaving the building?
+Started with a question: can a manager ask "Why did we lose money today?" and get an answer in seconds, without cloud costs or data leaving the building?
 
 What the repo has:
 - Natural language to SQL engine — converts plain English into database queries, runs them, explains results
@@ -35,7 +35,7 @@ What the repo has:
 ### [MediAsk](https://hackathon-ioqp.onrender.com) | [GitHub](https://github.com/Pawansingh3889/Hackathon-mediask)
 `Python` `Flask` `PostgreSQL` `Google Gemini AI` `NHS API` `Docker`
 
-A hackathon project that grew into a full platform. This repo contains a community health Q&A system designed for factory workers — people who face unique health risks but rarely find answers tailored to their situation.
+A hackathon project that grew into a full platform. This repo contains a community health Q&A system designed for frontline workers — people who face occupational health risks but rarely find answers tailored to their situation.
 
 The platform evolved through several iterations: starting as a basic Q&A board, then adding AI responses via Gemini, then voice input for workers with gloves, then multi-language support for a multilingual workforce.
 
