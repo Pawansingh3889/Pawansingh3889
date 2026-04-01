@@ -110,12 +110,6 @@ What the repo has:
 
 ---
 
-## Availability
-
-Open to full-time, contract, or remote data analyst/engineer roles across all time zones.
-
----
-
 ## Contact
 
 | | |
