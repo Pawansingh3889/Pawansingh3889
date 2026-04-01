@@ -1,112 +1,203 @@
+<div align="center">
+
 # Pawan Singh Kapkoti
 
-MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data Analytics
+**MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data Analytics**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pawansingh3889)
+
+</div>
 
 ---
 
 ## About
 
-This portfolio documents a progression from data analytics foundations to full-stack AI systems. Each project represents a step in that journey — starting with SQL and pipelines, scaling into orchestration and ML, and arriving at production-grade AI tools.
+This portfolio documents a progression from data analytics foundations to full-stack AI systems. Each project represents a step in that journey starting with SQL and pipelines, scaling into orchestration and ML, and arriving at production-grade AI tools.
 
-Every repository uses real data. Government APIs, operational databases — not tutorials.
-
----
-
-## Projects
-
-### [OpsMind](https://pawansingh3889.github.io/OpsMind) | [GitHub](https://github.com/Pawansingh3889/OpsMind)
-`Python` `Streamlit` `SQLAlchemy` `ChromaDB` `Ollama` `Phi3/Mistral`
-
-The most recent project. This repo contains an on-premises AI assistant for operational environments — the result of combining database querying, document search, and local LLMs into a single operational tool.
-
-Started with a question: can a manager ask "Why did we lose money today?" and get an answer in seconds, without cloud costs or data leaving the building?
-
-What the repo has:
-- Natural language to SQL engine — converts plain English into database queries, runs them, explains results
-- RAG document search over SOPs, HACCP plans, and customer specifications using ChromaDB
-- Waste prediction module with yield trend analysis and GBP cost impact on every number
-- BRC/HACCP compliance dashboard with batch traceability, allergen matrix, and temperature excursion detection
-- Smart alerts — overtime breaches, order shortfalls, expiring stock, yield drops
-- Full production dashboard with 30-day trends, customer breakdown, and per-product yield analysis
-- Runs entirely on-premises via Ollama — zero cloud cost
+Every repository uses real data. Government APIs, operational databases, not tutorials.
 
 ---
 
-### [MediAsk](https://hackathon-ioqp.onrender.com) | [GitHub](https://github.com/Pawansingh3889/Hackathon-mediask)
-`Python` `Flask` `PostgreSQL` `Google Gemini AI` `NHS API` `Docker`
+## Portfolio at a Glance
 
-A hackathon project that grew into a full platform. This repo contains a community health Q&A system designed for frontline workers — people who face occupational health risks but rarely find answers tailored to their situation.
+```
+  Records Processed             Data Quality               Deployments
+  ==================           ==================          ==================
+  oooooooooooooooo 196K+       oooooooooooooooo 94+        oooooooooooo 3 Live
+                                automated checks            dashboards
 
-The platform evolved through several iterations: starting as a basic Q&A board, then adding AI responses via Gemini, then voice input for workers with gloves, then multi-language support for a multilingual workforce.
-
-What the repo has:
-- 70+ health Q&A across 18 categories including a dedicated Workers Health section
-- Google Gemini 2.5 Flash auto-responding to every question with UK-specific, practical advice
-- Voice input (Web Speech API) and 18-language support (Google Translate)
-- NHS API integration for live condition search
-- Admin dashboard with full content moderation, user management, and hazard report tracking
-- Reputation system, Google OAuth, browser push notifications
-
----
-
-### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
-`Python` `dbt` `DuckDB` `Polars` `XGBoost` `Isolation Forest` `Mistral 7B` `Prefect` `Docker` `Power BI`
-
-The most technically dense project. This repo contains a simulated production database migration — designed to practice every stage of a real migration before touching live systems.
-
-The approach: diagnose the failing database first (anomaly detection, ML-based spike prediction), then migrate with automated validation at every step, then deliver through dashboards.
-
-What the repo has:
-- 10-task Prefect pipeline with parallel execution, retry logic, and monitoring dashboard
-- XGBoost CPU spike predictor — 93% accuracy, ROC-AUC 0.97, zero data leakage
-- Isolation Forest anomaly detection confirming both injected faults
-- Mistral 7B via Ollama for offline Portuguese sentiment analysis — zero API cost
-- dbt layer with 7 models, 53 quality tests, and full lineage graph
-- 94 automated checks that caught a live LLM label corruption bug before Power BI
-- 3-page Power BI dashboard across 96,470 orders
-
----
-
-### [UK Crime Analytics Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | [Live Dashboard](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app)
-`Python` `PostgreSQL` `dbt` `Streamlit` `Neon` `GitHub Actions`
-
-The foundation project. This repo contains a publicly deployed pipeline that ingests real government crime data — the first end-to-end system in this portfolio, and the one that established the patterns used in everything after it.
-
-What the repo has:
-- 99,675 crime records from Police UK API across 10 cities
-- PostgreSQL with idempotent upserts — safe to re-run at any point
-- dbt transforms into 4 mart models
-- Streamlit Cloud + Neon PostgreSQL — zero infrastructure cost
-- 3 GitHub Actions workflows — CI (lint + dbt test), weekly scheduled ingestion, daily health monitoring
+  ML Model Accuracy            CI/CD Pipelines             AI Models
+  ==================           ==================          ==================
+  oooooooooooooooo 93%         oooooooooooo 3              oooooooooooo 3
+  XGBoost (ROC 0.97)           GitHub Actions              Gemini, Mistral, Phi3
+```
 
 ---
 
 ## Tech Stack
 
-| Layer | Tools |
+<div align="center">
+
+**Languages and Core**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Data Engineering**
+
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+**ML / AI**
+
+![XGBoost](https://img.shields.io/badge/XGBoost-017CEE?style=flat-square)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white)
+
+**Cloud and Infrastructure**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**BI and Visualization**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+</div>
+
+---
+
+## Projects
+
+### OpsMind | On-Premises AI for Operations
+[Landing Page](https://pawansingh3889.github.io/OpsMind) | [GitHub](https://github.com/Pawansingh3889/OpsMind)
+
+> The most recent project. Natural language queries against SQL databases and documents, running entirely locally.
+
+```
+Architecture:
+                    +---------------+
+  User Question --> |  Ollama LLM   |
+                    | (Phi3/Mistral)|
+                    +-------+-------+
+                            |
+              +-------------+-------------+
+              v             v             v
+        +----------+  +----------+  +----------+
+        | SQL Agent|  | ChromaDB |  |  Pandas  |
+        +----------+  +----------+  +----------+
+              |             |             |
+              v             v             v
+        +-------------------------------------+
+        |        Streamlit Dashboard          |
+        |  KPIs | Charts | Alerts | Compliance|
+        +-------------------------------------+
+```
+
+| Component | Detail |
 |---|---|
-| **Languages** | Python 3.11, SQL (window functions, CTEs, aggregations), JavaScript |
-| **Data Engineering** | dbt Core, Polars, DuckDB, PyArrow, PostgreSQL, ETL/ELT |
-| **Orchestration** | Prefect 3 |
-| **AWS** | S3, Glue, Athena, Redshift, QuickSight, CloudWatch, IAM |
-| **Azure** | Databricks, Synapse Analytics |
-| **ML / AI** | XGBoost, Isolation Forest, Scikit-Learn, Random Forest, Mistral 7B, Google Gemini, Ollama |
-| **BI & Viz** | Power BI, Streamlit, Plotly, Matplotlib, Seaborn |
-| **Cloud DB** | Neon (PostgreSQL serverless), DuckDB |
-| **DevOps** | Docker, GitHub Actions, Vercel CI/CD, Render |
-| **Web** | Flask, React 18, Firebase, REST APIs, Web Speech API |
+| Query Engine | Natural language to SQL with result explanation |
+| Document Search | RAG over SOPs, HACCP plans, specs (ChromaDB) |
+| Waste Module | Yield trends, GBP cost impact, prediction |
+| Compliance | Batch traceability, allergen matrix, temperature monitoring |
+| Alerts | Overtime, order shortfalls, expiring stock, yield drops |
+| Infrastructure | 100% on-premises via Ollama, zero cloud cost |
+
+---
+
+### MediAsk | Health Q&A Platform
+[Live Demo](https://hackathon-ioqp.onrender.com) | [GitHub](https://github.com/Pawansingh3889/Hackathon-mediask)
+
+> Evolved through multiple iterations from a basic Q&A board into a full-stack platform.
+
+```
+Evolution:
+  v1: Basic Q&A --> v2: + Gemini AI --> v3: + Voice input
+  --> v4: + 18 languages --> v5: + NHS API + Admin dashboard
+```
+
+| Component | Detail |
+|---|---|
+| Content | 70+ Q&A across 18 health categories |
+| AI | Google Gemini 2.5 Flash auto-response |
+| Accessibility | Voice input (Web Speech API), 18 languages |
+| Data | NHS API, GOV.UK, WHO, CDC sources |
+| Admin | User management, hazard reports, content moderation |
+
+---
+
+### Apex Data Migration | Database Migration and ML Pipeline
+[GitHub](https://github.com/Pawansingh3889/Apex-Data-Migration)
+
+> The most technically dense project. Diagnose, migrate, validate, deliver.
+
+```
+Pipeline (Prefect):
+  +----------+   +----------+   +----------+   +----------+
+  | Diagnose |-->| Migrate  |-->| Validate |-->| Deliver  |
+  | XGBoost  |   | Polars   |   | dbt (53  |   | Power BI |
+  | Isolation|   | DuckDB   |   |  tests)  |   | 3 pages  |
+  | Forest   |   |          |   | 94 checks|   | 96K rows |
+  +----------+   +----------+   +----------+   +----------+
+```
+
+| Component | Detail |
+|---|---|
+| Orchestration | 10-task Prefect pipeline, parallel execution, retry logic |
+| ML | XGBoost 93% accuracy (ROC-AUC 0.97), Isolation Forest |
+| NLP | Mistral 7B offline sentiment analysis, zero API cost |
+| Data Quality | dbt: 7 models, 53 tests. 94 automated checks |
+| Delivery | 3-page Power BI dashboard, 96,470 orders |
+
+---
+
+### UK Crime Analytics | Live Deployed Pipeline
+[Live Dashboard](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app) | [GitHub](https://github.com/Pawansingh3889/uk-crime-pipeline)
+
+> The foundation project. Established the patterns used in everything after it.
+
+```
+Data Flow:
+  Police UK API --> PostgreSQL --> dbt (4 marts) --> Streamlit Dashboard
+       |                                                    |
+       +---- GitHub Actions (3 workflows) ------------------+
+             CI: lint + dbt test
+             Weekly: scheduled ingestion
+             Daily: health monitoring
+```
+
+| Component | Detail |
+|---|---|
+| Source | Police UK API, 99,675 records, 10 cities |
+| Storage | PostgreSQL (Neon serverless), idempotent upserts |
+| Transform | dbt Core, 4 mart models |
+| CI/CD | 3 GitHub Actions workflows |
 
 ---
 
 ## Certifications
 
-| Certification | Provider | Status |
-|---|---|---|
-| **Power BI Data Analyst Associate (PL-300)** | Microsoft | Active — [Verify](https://learn.microsoft.com/en-us/users/pawansinghkapkoti-3247/credentials/certification/data-analyst-associate) |
-| **Google Data Analytics Professional Certificate** | Google / Coursera | Completed — 8 courses |
-| **Azure for Data Engineering** | Microsoft / Coursera | Completed |
-| **Cloud Practitioner Essentials** | AWS Training | Completed |
-| **Python for Data Science & AI** | IBM | Completed |
+<div align="center">
+
+![PL-300](https://img.shields.io/badge/Microsoft_PL--300-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Google](https://img.shields.io/badge/Google_Data_Analytics-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure_Data_Engineering-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![IBM](https://img.shields.io/badge/IBM_Python_for_DS-054ADA?style=for-the-badge&logo=ibm&logoColor=white)
+
+</div>
+
 ---
 
 ## Data Sources
@@ -115,14 +206,17 @@ What the repo has:
 |---|---|---|
 | UK Crime Pipeline | [Police UK API](https://data.police.uk/docs/) | 99,675 |
 | Apex Data Migration | Synthetic production database (DuckDB) | 96,470 |
-| SQL Crime Analytics | [Police UK Open Data](https://data.police.uk/) | 99,673 |
 | OpsMind | Synthetic operational database (SQLite) | 5,600+ |
 | MediAsk | [NHS UK](https://www.nhs.uk/), [GOV.UK HSE](https://www.hse.gov.uk/), [WHO](https://www.who.int/), [CDC](https://www.cdc.gov/) | 70+ Q&A |
 
-## Contact
+---
 
-| | |
-|---|---|
-| **Email** | pawankapkoti3889@gmail.com |
-| **LinkedIn** | [linkedin.com/in/pawan-singh-kapkoti-100176347](https://linkedin.com/in/pawan-singh-kapkoti-100176347) |
-| **GitHub** | [github.com/Pawansingh3889](https://github.com/Pawansingh3889) |
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pawansingh3889&show_icons=true&theme=default&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pawansingh3889&layout=compact&theme=default&hide_border=true)
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Pawansingh3889&theme=default&hide_border=true)
+
+</div>
