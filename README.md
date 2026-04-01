@@ -1,6 +1,6 @@
 # Pawan Singh Kapkoti
 
-MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data Analytics | Hull, UK
+MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data Analytics
 
 ---
 
