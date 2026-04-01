@@ -8,7 +8,7 @@ MSc Data Analytics (Aston University) | Microsoft PL-300 Certified | Google Data
 
 This portfolio documents a progression from data analytics foundations to full-stack AI systems. Each project represents a step in that journey — starting with SQL and pipelines, scaling into orchestration and ML, and arriving at production-grade AI tools.
 
-Every repository uses real data. Government APIs, operational databases, payslip records — not tutorials.
+Every repository uses real data. Government APIs, operational databases — not tutorials.
 
 ---
 
