@@ -69,18 +69,36 @@ End-to-end pipeline: Police UK API to PostgreSQL to dbt to Streamlit. 99,675 rec
 <tr>
 <td width="50%" valign="top">
 
+### [MediAsk](https://hackathon-ioqp.onrender.com) [![Live](https://img.shields.io/badge/Live-22c55e?style=flat-square)]()
+Health Q&A platform for factory workers. NHS-verified guidance, Gemini AI responses, voice input, 18 languages. Flask + PostgreSQL, Dockerised.
+
+`Flask` `PostgreSQL` `Gemini AI` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
 ### [OnlyBuddy](https://onlybuddy.vercel.app) [![Live](https://img.shields.io/badge/Live-22c55e?style=flat-square)]()
 Community errand-sharing app. Post tasks, neighbours pick them up. Real-time updates with Firebase, deployed on Vercel.
 
 `React` `Firebase` `JavaScript` `Vercel`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
 Simulated on-prem to cloud database migration. 10-task Prefect pipeline, XGBoost (93% accuracy), dbt (53 tests), Power BI dashboard across 96,470 records.
 
 `Prefect` `XGBoost` `dbt` `Power BI`
+
+</td>
+<td width="50%" valign="top">
+
+### [PSW Visa Tax Analysis](https://github.com/Pawansingh3889/uk-immigration-tax-fairness)
+Real payslip data over 20 months. £30,000 contributed to the UK vs £96 consumed in public services. Data-driven immigration policy analysis.
+
+`Python` `Pandas` `Data Storytelling`
 
 </td>
 </tr>
