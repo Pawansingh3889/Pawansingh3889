@@ -54,7 +54,7 @@ This portfolio documents a progression from data analytics foundations to full-s
 ### [OpsMind](https://pawansingh3889.github.io/OpsMind)
 On-premises AI for operations. Natural language to SQL, RAG document search, compliance dashboards. Runs locally via Ollama.
 
-\x60Python\x60 \x60Streamlit\x60 \x60ChromaDB\x60 \x60Ollama\x60 \x60SQLAlchemy\x60
+`Python` `Streamlit` `ChromaDB` `Ollama` `SQLAlchemy`
 
 </td>
 <td width="50%" valign="top">
@@ -62,7 +62,7 @@ On-premises AI for operations. Natural language to SQL, RAG document search, com
 ### [MediAsk](https://hackathon-ioqp.onrender.com)
 Health Q&A platform for frontline workers. Gemini AI responses, voice input, 18 languages, NHS API integration.
 
-\x60Flask\x60 \x60PostgreSQL\x60 \x60Gemini AI\x60 \x60Docker\x60
+`Flask` `PostgreSQL` `Gemini AI` `Docker`
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Health Q&A platform for frontline workers. Gemini AI responses, voice input, 18 
 ### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
 Database migration with ML diagnostics. 10-task Prefect pipeline, XGBoost (93%), dbt validation, Power BI delivery.
 
-\x60Prefect\x60 \x60XGBoost\x60 \x60dbt\x60 \x60Mistral 7B\x60 \x60Power BI\x60
+`Prefect` `XGBoost` `dbt` `Mistral 7B` `Power BI`
 
 </td>
 <td width="50%" valign="top">
@@ -80,7 +80,7 @@ Database migration with ML diagnostics. 10-task Prefect pipeline, XGBoost (93%),
 ### [UK Crime Analytics](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app)
 Live deployed pipeline. 99,675 Police UK records, PostgreSQL, dbt, 3 GitHub Actions workflows.
 
-\x60PostgreSQL\x60 \x60dbt\x60 \x60Streamlit\x60 \x60GitHub Actions\x60
+`PostgreSQL` `dbt` `Streamlit` `GitHub Actions`
 
 </td>
 </tr>
