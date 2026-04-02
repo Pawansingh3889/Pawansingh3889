@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 [![Email](https://img.shields.io/badge/Email-pawankapkoti3889-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&repeat=true&width=650&height=30&lines=Building+data+pipelines+and+ML+models+that+ship;Python+%7C+SQL+%7C+dbt+%7C+Streamlit+%7C+Power+BI;MSc+Data+Analytics+%E2%80%A2+Aston+University+%E2%80%A2+UK" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=650&amp;height=30&amp;lines=Building+data+pipelines+and+ML+models+that+ship;Python+%7C+SQL+%7C+dbt+%7C+Streamlit+%7C+Power+BI;MSc+Data+Analytics+%E2%80%A2+Aston+University+%E2%80%A2+UK" alt="Typing SVG" />
 
 </div>
 
@@ -159,16 +159,16 @@ Streamlit dashboards, React + Firebase web apps, Flask APIs with PostgreSQL, Doc
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Pawansingh3889&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&include_all_commits=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pawansingh3889&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=8" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=Pawansingh3889&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;count_private=true&amp;bg_color=0d1117&amp;include_all_commits=true" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pawansingh3889&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;bg_color=0d1117&amp;langs_count=8" height="170" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pawansingh3889&theme=github-dark-blue&hide_border=true&background=0d1117" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pawansingh3889&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=0d1117" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pawansingh3889&theme=github-compact&hide_border=true&bg_color=0d1117&color=3b82f6&line=2563eb&point=3b82f6&area=true&area_color=2563eb" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pawansingh3889&amp;theme=github-compact&amp;hide_border=true&amp;bg_color=0d1117&amp;color=3b82f6&amp;line=2563eb&amp;point=3b82f6&amp;area=true&amp;area_color=2563eb" width="95%"/>
 
 </div>
 
@@ -176,7 +176,7 @@ Streamlit dashboards, React + Firebase web apps, Flask APIs with PostgreSQL, Doc
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Pawansingh3889&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=Pawansingh3889&amp;style=for-the-badge&amp;color=2563eb&amp;label=PROFILE+VIEWS" />
 
 <br/><br/>
 
