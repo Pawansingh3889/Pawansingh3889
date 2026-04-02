@@ -1,11 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3B82F6&center=true&vCenter=true&random=false&width=600&lines=Data+Analytics+%7C+AI+%7C+Engineering;SQL+%7C+Python+%7C+dbt+%7C+Power+BI;From+Pipelines+to+Production+AI" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3B82F6&center=true&vCenter=true&random=false&width=600&lines=Data+%26+Analytics+Engineer;Python+%7C+SQL+%7C+dbt+%7C+Streamlit;Pipelines+%E2%86%92+Models+%E2%86%92+Dashboards" alt="Typing SVG" />
 
 # Pawan Singh Kapkoti
 
-**MSc Data Analytics (Aston University) | Microsoft PL-300 | Google Data Analytics**
+**MSc Data Analytics (Aston University) · United Kingdom**
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
 
@@ -13,7 +14,7 @@
 
 ---
 
-This portfolio documents a progression from data analytics foundations to full-stack AI systems \u2014 SQL and pipelines, then orchestration and ML, then production-grade AI tools. Every repository uses real data.
+I build end-to-end data systems — from ingestion and transformation to ML inference and dashboards. Everything ships with tests, CI/CD, and documentation.
 
 ---
 
@@ -23,23 +24,22 @@ This portfolio documents a progression from data analytics foundations to full-s
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-017CEE?style=flat-square)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
 ![Prefect](https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 </div>
 
@@ -52,39 +52,59 @@ This portfolio documents a progression from data analytics foundations to full-s
 <td width="50%" valign="top">
 
 ### [OpsMind](https://pawansingh3889.github.io/OpsMind)
-Open source tool that connects to SQL databases and lets you ask questions in plain English. Runs locally via Ollama. 36 pytest tests.
+On-premises AI assistant for food manufacturing. Natural language to SQL, PDF search via RAG, compliance dashboards. Runs locally with Ollama — 36 pytest tests.
 
 `Python` `Streamlit` `ChromaDB` `Ollama` `SQLAlchemy`
 
 </td>
 <td width="50%" valign="top">
 
-### [MediAsk](https://hackathon-ioqp.onrender.com)
-Community health Q&A platform. Flask + PostgreSQL + Gemini AI. Live deployed on Render with 34 workers health questions, admin dashboard, voice input.
+### [UK Crime Pipeline](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app) [![Live](https://img.shields.io/badge/Live-22c55e?style=flat-square)]()
+End-to-end pipeline: Police UK API to PostgreSQL to dbt to Streamlit. 99,675 records. CI/CD with 3 GitHub Actions workflows.
 
-`Flask` `PostgreSQL` `Gemini AI` `Docker`
+`PostgreSQL` `dbt` `Streamlit` `GitHub Actions`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
-Simulated database migration. 10-task Prefect pipeline, XGBoost (93% accuracy), dbt (53 tests, 94 checks), Power BI dashboard across 96,470 records.
+### [OnlyBuddy](https://onlybuddy.vercel.app) [![Live](https://img.shields.io/badge/Live-22c55e?style=flat-square)]()
+Community errand-sharing app. Post tasks, neighbours pick them up. Real-time updates with Firebase, deployed on Vercel.
 
-`Prefect` `XGBoost` `dbt` `Mistral 7B` `Power BI`
+`React` `Firebase` `JavaScript` `Vercel`
 
 </td>
 <td width="50%" valign="top">
 
-### [UK Crime Analytics](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app)
-End-to-end pipeline ingesting Police UK API data. 99,675 records, PostgreSQL, dbt, Streamlit dashboard, 3 GitHub Actions CI/CD workflows. Live deployed.
+### [Apex Data Migration](https://github.com/Pawansingh3889/Apex-Data-Migration)
+Simulated on-prem to cloud database migration. 10-task Prefect pipeline, XGBoost (93% accuracy), dbt (53 tests), Power BI dashboard across 96,470 records.
 
-`PostgreSQL` `dbt` `Streamlit` `GitHub Actions`
+`Prefect` `XGBoost` `dbt` `Power BI`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [UK Education Attainment](https://github.com/Pawansingh3889/uk-education-attainment)
+ML analysis of UK A-Level attainment gaps across ethnicity, gender, and deprivation. Feature importance with XGBoost.
+
+`Python` `XGBoost` `Scikit-Learn` `Matplotlib`
+
+</td>
+<td width="50%" valign="top">
+
+### [SQL Crime Analytics](https://github.com/Pawansingh3889/sql-crime-analytics)
+14 analytical queries over 99,673 UK crime records. Window functions, CTEs, temporal aggregations. Pure SQL.
+
+`SQL` `PostgreSQL` `Analytics`
 
 </td>
 </tr>
 </table>
+
+**[View all projects →](https://pawansingh3889.github.io)**
 
 ---
 
@@ -101,23 +121,10 @@ End-to-end pipeline ingesting Police UK API data. 99,675 records, PostgreSQL, db
 
 ---
 
-## Data Sources
-
-| Project | Source | Records |
-|---|---|---|
-| UK Crime Pipeline | [Police UK API](https://data.police.uk/docs/) | 99,675 |
-| Apex Data Migration | Synthetic production database (DuckDB) | 96,470 |
-| OpsMind | Synthetic operational database (SQLite) | 5,600+ |
-| MediAsk | [NHS UK](https://www.nhs.uk/), [GOV.UK](https://www.hse.gov.uk/), [WHO](https://www.who.int/), [CDC](https://www.cdc.gov/) | 70+ Q&A |
-
----
-
 <div align="center">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pawansingh3889&show_icons=true&theme=default&hide_border=true&count_private=true&hide=stars,prs,issues,contribs&show=commits)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pawansingh3889&layout=compact&theme=default&hide_border=true)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Pawansingh3889&theme=minimal&hide_border=true&area=true)
 
 </div>
