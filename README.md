@@ -4,7 +4,7 @@
 
 # Pawan Singh Kapkoti
 
-**MSc Data Analytics (Aston University) · United Kingdom**
+**Data & Analytics Engineer · 10+ projects shipped · MSc Data Analytics (Aston University)**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
@@ -14,7 +14,7 @@
 
 ---
 
-I build end-to-end data systems — from ingestion and transformation to ML inference and dashboards. Everything ships with tests, CI/CD, and documentation.
+I build end-to-end data systems — from ingestion and transformation to ML inference and dashboards. 3 live-deployed applications, 36+ automated tests, CI/CD pipelines, and stakeholder-ready documentation on every project.
 
 ---
 
@@ -52,7 +52,7 @@ I build end-to-end data systems — from ingestion and transformation to ML infe
 <td width="50%" valign="top">
 
 ### [OpsMind](https://pawansingh3889.github.io/OpsMind)
-On-premises AI assistant for food manufacturing. Natural language to SQL, PDF search via RAG, compliance dashboards. Runs locally with Ollama — 36 pytest tests.
+On-premises AI query tool for food manufacturing. NL-to-SQL across 147 tables, RAG document search, 5 alert types, compliance dashboards. 36 pytest tests, CI/CD, runs locally via Ollama.
 
 `Python` `Streamlit` `ChromaDB` `Ollama` `SQLAlchemy`
 
@@ -96,9 +96,9 @@ Simulated on-prem to cloud database migration. 10-task Prefect pipeline, XGBoost
 <td width="50%" valign="top">
 
 ### [PSW Visa Tax Analysis](https://github.com/Pawansingh3889/uk-immigration-tax-fairness)
-Real payslip data over 20 months. £30,000 contributed to the UK vs £96 consumed in public services. Data-driven immigration policy analysis.
+Cost-benefit analysis from 20 months of payslip data. Net fiscal contribution: +£29,969. 6 charts, stakeholder Excel report with 6 sheets.
 
-`Python` `Pandas` `Data Storytelling`
+`Python` `Pandas` `openpyxl` `matplotlib`
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Real payslip data over 20 months. £30,000 contributed to the UK vs £96 consume
 <td width="50%" valign="top">
 
 ### [UK Education Attainment](https://github.com/Pawansingh3889/uk-education-attainment)
-ML analysis of UK A-Level attainment gaps across ethnicity, gender, and deprivation. Feature importance with XGBoost.
+ML analysis of 60,896 records across 24 ethnic groups. Gradient Boosting at 94.4% accuracy. 6 publication-ready charts, stakeholder Excel report.
 
 `Python` `XGBoost` `Scikit-Learn` `Matplotlib`
 
