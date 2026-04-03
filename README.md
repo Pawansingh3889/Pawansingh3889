@@ -139,7 +139,7 @@ Streamlit dashboards, React + Firebase web apps, Flask APIs with PostgreSQL, Doc
 💼 Team Leader           @ Copernus Fresh Fish       Apr 2025 – Present
    → Leading production team, data-driven operations management
 
-💼 Production Operative  @ Cranswick Foods            Jul 2024 – Apr 2025
+💼 Production Operative  @ Cranswick Convinience Foods            Jul 2024 – Apr 2025
    → Built OpsMind to solve the factory floor data access problem
 
 🎓 MSc Data Analytics    @ Aston University           Jan 2023 – Mar 2024
