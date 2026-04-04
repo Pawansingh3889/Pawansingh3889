@@ -2,9 +2,11 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:2563eb&height=230&section=header&text=Pawan%20Singh%20Kapkoti&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20%26%20Analytics%20Engineer&descSize=20&descAlignY=55&descColor=94a3b8)
 
+[![Available for Hire](https://img.shields.io/badge/Available_for_Hire-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-pawansingh3889.github.io-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 [![Email](https://img.shields.io/badge/Email-pawankapkoti3889-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
+[![Upwork](https://img.shields.io/badge/Upwork-Freelance-6fda44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/pawansingh3889)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=650&amp;height=30&amp;lines=Building+data+pipelines+and+ML+models+that+ship;Python+%7C+SQL+%7C+dbt+%7C+Streamlit+%7C+Power+BI;MSc+Data+Analytics+%E2%80%A2+Aston+University+%E2%80%A2+UK" alt="Typing SVG" />
 
