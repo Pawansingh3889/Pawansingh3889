@@ -144,6 +144,7 @@ Streamlit dashboards, React + Firebase web apps, Flask APIs with PostgreSQL, Doc
 | [**ChromaDB**](https://github.com/chroma-core/chroma/pull/6819) | 6K+ | Docs: 220-line HNSW index tuning guide |
 | [**ollama-python**](https://github.com/ollama/ollama-python/pull/638) | 5K+ | Fix: ShowResponse ValidationError for cloud models |
 | [**Plotly**](https://github.com/plotly/plotly.py/pull/5559) | 17K+ | CI: dependabot config for uv.lock updates |
+| [**fpdf2**](https://github.com/py-pdf/fpdf2/pull/1803) | 1K+ | Fix: TextRegion.ln() double line break bug |
 
 ---
 
