@@ -126,10 +126,22 @@ Streamlit dashboards, React + Firebase web apps, Flask APIs with PostgreSQL, Doc
 | 🎓 | [**UK Education Attainment**](https://github.com/Pawansingh3889/uk-education-attainment) | `Python` `Scikit-Learn` `XGBoost` `matplotlib` | ML analysis of A-Level gaps across 24 ethnic groups. Gradient Boosting at 94.4% accuracy, 6 charts |
 | 💷 | [**PSW Visa Tax Analysis**](https://github.com/Pawansingh3889/uk-immigration-tax-fairness) | `Python` `Pandas` `openpyxl` `matplotlib` | Cost-benefit analysis from 20 months of payslip data. Net contribution: +£29,969 vs £96 consumed |
 | 🔍 | [**SQL Crime Analytics**](https://github.com/Pawansingh3889/sql-crime-analytics) | `SQL` `PostgreSQL` | 14 analytical queries over 99,673 crime records. Window functions, CTEs, temporal aggregations |
+| 🛡️ | [**SQL Ops Reviewer**](https://github.com/Pawansingh3889/sql-ops-reviewer) | `Python` `Ollama` `GitHub Actions` | GitHub Action that auto-reviews .sql files in PRs for performance, security, and best practices. Uses local AI. |
 
 </div>
 
 > **Full project details** with live demos on my [portfolio](https://pawansingh3889.github.io).
+
+---
+
+## Open Source Contributions
+
+| Project | Stars | Contribution |
+|---|---|---|
+| [**pandas**](https://github.com/pandas-dev/pandas/pull/65002) | 45K+ | Docs: clarified `str.cat()` return type for Index |
+| [**ChromaDB**](https://github.com/chroma-core/chroma/pull/6819) | 6K+ | Docs: 220-line HNSW index tuning guide |
+| [**ollama-python**](https://github.com/ollama/ollama-python/pull/638) | 5K+ | Fix: ShowResponse ValidationError for cloud models |
+| [**Plotly**](https://github.com/plotly/plotly.py/pull/5559) | 17K+ | CI: dependabot config for uv.lock updates |
 
 ---
 
