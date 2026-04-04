@@ -128,7 +128,7 @@ Streamlit dashboards, React + Firebase web apps, Flask APIs with PostgreSQL, Doc
 | 💷 | [**PSW Visa Tax Analysis**](https://github.com/Pawansingh3889/uk-immigration-tax-fairness) | `Python` `Pandas` `openpyxl` `matplotlib` | Cost-benefit analysis from 20 months of payslip data. Net contribution: +£29,969 vs £96 consumed |
 | 🔍 | [**SQL Crime Analytics**](https://github.com/Pawansingh3889/sql-crime-analytics) | `SQL` `PostgreSQL` | 14 analytical queries over 99,673 crime records. Window functions, CTEs, temporal aggregations |
 | 🛡️ | [**SQL Ops Reviewer**](https://github.com/Pawansingh3889/sql-ops-reviewer) | `Python` `Ollama` `GitHub Actions` | GitHub Action that auto-reviews .sql files in PRs for performance, security, and best practices. Uses local AI. |
-| 🏭 | [**Compliance Dashboard**](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard) | `Streamlit` `SQLite` `Plotly` `pandas` | BRC/HACCP compliance for food manufacturing. Batch traceability, temperature monitoring, allergen matrix. [Premium](https://pawankapko.gumroad.com/) |
+| 🏭 | [**Compliance Dashboard**](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app) | `Streamlit` `SQLite` `Plotly` `fpdf2` | BRC/HACCP compliance for food manufacturing. Batch traceability, temperature monitoring, allergen matrix, shelf life concessions, PDF audit export, ERP parser. **[Live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)** · [Premium](https://pawankapko.gumroad.com/) |
 
 </div>
 
