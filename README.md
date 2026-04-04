@@ -3,6 +3,7 @@
 # Pawan Singh Kapkoti
 
 [![Available for Hire](https://img.shields.io/badge/Available_for_Hire-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
+[![Interview Prep Guide](https://img.shields.io/badge/Interview_Prep_Guide-£15-f59e0b?style=for-the-badge&logo=bookstack&logoColor=white)](https://pawankapko.gumroad.com/l/data-engineer-interview-prep-2026)
 [![Portfolio](https://img.shields.io/badge/Portfolio-pawansingh3889.github.io-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 [![Email](https://img.shields.io/badge/Email-pawankapkoti3889-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
