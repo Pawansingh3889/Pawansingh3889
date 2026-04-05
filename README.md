@@ -1,16 +1,12 @@
 # Pawan Singh Kapkoti
 
-Data & Analytics Engineer · Leeds, UK · [pawansingh3889.github.io](https://pawansingh3889.github.io) · [GitHub](https://github.com/Pawansingh3889) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347) · [Email](mailto:pawankapkoti3889@gmail.com)
+Data engineer. I break things, read source code, and ship fixes upstream.
+
+Python · SQL · Spark · dbt · Docker · Ollama · ChromaDB · Leeds, UK
 
 Open to remote contracts and collaborations.
 
----
-
-## Education
-
-**Aston University** (2023–2024) · MSc Data Analytics
-
-**Google** · Data Analytics Professional Certificate · **Microsoft** · PL-300 Power BI Data Analyst · **AWS** · Cloud Practitioner · **Azure** · Data Engineering (DP-203 path)
+[Portfolio](https://pawansingh3889.github.io) · [GitHub](https://github.com/Pawansingh3889) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347) · [Email](mailto:pawankapkoti3889@gmail.com)
 
 ---
 
