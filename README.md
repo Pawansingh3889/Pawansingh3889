@@ -83,7 +83,7 @@ I build data systems for manufacturing — pipelines, dashboards, and local AI t
 </td>
 <td align="center" width="80">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="40" height="40" alt="GitHub Actions" />
-<br><sub><b>Actions</b></sub>
+<br><sub><b>GH Actions</b></sub>
 </td>
 <td align="center" width="80">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40" alt="AWS" />
@@ -112,35 +112,35 @@ I build data systems for manufacturing — pipelines, dashboards, and local AI t
 </tr>
 <tr>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" height="28" alt="dbt" />
+<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" width="40" height="40" alt="dbt" />
 <br><sub><b>dbt</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white" height="28" alt="Prefect" />
+<img src="https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white" width="40" height="40" alt="Prefect" />
 <br><sub><b>Prefect</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" height="28" alt="Ollama" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" width="40" height="40" alt="Ollama" />
 <br><sub><b>Ollama</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logoColor=white" height="28" alt="ChromaDB" />
+<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logoColor=white" width="40" height="40" alt="ChromaDB" />
 <br><sub><b>ChromaDB</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" height="28" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" width="40" height="40" alt="LangChain" />
 <br><sub><b>LangChain</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/XGBoost-017CEE?style=flat-square&logoColor=white" height="28" alt="XGBoost" />
+<img src="https://img.shields.io/badge/XGBoost-017CEE?style=flat-square&logoColor=white" width="40" height="40" alt="XGBoost" />
 <br><sub><b>XGBoost</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="28" alt="Power BI" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" width="40" height="40" alt="Power BI" />
 <br><sub><b>Power BI</b></sub>
 </td>
 <td align="center" width="80">
-<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" height="28" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" width="40" height="40" alt="SQLAlchemy" />
 <br><sub><b>SQLAlchemy</b></sub>
 </td>
 </tr>
