@@ -31,8 +31,10 @@ I build data systems for manufacturing — pipelines, dashboards, and local AI t
 
 | Project | PR |
 |---|---|
+| **drt** (Reverse ETL) | [Snowflake source connector](https://github.com/drt-hub/drt/pull/189) · [Dockerfile + docker-compose](https://github.com/drt-hub/drt/pull/188) · [Reviewed MySQL source PR](https://github.com/drt-hub/drt/pull/148) |
 | **pandas** (45K+) | [Clarified `str.cat()` return type for Index](https://github.com/pandas-dev/pandas/pull/65002) |
-| **ChromaDB** (6K+) | [220-line HNSW index tuning guide](https://github.com/chroma-core/chroma/pull/6819) |
+| **ChromaDB** (18K+) | [220-line HNSW index tuning guide](https://github.com/chroma-core/chroma/pull/6819) · [Fix deprecated asyncio call](https://github.com/chroma-core/chroma/pull/6821) |
+| **dbt-core** (10K+) | [Remove unnecessary profiler arg](https://github.com/dbt-labs/dbt-core/pull/12774) |
 | **ollama-python** (5K+) | [Fix ShowResponse ValidationError](https://github.com/ollama/ollama-python/pull/638) |
 | **fpdf2** (1K+) | [Fix TextRegion.ln() double line break](https://github.com/py-pdf/fpdf2/pull/1803) |
 | **Plotly** (17K+) | [Dependabot config for uv.lock](https://github.com/plotly/plotly.py/pull/5559) |
