@@ -64,6 +64,29 @@ practices    = ["CI/CD", "pre-commit", "ruff", "mypy", "pytest", "code review"]
 ---
 
 ```
+$ cat ./stats
+```
+
+```
+merged_prs       = 3    # drt-hub/drt — Snowflake connector, Dockerfile, pre-commit hooks
+open_prs         = 8    # vLLM, Superset, ChromaDB, dlt, ollama-python, drt
+issues_closed    = 3    # #105, #161, #162
+code_reviews     = 2    # endorsed by maintainers (drt, pandas)
+repos_touched    = 9    # combined 200K+ stars
+tests_written    = 14   # 8 Snowflake + 6 Discord destination
+```
+
+```
+maintainer_said  = [
+    "the code quality is noticeably above average",
+    "you're making a real impact across the project",
+    "these are great catches",  # on code review
+]
+```
+
+---
+
+```
 $ cat ./current-focus
 ```
 
