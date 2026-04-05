@@ -43,7 +43,37 @@ I build data systems for manufacturing — pipelines, dashboards, and local AI t
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,postgres,docker,github,githubactions,aws,azure,flask,react,firebase,js&theme=dark" />
+**Languages & Data**
+
+<img src="https://skillicons.dev/icons?i=python,js,postgres,sqlite&theme=dark" />
+
+`Python` `JavaScript` `PostgreSQL` `SQLite`
+
+**ML & AI**
+
+<img src="https://skillicons.dev/icons?i=sklearn&theme=dark" />
+<img src="https://img.shields.io/badge/XGBoost-017CEE?style=for-the-badge&logo=xgboost&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="48" />
+
+`Scikit-Learn` `XGBoost` `Ollama` `ChromaDB` `LangChain`
+
+**Pipelines & Visualisation**
+
+<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Prefect-024DFD?style=for-the-badge&logo=prefect&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" height="48" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" height="48" />
+
+`dbt` `Prefect` `Streamlit` `Plotly` `Power BI`
+
+**Infrastructure & DevOps**
+
+<img src="https://skillicons.dev/icons?i=docker,githubactions,aws,azure,flask,react,firebase&theme=dark" />
+
+`Docker` `GitHub Actions` `AWS` `Azure` `Flask` `React` `Firebase`
 
 </div>
 
