@@ -4,7 +4,7 @@
 
 **Data & Analytics Engineer** · MSc Data Analytics (Aston University) · UK
 
-I build data systems for manufacturing — pipelines, dashboards, and local AI tools that run on the factory floor without cloud dependencies.
+Python, SQL, dbt, Streamlit, Docker. I build end-to-end data pipelines, compliance dashboards, and on-prem AI tools for manufacturing. Active open source contributor to pandas, ChromaDB, dbt-core, and more.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=flat-square&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
