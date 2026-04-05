@@ -24,7 +24,7 @@ Open to remote contracts and collaborations.
 
 ## Open source
 
-Contributor to 9 projects. 3 merged PRs to [drt-hub/drt](https://github.com/drt-hub/drt) in a single day — Snowflake source connector (290 lines, 7 files, unit tests), Dockerfile + docker-compose, and pre-commit hooks. Maintainer called the code quality "noticeably above average."
+Contributor to 9 projects. Recent work includes a Snowflake source connector for [drt-hub/drt](https://github.com/drt-hub/drt) (290 lines, 7 files, unit tests), Docker support, and pre-commit hooks — all merged.
 
 | Project | What I did |
 |---|---|
