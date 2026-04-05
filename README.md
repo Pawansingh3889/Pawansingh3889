@@ -39,9 +39,13 @@ I build data systems for manufacturing — pipelines, dashboards, and local AI t
 
 ---
 
-### Stack
+### Tools
 
-`Python` `SQL` `PostgreSQL` `dbt` `Streamlit` `Plotly` `Ollama` `ChromaDB` `Scikit-Learn` `XGBoost` `Prefect` `Docker` `GitHub Actions` `Power BI` `AWS` `Azure`
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,postgres,docker,github,githubactions,aws,azure,flask,react,firebase,js&theme=dark" />
+
+</div>
 
 ---
 
