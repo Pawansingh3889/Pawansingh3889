@@ -41,41 +41,110 @@ I build data systems for manufacturing — pipelines, dashboards, and local AI t
 
 ### Tools
 
-<div align="center">
-
-**Languages & Data**
-
-<img src="https://skillicons.dev/icons?i=python,js,postgres,sqlite&theme=dark" />
-
-`Python` `JavaScript` `PostgreSQL` `SQLite`
-
-**ML & AI**
-
-<img src="https://skillicons.dev/icons?i=sklearn&theme=dark" />
-<img src="https://img.shields.io/badge/XGBoost-017CEE?style=for-the-badge&logo=xgboost&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="48" />
-
-`Scikit-Learn` `XGBoost` `Ollama` `ChromaDB` `LangChain`
-
-**Pipelines & Visualisation**
-
-<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/Prefect-024DFD?style=for-the-badge&logo=prefect&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" height="48" />
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" height="48" />
-
-`dbt` `Prefect` `Streamlit` `Plotly` `Power BI`
-
-**Infrastructure & DevOps**
-
-<img src="https://skillicons.dev/icons?i=docker,githubactions,aws,azure,flask,react,firebase&theme=dark" />
-
-`Docker` `GitHub Actions` `AWS` `Azure` `Flask` `React` `Firebase`
-
-</div>
+<table align="center">
+<tr>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" />
+<br><sub><b>Python</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
+<br><sub><b>JavaScript</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" />
+<br><sub><b>PostgreSQL</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" />
+<br><sub><b>SQLite</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40" alt="Pandas" />
+<br><sub><b>Pandas</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40" alt="Scikit-Learn" />
+<br><sub><b>Scikit-Learn</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="40" height="40" alt="Streamlit" />
+<br><sub><b>Streamlit</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" height="40" alt="Plotly" />
+<br><sub><b>Plotly</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" />
+<br><sub><b>Docker</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="40" height="40" alt="GitHub Actions" />
+<br><sub><b>Actions</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40" alt="AWS" />
+<br><sub><b>AWS</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure" />
+<br><sub><b>Azure</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40" alt="Flask" />
+<br><sub><b>Flask</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" />
+<br><sub><b>React</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" height="40" alt="Firebase" />
+<br><sub><b>Firebase</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" />
+<br><sub><b>Git</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" height="28" alt="dbt" />
+<br><sub><b>dbt</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white" height="28" alt="Prefect" />
+<br><sub><b>Prefect</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" height="28" alt="Ollama" />
+<br><sub><b>Ollama</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logoColor=white" height="28" alt="ChromaDB" />
+<br><sub><b>ChromaDB</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" height="28" alt="LangChain" />
+<br><sub><b>LangChain</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/XGBoost-017CEE?style=flat-square&logoColor=white" height="28" alt="XGBoost" />
+<br><sub><b>XGBoost</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="28" alt="Power BI" />
+<br><sub><b>Power BI</b></sub>
+</td>
+<td align="center" width="80">
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" height="28" alt="SQLAlchemy" />
+<br><sub><b>SQLAlchemy</b></sub>
+</td>
+</tr>
+</table>
 
 ---
 
