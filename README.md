@@ -18,7 +18,7 @@ Open to remote contracts and collaborations.
 $ cat ./what-i-build
 ```
 
-**Data pipelines** — API ingestion into PostgreSQL, transformation with dbt (53 tests, staging/marts), batch processing with PySpark, CI/CD with GitHub Actions. Built an end-to-end pipeline processing 99,675 UK crime records from Police API to interactive Streamlit dashboard with 3 automated workflows.
+**Data pipelines** — API ingestion into PostgreSQL, transformation with dbt (53 tests, staging/marts), batch processing with PySpark, orchestration with Airflow, CI/CD with GitHub Actions. Built an end-to-end pipeline processing 99,675 UK crime records from Police API to interactive Streamlit dashboard with Airflow DAG scheduling and data quality checks.
 
 **Factory AI** — on-prem AI assistant for food manufacturing ([OpsMind](https://github.com/Pawansingh3889/OpsMind)). Natural language to SQL, RAG document search via ChromaDB, compliance dashboards. Runs entirely on Ollama — no data leaves the network. 36 pytest tests.
 
@@ -56,7 +56,7 @@ $ cat ./stack
 
 ```
 languages    = ["Python", "SQL", "PySpark", "JavaScript"]
-pipeline     = ["dbt", "PostgreSQL", "SQLite", "DuckDB", "Databricks", "Delta Lake", "Pandas"]
+pipeline     = ["dbt", "Airflow", "PostgreSQL", "SQLite", "DuckDB", "Databricks", "Delta Lake", "Pandas"]
 ai           = ["Ollama", "ChromaDB", "Qdrant", "LangChain", "Scikit-Learn", "XGBoost"]
 infra        = ["Docker", "GitHub Actions", "AWS", "Azure", "Flask", "Streamlit"]
 practices    = ["CI/CD", "pre-commit", "ruff", "mypy", "pytest", "code review"]
