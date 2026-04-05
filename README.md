@@ -175,6 +175,6 @@ tests_written = 14   # 8 Snowflake + 6 Discord destination
 
 *I break things, read source code, and ship fixes upstream.*
 
-Leeds, UK &#183; Available for collaboration &#183; [pawankapkoti3889@gmail.com](mailto:pawankapkoti3889@gmail.com)
+Yorkshire, UK &#183; Available for collaboration &#183; [pawankapkoti3889@gmail.com](mailto:pawankapkoti3889@gmail.com)
 
 </div>
