@@ -1,8 +1,12 @@
+```
+$ whoami
+```
+
 # Pawan Singh Kapkoti
 
 Data engineer. I break things, read source code, and ship fixes upstream.
 
-Python · SQL · Spark · dbt · Docker · Ollama · ChromaDB · Leeds, UK
+`Python` `SQL` `Spark` `dbt` `Docker` `Ollama` `ChromaDB` · Leeds, UK
 
 Open to remote contracts and collaborations.
 
@@ -10,51 +14,57 @@ Open to remote contracts and collaborations.
 
 ---
 
-## What I build
+```
+$ cat ./what-i-build
+```
 
 **Data pipelines** — API ingestion into PostgreSQL, transformation with dbt (53 tests, staging/marts), batch processing with PySpark, CI/CD with GitHub Actions. Built an end-to-end pipeline processing 99,675 UK crime records from Police API to interactive Streamlit dashboard with 3 automated workflows.
 
-**Factory AI** — on-premises AI assistant for food manufacturing ([OpsMind](https://github.com/Pawansingh3889/OpsMind)). Natural language to SQL, RAG document search via ChromaDB, compliance dashboards. Runs entirely on Ollama — no data leaves the network. 36 pytest tests.
+**Factory AI** — on-prem AI assistant for food manufacturing ([OpsMind](https://github.com/Pawansingh3889/OpsMind)). Natural language to SQL, RAG document search via ChromaDB, compliance dashboards. Runs entirely on Ollama — no data leaves the network. 36 pytest tests.
 
-**Compliance tools** — BRC/HACCP food safety dashboard ([live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)) with batch traceability, FEFO despatch, temperature monitoring, allergen matrix, shelf life risk scoring (EXPIRED/CRITICAL/WARNING), PySpark batch analytics (yield, OEE, excursion rates), and one-click PDF audit reports. Used in production at a food manufacturing site.
+**Compliance tools** — BRC/HACCP food safety dashboard ([live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)) with batch traceability, FEFO despatch, temperature monitoring, allergen matrix, shelf life risk scoring (EXPIRED/CRITICAL/WARNING), PySpark batch analytics (yield, OEE, excursion rates), one-click PDF audit reports. Running in production.
 
-**Developer tools** — [SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer): GitHub Action that auto-reviews `.sql` files in pull requests using local AI via Ollama. Catches performance anti-patterns, injection risks, and style violations. Drop-in — one YAML file.
+**Developer tools** — [SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer): GitHub Action that auto-reviews `.sql` files in PRs using local AI via Ollama. Catches anti-patterns, injection risks, style violations. Drop-in — one YAML file.
 
 ---
 
-## Open source
+```
+$ git log --oneline --author=pawan | head
+```
 
 Contributor to 9 projects. Recent work includes a Snowflake source connector for [drt-hub/drt](https://github.com/drt-hub/drt) (290 lines, 7 files, unit tests), Docker support, and pre-commit hooks — all merged.
 
-| Project | What I did |
+| Project | What I shipped |
 |---|---|
-| **vLLM** (75K★) | Improved DCP/PCP error messages with actionable backend guidance |
-| **Apache Superset** (65K★) | Renamed supersetCanCSV → supersetCanDownload across frontend |
-| **pandas** (45K★) | Clarified str.cat() return type docs; reviewed dropna docstring PR (feedback implemented by author) |
-| **ChromaDB** (18K★) | Client/server version compatibility check; HNSW index tuning guide (220 lines); deprecated asyncio fix |
-| **dbt-core** (10K★) | Removed unnecessary profiler context manager arg |
-| **dlt** (7K★) | Migrated flake8 config from tox.ini to ruff |
-| **drt** (Reverse ETL) | Snowflake connector (merged), Dockerfile (merged), pre-commit hooks (merged), Discord tests, MySQL PR code review |
-| **ollama-python** (5K★) | Added `exists()` method; fixed ShowResponse ValidationError; reviewed 3 community PRs |
-| **Plotly** (17K★) | Dependabot config for uv.lock |
-| **fpdf2** (1K★) | Fixed TextRegion.ln() double line break |
+| `vllm-project/vllm` 75K★ | Improved DCP/PCP error messages with actionable backend guidance |
+| `apache/superset` 65K★ | Renamed supersetCanCSV → supersetCanDownload across frontend |
+| `pandas-dev/pandas` 45K★ | Clarified str.cat() return type docs; reviewed dropna PR (feedback implemented) |
+| `chroma-core/chroma` 18K★ | Client/server version compat check; HNSW tuning guide (220 lines); asyncio fix |
+| `dbt-labs/dbt-core` 10K★ | Removed unnecessary profiler context manager arg |
+| `dlt-hub/dlt` 7K★ | Migrated flake8 config from tox.ini to ruff |
+| `drt-hub/drt` | Snowflake connector ✓ Dockerfile ✓ pre-commit hooks ✓ Discord tests · MySQL PR review |
+| `ollama/ollama-python` 5K★ | Added `exists()` method; fixed ShowResponse ValidationError; reviewed 3 PRs |
+| `plotly/plotly.py` 17K★ | Dependabot config for uv.lock |
+| `py-pdf/fpdf2` 1K★ | Fixed TextRegion.ln() double line break |
 
 ---
 
-## Skills
+```
+$ cat ./stack
+```
 
-**Languages & data** — Python, SQL, PySpark, JavaScript
-
-**Pipeline & transformation** — dbt, PostgreSQL, SQLite, DuckDB, SQLAlchemy, Pandas
-
-**AI & ML** — Ollama, ChromaDB, LangChain, Scikit-Learn, XGBoost
-
-**Infrastructure** — Docker, GitHub Actions, AWS, Azure, Flask, Streamlit
-
-**Practices** — CI/CD, pre-commit (ruff, mypy), pytest, code review, open source contribution
+```
+languages    = ["Python", "SQL", "PySpark", "JavaScript"]
+pipeline     = ["dbt", "PostgreSQL", "SQLite", "DuckDB", "SQLAlchemy", "Pandas"]
+ai           = ["Ollama", "ChromaDB", "LangChain", "Scikit-Learn", "XGBoost"]
+infra        = ["Docker", "GitHub Actions", "AWS", "Azure", "Flask", "Streamlit"]
+practices    = ["CI/CD", "pre-commit", "ruff", "mypy", "pytest", "code review"]
+```
 
 ---
 
-## Current focus
+```
+$ cat ./current-focus
+```
 
 Contributing upstream to the tools I use. Exploring how local LLMs can replace cloud AI in regulated industries — food manufacturing, compliance, audit trails — where data can't leave the building.
