@@ -1,94 +1,161 @@
-```
-$ whoami
-```
+<div align="center">
+
+<a href="https://pawansingh3889.github.io">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=I+break+things%2C+read+source+code;and+ship+fixes+upstream." alt="Typing SVG" />
+</a>
 
 # Pawan Singh Kapkoti
 
-Data engineer. I break things, read source code, and ship fixes upstream.
+Data engineer in food manufacturing. I build pipelines, compliance tools, and local AI for factories where data can't leave the building. I also hack on the open-source tools I depend on.
 
-`Python` `SQL` `Spark` `dbt` `Docker` `Databricks` `Ollama` `ChromaDB` · Leeds, UK
+`Python` `SQL` `dbt` `Ollama` `ChromaDB` `Docker` `Airflow` `PostgreSQL` `Databricks` `Streamlit`
 
-Open to remote contracts and collaborations.
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=flat-square&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
 
-[Portfolio](https://pawansingh3889.github.io) · [GitHub](https://github.com/Pawansingh3889) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347) · [Email](mailto:pawankapkoti3889@gmail.com)
+</div>
+
+---
+
+### What I'm building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [OpsMind](https://github.com/Pawansingh3889/OpsMind)
+On-prem AI for food factories. Ask your database questions in English.
+
+```
+$ ollama pull phi3:mini
+$ streamlit run app.py
+
+> "What was yesterday's yield?"
+  → SELECT ... FROM ProductionRuns
+  → 94.2% yield, 38kg waste
+  → "Yesterday's yield was above target..."
+```
+
+`Ollama` `ChromaDB` `LangChain` `SQLAlchemy` `36 tests`
+
+[Docs](https://pawansingh3889.github.io/OpsMind/) &#183; [Code](https://github.com/Pawansingh3889/OpsMind)
+
+</td>
+<td width="50%" valign="top">
+
+#### [Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)
+BRC/HACCP food safety. Replaces the Excel spreadsheets.
+
+```
+$ make setup && make run
+
+  Traceability score:  97.2%
+  Temperature control: 99.1%
+  Overall compliance:  PASS
+  Batches tracked:     674
+  Temp readings:       8,640
+```
+
+`Streamlit` `PySpark` `Databricks` `z-score anomaly detection`
+
+[Live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app) &#183; [Code](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)
+End-to-end: live API &rarr; PostgreSQL &rarr; dbt &rarr; Streamlit.
+
+```
+$ python ingestion/fetch_crimes.py
+  Fetching 10 cities × 6 months...
+  Loaded 99,675 records (ON CONFLICT DO NOTHING)
+
+$ dbt run && dbt test
+  4 models, 53 tests passed
+  fct_crimes_by_city: 814 rows
+  fct_crime_hotspots: top 100 streets
+```
+
+`PostgreSQL` `dbt` `Prefect` `3 CI/CD workflows` `weekly auto-ingest`
+
+[Live](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) &#183; [Code](https://github.com/Pawansingh3889/uk-crime-pipeline)
+
+</td>
+<td width="50%" valign="top">
+
+#### [SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)
+GitHub Action that reviews `.sql` in PRs using local AI.
+
+```yaml
+# One file. That's the setup.
+- uses: Pawansingh3889/sql-ops-reviewer@v1
+  with:
+    github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+
+```
+⚠ WARNING: SELECT * fetches all columns
+✗ ERROR: String concatenation → injection risk
+  Total: 2 findings across 1 file
+```
+
+`GitHub Actions` `Ollama` `zero API keys`
+
+[Code](https://github.com/Pawansingh3889/sql-ops-reviewer)
+
+</td>
+</tr>
+</table>
 
 ---
 
-```
-$ cat ./what-i-build
-```
+### Upstream contributions
 
-**Data pipelines** — API ingestion into PostgreSQL, transformation with dbt (53 tests, staging/marts), batch processing with PySpark, orchestration with Airflow, CI/CD with GitHub Actions. Built an end-to-end pipeline processing 99,675 UK crime records from Police API to interactive Streamlit dashboard with Airflow DAG scheduling and data quality checks.
-
-**Factory AI** — on-prem AI assistant for food manufacturing ([OpsMind](https://github.com/Pawansingh3889/OpsMind)). Natural language to SQL, RAG document search via ChromaDB, compliance dashboards. Runs entirely on Ollama — no data leaves the network. 36 pytest tests.
-
-**Compliance tools** — BRC/HACCP food safety dashboard ([live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)) with batch traceability, FEFO despatch, temperature monitoring, time-series anomaly detection (z-score, excursion duration, trend forecasting), allergen matrix, shelf life risk scoring, PySpark/Databricks batch analytics (yield, OEE, excursion rates), one-click PDF audit reports. Running in production.
-
-**Developer tools** — [SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer): GitHub Action that auto-reviews `.sql` files in PRs using local AI via Ollama. Catches anti-patterns, injection risks, style violations. Drop-in — one YAML file.
-
----
+I fix bugs and ship features in the tools I depend on. 11 projects, 200K+ combined stars.
 
 ```
 $ git log --oneline --author=pawan | head
-```
 
-Contributor to 11 projects. Recent work includes a Snowflake source connector for [drt-hub/drt](https://github.com/drt-hub/drt) (290 lines, 7 files, unit tests), Docker support, and pre-commit hooks — all merged.
-
-| Project | What I shipped |
-|---|---|
-| `vllm-project/vllm` 75K★ | Improved DCP/PCP error messages with actionable backend guidance |
-| `apache/superset` 65K★ | Renamed supersetCanCSV → supersetCanDownload across frontend |
-| `pandas-dev/pandas` 45K★ | Clarified str.cat() return type docs; reviewed dropna PR (feedback implemented) |
-| `chroma-core/chroma` 18K★ | Client/server version compat check; HNSW tuning guide (220 lines); asyncio fix |
-| `dbt-labs/dbt-core` 10K★ | Removed unnecessary profiler context manager arg |
-| `dlt-hub/dlt` 7K★ | Migrated flake8 config from tox.ini to ruff |
-| `drt-hub/drt` | Snowflake connector ✓ Dockerfile ✓ pre-commit hooks ✓ Discord tests · MySQL PR review |
-| `ollama/ollama-python` 5K★ | Added `exists()` method; fixed ShowResponse ValidationError; reviewed 3 PRs |
-| `qdrant/qdrant-client` 4K★ | Release sanity check CI workflow |
-| `plotly/plotly.py` 17K★ | Dependabot config for uv.lock |
-| `py-pdf/fpdf2` 1K★ | Fixed TextRegion.ln() double line break |
-
----
-
-```
-$ cat ./stack
+drt-hub/drt        → Snowflake connector (290 lines, 7 files, unit tests) ✓ Dockerfile ✓ pre-commit hooks — all merged
+vllm (75K★)        → Improved DCP/PCP error messages with actionable backend guidance
+superset (65K★)    → Renamed supersetCanCSV → supersetCanDownload across frontend
+pandas (45K★)      → Clarified str.cat() return type docs for Index
+chromadb (18K★)    → Client/server version compat check + 220-line HNSW tuning guide
+plotly (17K★)      → Dependabot config for uv.lock
+dbt-core (10K★)    → Removed unnecessary profiler context manager arg
+dlt (7K★)          → Migrated flake8 config from tox.ini to ruff
+ollama-python (5K★)→ Added exists() method + fixed ShowResponse ValidationError
+fpdf2 (1K★)        → Fixed TextRegion.ln() double line break
 ```
 
 ```
-languages    = ["Python", "SQL", "PySpark", "JavaScript"]
-pipeline     = ["dbt", "Airflow", "PostgreSQL", "SQLite", "DuckDB", "Databricks", "Delta Lake", "Pandas"]
-ai           = ["Ollama", "ChromaDB", "Qdrant", "LangChain", "Kafka", "Scikit-Learn", "XGBoost"]
-infra        = ["Docker", "Terraform", "GitHub Actions", "AWS", "Azure", "FastAPI", "Flask", "Streamlit"]
-practices    = ["CI/CD", "pre-commit", "ruff", "mypy", "pytest", "code review"]
+merged_prs    = 3    # drt — Snowflake connector, Dockerfile, pre-commit hooks
+open_prs      = 10   # vLLM, Superset, ChromaDB, dlt, ollama-python, drt, Qdrant
+code_reviews  = 7    # drt, pandas, ollama-python, langsmith-sdk
+tests_written = 14   # 8 Snowflake + 6 Discord destination
 ```
 
 ---
 
-```
-$ cat ./stats
-```
+<div align="center">
 
-```
-merged_prs       = 3    # drt-hub/drt — Snowflake connector, Dockerfile, pre-commit hooks
-open_prs         = 10   # vLLM, Superset, ChromaDB, dlt, ollama-python, drt, Qdrant
-issues_closed    = 3    # #105, #161, #162
-code_reviews     = 7    # drt, pandas, ollama-python, langsmith-sdk
-repos_touched    = 11   # combined 200K+ stars
-tests_written    = 14   # 8 Snowflake + 6 Discord destination
-```
+<img src="https://github-readme-stats.vercel.app/api?username=Pawansingh3889&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="170">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Pawansingh3889&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" height="170">
 
-```
-maintainer_said  = [
-    "the code quality is noticeably above average",
-    "you're making a real impact across the project",
-    "these are great catches",  # on code review
-]
-```
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pawansingh3889&theme=github-compact&hide_border=true&area=true" alt="Activity Graph" width="100%">
+
+</div>
 
 ---
 
-```
-$ cat ./current-focus
-```
+<div align="center">
 
-Contributing upstream to the tools I use. Exploring how local LLMs can replace cloud AI in regulated industries — food manufacturing, compliance, audit trails — where data can't leave the building.
+*I break things, read source code, and ship fixes upstream.*
+
+Leeds, UK &#183; Open to remote work &#183; [pawankapkoti3889@gmail.com](mailto:pawankapkoti3889@gmail.com)
+
+</div>
