@@ -1,50 +1,64 @@
-<div align="center">
-
 # Pawan Singh Kapkoti
 
-Data engineer. I break things, read source code, and ship fixes upstream.
-
-Python · SQL · Spark · dbt · Docker · Ollama · ChromaDB
-
-Building on-prem AI and data systems for manufacturing. No cloud, no BS.
+Data & Analytics Engineer · Leeds, UK · [pawansingh3889.github.io](https://pawansingh3889.github.io) · [GitHub](https://github.com/Pawansingh3889) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347) · [Email](mailto:pawankapkoti3889@gmail.com)
 
 Open to remote contracts and collaborations.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=flat-square&logo=googlechrome&logoColor=white)](https://pawansingh3889.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pawankapkoti3889@gmail.com)
+---
 
-</div>
+## Education
+
+**Aston University** (2023–2024) · MSc Data Analytics
+
+**Google** · Data Analytics Professional Certificate · **Microsoft** · PL-300 Power BI Data Analyst · **AWS** · Cloud Practitioner · **Azure** · Data Engineering (DP-203 path)
 
 ---
 
-### What I work on
+## What I build
 
-**Data pipelines** — API ingestion, PostgreSQL, dbt, PySpark batch processing, CI/CD
+**Data pipelines** — API ingestion into PostgreSQL, transformation with dbt (53 tests, staging/marts), batch processing with PySpark, CI/CD with GitHub Actions. Built an end-to-end pipeline processing 99,675 UK crime records from Police API to interactive Streamlit dashboard with 3 automated workflows.
 
-**Factory AI** — local LLMs via Ollama, RAG with ChromaDB, natural language to SQL, zero cloud dependency
+**Factory AI** — on-premises AI assistant for food manufacturing ([OpsMind](https://github.com/Pawansingh3889/OpsMind)). Natural language to SQL, RAG document search via ChromaDB, compliance dashboards. Runs entirely on Ollama — no data leaves the network. 36 pytest tests.
 
-**Compliance tools** — BRC/HACCP dashboards, batch traceability, temperature monitoring, shelf life risk scoring
+**Compliance tools** — BRC/HACCP food safety dashboard ([live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)) with batch traceability, FEFO despatch, temperature monitoring, allergen matrix, shelf life risk scoring (EXPIRED/CRITICAL/WARNING), PySpark batch analytics (yield, OEE, excursion rates), and one-click PDF audit reports. Used in production at a food manufacturing site.
+
+**Developer tools** — [SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer): GitHub Action that auto-reviews `.sql` files in pull requests using local AI via Ollama. Catches performance anti-patterns, injection risks, and style violations. Drop-in — one YAML file.
 
 ---
 
-### Projects
+## Open source
 
-| | |
+Contributor to 9 projects. 3 merged PRs to [drt-hub/drt](https://github.com/drt-hub/drt) in a single day — Snowflake source connector (290 lines, 7 files, unit tests), Dockerfile + docker-compose, and pre-commit hooks. Maintainer called the code quality "noticeably above average."
+
+| Project | What I did |
 |---|---|
-| [**OpsMind**](https://github.com/Pawansingh3889/OpsMind) | On-prem AI for manufacturing. NL-to-SQL, RAG search, runs on Ollama. |
-| [**Compliance Dashboard**](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard) | Food safety compliance + PySpark batch analytics. FEFO, allergens, OEE. |
-| [**UK Crime Pipeline**](https://github.com/Pawansingh3889/uk-crime-pipeline) | Police API → PostgreSQL → dbt → Streamlit. 99K records, 53 tests. |
-| [**SQL Ops Reviewer**](https://github.com/Pawansingh3889/sql-ops-reviewer) | GitHub Action. Auto-reviews SQL in PRs using local AI. |
+| **vLLM** (75K★) | Improved DCP/PCP error messages with actionable backend guidance |
+| **Apache Superset** (65K★) | Renamed supersetCanCSV → supersetCanDownload across frontend |
+| **pandas** (45K★) | Clarified str.cat() return type docs; reviewed dropna docstring PR (feedback implemented by author) |
+| **ChromaDB** (18K★) | Client/server version compatibility check; HNSW index tuning guide (220 lines); deprecated asyncio fix |
+| **dbt-core** (10K★) | Removed unnecessary profiler context manager arg |
+| **dlt** (7K★) | Migrated flake8 config from tox.ini to ruff |
+| **drt** (Reverse ETL) | Snowflake connector (merged), Dockerfile (merged), pre-commit hooks (merged), Discord tests, MySQL PR code review |
+| **ollama-python** (5K★) | Added `exists()` method; fixed ShowResponse ValidationError; reviewed 3 community PRs |
+| **Plotly** (17K★) | Dependabot config for uv.lock |
+| **fpdf2** (1K★) | Fixed TextRegion.ln() double line break |
 
 ---
 
-### Open source
+## Skills
 
-Contributor to **vLLM** · **Apache Superset** · **ChromaDB** · **pandas** · **dbt-core** · **dlt** · **ollama-python** · **Plotly** · **fpdf2**
+**Languages & data** — Python, SQL, PySpark, JavaScript
+
+**Pipeline & transformation** — dbt, PostgreSQL, SQLite, DuckDB, SQLAlchemy, Pandas
+
+**AI & ML** — Ollama, ChromaDB, LangChain, Scikit-Learn, XGBoost
+
+**Infrastructure** — Docker, GitHub Actions, AWS, Azure, Flask, Streamlit
+
+**Practices** — CI/CD, pre-commit (ruff, mypy), pytest, code review, open source contribution
 
 ---
 
-### Stack
+## Current focus
 
-`Python` `SQL` `PySpark` `dbt` `PostgreSQL` `Docker` `GitHub Actions` `Ollama` `ChromaDB` `LangChain` `Streamlit` `Plotly` `Flask` `React` `AWS` `Azure`
+Contributing upstream to the tools I use. Exploring how local LLMs can replace cloud AI in regulated industries — food manufacturing, compliance, audit trails — where data can't leave the building.
