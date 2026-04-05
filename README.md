@@ -58,7 +58,7 @@ $ cat ./stack
 languages    = ["Python", "SQL", "PySpark", "JavaScript"]
 pipeline     = ["dbt", "Airflow", "PostgreSQL", "SQLite", "DuckDB", "Databricks", "Delta Lake", "Pandas"]
 ai           = ["Ollama", "ChromaDB", "Qdrant", "LangChain", "Scikit-Learn", "XGBoost"]
-infra        = ["Docker", "GitHub Actions", "AWS", "Azure", "Flask", "Streamlit"]
+infra        = ["Docker", "GitHub Actions", "AWS", "Azure", "FastAPI", "Flask", "Streamlit"]
 practices    = ["CI/CD", "pre-commit", "ruff", "mypy", "pytest", "code review"]
 ```
 
