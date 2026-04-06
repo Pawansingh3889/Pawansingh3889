@@ -16,3 +16,9 @@ Yorkshire, UK &#183; [Portfolio](https://pawansingh3889.github.io) &#183; [Resum
 
 **[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews `.sql` files in PRs using local AI. One YAML file to set up.
 
+---
+
+### Open source
+
+Contributor to [drt-hub/drt](https://github.com/drt-hub/drt) (8 PRs merged), [ChromaDB](https://github.com/chroma-core/chroma), and [pgcli](https://github.com/dbcli/pgspecial).
+
