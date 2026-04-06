@@ -16,18 +16,3 @@ Yorkshire, UK &#183; [Portfolio](https://pawansingh3889.github.io) &#183; [Resum
 
 **[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews `.sql` files in PRs using local AI. One YAML file to set up.
 
----
-
-### Open source
-
-| Project | Contribution |
-|---|---|
-| **drt-hub/drt** | Snowflake source + ClickHouse, Parquet, Teams, CSV/JSON destinations — 8 PRs merged |
-| **ChromaDB** `18K★` | HNSW tuning guide + API error refactor (103 replacements) |
-| **vllm** `75K★` | Improved distributed inference error messages |
-| **pandas** `45K★` | Docs fix + code review that led to merged test case |
-| **pgspecial/pgcli** `12K★` | Added `\dS` system object metacommands |
-| **Electricity Maps** `3K★` | French Guiana capacity data update |
-| **Open Climate Fix** | Solar forecast accuracy documentation |
-| **Open Food Facts** | Python SDK docs — barcode utilities + multi-flavor examples |
-| **HOTOSM fAIr** | README improvements for humanitarian AI mapping |
