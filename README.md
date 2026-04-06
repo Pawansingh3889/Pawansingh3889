@@ -140,7 +140,11 @@ GitHub Action that reviews `.sql` in PRs using local AI.
 | **pandas** `45K★` | Clarified `str.cat()` return type docs + code review that led to merged test case |
 | **ChromaDB** `18K★` | 220-line HNSW tuning guide + replaced 103 ValueError with InvalidArgumentError across API layer |
 | **pgspecial/pgcli** `12K★` | Added `\dS` system object metacommands matching psql behavior |
-| **drt-hub/drt** | Snowflake source + ClickHouse, Parquet, Teams, CSV/JSON destinations — 6 PRs merged |
+| **drt-hub/drt** | Snowflake source + ClickHouse, Parquet, Teams, CSV/JSON destinations — 8 PRs merged |
+| **Electricity Maps** `3K★` | Updated French Guiana capacity data for 2024 (climate/energy) |
+| **Open Climate Fix** `130★` | Prediction accuracy docs for solar forecast model (UK climate org) |
+| **HOTOSM fAIr** | Improved README for humanitarian AI mapping tools |
+| **Open Food Facts** | Expanded Python SDK docs — barcode utilities + multi-flavor examples |
 
 ---
 
