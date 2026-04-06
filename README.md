@@ -134,29 +134,11 @@ GitHub Action that reviews `.sql` in PRs using local AI.
 
 ### Upstream contributions
 
-I fix bugs and ship features in the tools I depend on. 11 projects, 200K+ combined stars.
-
-```
-$ git log --oneline --author=pawan | head
-
-drt-hub/drt        → Snowflake connector (290 lines, 7 files, unit tests) ✓ Dockerfile ✓ pre-commit hooks — all merged
-vllm (75K★)        → Improved DCP/PCP error messages with actionable backend guidance
-superset (65K★)    → Renamed supersetCanCSV → supersetCanDownload across frontend
-pandas (45K★)      → Clarified str.cat() return type docs for Index
-chromadb (18K★)    → Client/server version compat check + 220-line HNSW tuning guide
-plotly (17K★)      → Dependabot config for uv.lock
-dbt-core (10K★)    → Removed unnecessary profiler context manager arg
-dlt (7K★)          → Migrated flake8 config from tox.ini to ruff
-ollama-python (5K★)→ Added exists() method + fixed ShowResponse ValidationError
-fpdf2 (1K★)        → Fixed TextRegion.ln() double line break
-```
-
-```
-merged_prs    = 3    # drt — Snowflake connector, Dockerfile, pre-commit hooks
-open_prs      = 10   # vLLM, Superset, ChromaDB, dlt, ollama-python, drt, Qdrant
-code_reviews  = 7    # drt, pandas, ollama-python, langsmith-sdk
-tests_written = 14   # 8 Snowflake + 6 Discord destination
-```
+| Project | What I shipped |
+|---|---|
+| **drt-hub/drt** | Snowflake source connector (290 lines, unit tests), ClickHouse + Parquet + Teams + CSV/JSON destinations — all merged |
+| **ChromaDB** `18K★` | 220-line HNSW tuning guide + replaced 103 ValueError with InvalidArgumentError across API layer |
+| **pgspecial/pgcli** `12K★` | Added `\dS` system object metacommands matching psql behavior |
 
 ---
 
