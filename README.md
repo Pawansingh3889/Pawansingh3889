@@ -1,6 +1,6 @@
 # Pawan Singh Kapkoti
 
-Data engineer in food manufacturing. I build pipelines, compliance tools, and local AI for factories where data can't leave the building.
+MSc Data Analytics. I build pipelines, compliance tools, and local AI — currently working in food manufacturing while transitioning into data engineering.
 
 Yorkshire, UK &#183; [Portfolio](https://pawansingh3889.github.io) &#183; [Resume](https://github.com/Pawansingh3889/Pawansingh3889/blob/main/Pawan_Singh_Kapkoti_Resume.pdf) &#183; [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 
