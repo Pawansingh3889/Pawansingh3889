@@ -136,9 +136,11 @@ GitHub Action that reviews `.sql` in PRs using local AI.
 
 | Project | What I shipped |
 |---|---|
-| **drt-hub/drt** | Snowflake source connector (290 lines, unit tests), ClickHouse + Parquet + Teams + CSV/JSON destinations — all merged |
+| **vllm** `75K★` | Improved DCP/PCP error messages with actionable backend guidance |
+| **pandas** `45K★` | Clarified `str.cat()` return type docs + code review that led to merged test case |
 | **ChromaDB** `18K★` | 220-line HNSW tuning guide + replaced 103 ValueError with InvalidArgumentError across API layer |
 | **pgspecial/pgcli** `12K★` | Added `\dS` system object metacommands matching psql behavior |
+| **drt-hub/drt** | Snowflake source + ClickHouse, Parquet, Teams, CSV/JSON destinations — 6 PRs merged |
 
 ---
 
