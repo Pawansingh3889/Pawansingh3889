@@ -2,7 +2,7 @@
 
 I break things, read source code, and ship fixes upstream.
 
-MSc Data Analytics. Working in food manufacturing, building pipelines and dev tools on the side. Yorkshire, UK.
+MSc Data Analytics. Working in food manufacturing, building pipelines and dev tools on the side. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud. Yorkshire, UK.
 
 [Portfolio](https://pawansingh3889.github.io) · [Resume](https://github.com/Pawansingh3889/Pawansingh3889/blob/main/Pawan_Singh_Kapkoti_Resume.pdf) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 
