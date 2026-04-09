@@ -4,8 +4,6 @@ Data & Analytics Engineer. I build robust data pipelines, read source code, and 
 
 MSc Data Analytics. Working in food manufacturing, building pipelines and dev tools on the side. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud. Yorkshire, UK.
 
-Open to data engineering, analytics, and DevOps roles — remote or hybrid, UK/EU.
-
 [Portfolio](https://pawansingh3889.github.io) · [Resume](https://github.com/Pawansingh3889/Pawansingh3889/blob/main/Pawan_Singh_Kapkoti_Resume.pdf) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347)
 
 ---

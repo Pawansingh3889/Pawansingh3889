@@ -39,8 +39,7 @@ def build():
          "building pipelines and dev tools on the side.")
     pdf.ln(1)
     body(pdf, "I believe compliance shouldn't mean spreadsheets and AI shouldn't require "
-         "the cloud. Open to data engineering, analytics, and DevOps roles - remote or "
-         "hybrid, UK/EU.")
+         "the cloud.")
     pdf.ln(3)
 
     # ── Skills ──
