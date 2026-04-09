@@ -14,7 +14,7 @@ Open to data engineering, analytics, and DevOps roles — remote or hybrid, UK/E
 
 **[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — on-prem AI for factories. NL-to-SQL across 147 tables, RAG document search, 36 pytest tests, CI/CD on every push. Read-only SQL enforcement blocks INSERT/UPDATE/DELETE. Runs on Ollama — no data leaves the network. [docs](https://pawansingh3889.github.io/OpsMind/)
 
-**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — 99,675 records, 53 dbt tests, 3 CI/CD workflows (lint on push, weekly auto-ingest, daily health checks). Idempotent upserts, Neon serverless PostgreSQL, retry with backoff. [live](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/)
+**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — 99,675 records across PostgreSQL and BigQuery. dbt staging/marts pattern with 12 BigQuery tests + 53 PostgreSQL tests. 3 CI/CD workflows, idempotent upserts, retry with backoff. Looker Studio dashboard on BigQuery marts, Streamlit on PostgreSQL. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) · [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211)
 
 **[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews `.sql` in PRs using local AI. Pairs with sql-sop for two-layer SQL quality: rule-based pre-commit (instant) + AI review in CI (deep).
 
