@@ -59,7 +59,6 @@ def build():
     bullet(pdf, "Led production team of 11+ operatives, coordinating shift patterns and operational data workflows.")
     bullet(pdf, "Operated SI (Integreater) ERP system for production data management and yield KPI monitoring.")
     bullet(pdf, "Managed batch traceability reports and weight variance reconciliation for BRC compliance (Lidl, Iceland).")
-    bullet(pdf, "Built internal data tools for tracking output and traceability using Python and Excel automation.")
     pdf.ln(2)
 
     job(pdf, "Cranswick Convenience Foods, Yorkshire", "Cover Team Lead", "Oct 2024 - Apr 2025")
