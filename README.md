@@ -10,13 +10,15 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — rule-based SQL linter I built and published to PyPI. 15 rules, 21 tests, compiled regex for 0.08s scans. Pre-commit hook + GitHub Action — catches DELETE without WHERE before it hits production. [`pip install sql-sop`](https://pypi.org/project/sql-sop/)
 
-**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — on-prem AI for factories. NL-to-SQL across 147 tables, RAG document search, 36 pytest tests, CI/CD on every push. Read-only SQL enforcement blocks INSERT/UPDATE/DELETE. Runs on Ollama — no data leaves the network. [docs](https://pawansingh3889.github.io/OpsMind/)
+**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — on-prem AI for factories. NL-to-SQL across 19 tables with production ERP integration, RAG document search, 36 pytest tests, CI/CD on every push. Read-only SQL enforcement blocks INSERT/UPDATE/DELETE. Runs on Ollama — no data leaves the network. [docs](https://pawansingh3889.github.io/OpsMind/)
 
 **[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — 99,675 records across PostgreSQL and BigQuery. dbt staging/marts pattern with 12 BigQuery tests + 53 PostgreSQL tests. 3 CI/CD workflows, idempotent upserts, retry with backoff. Looker Studio dashboard on BigQuery marts, Streamlit on PostgreSQL. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) · [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211)
 
 **[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews `.sql` in PRs using local AI. Pairs with sql-sop for two-layer SQL quality: rule-based pre-commit (instant) + AI review in CI (deep).
 
 **[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety. Batch traceability, z-score temperature anomaly detection, allergen matrix. Error handling on all I/O modules, pytest coverage on core paths. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)
+
+**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — incremental extraction from legacy ERP RunNumber tables. Pydantic schema enforcement, watermark-based delta loading, species/product parsing from description fields. dbt staging/marts, 38 tests. 10 interview SQL queries.
 
 ---
 
