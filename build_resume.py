@@ -113,6 +113,15 @@ def build():
     bullet(pdf, "Live on Streamlit with graceful error pages and connection retry logic.")
     pdf.ln(2)
 
+    project(pdf, "Production Analytics Pipeline", "github.com/Pawansingh3889/production-analytics-pipeline")
+    body(pdf, "Daily workflow extracting 15K+ rows from 4 ERP tables (RunNumber, Transactions, PLU, Totals) "
+         "into a Docker sandbox with read-only SQL Server, SQL injection guards, and Pydantic validation.")
+    pdf.ln(1)
+    bullet(pdf, "53 tests covering models, extraction, and safety guards.")
+    bullet(pdf, "Watermark-based incremental loading with dbt staging/marts transformation layer.")
+    bullet(pdf, "Fully containerised: Docker Compose with read-only database connection enforcement.")
+    pdf.ln(2)
+
     project(pdf, "SQL Ops Reviewer", "github.com/Pawansingh3889/sql-ops-reviewer")
     body(pdf, "GitHub Action that reviews .sql files in PRs using local AI. Pairs with sql-sop for "
          "two-layer SQL quality: rule-based pre-commit (instant) + AI review in CI (deep analysis).")
