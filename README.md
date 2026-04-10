@@ -18,7 +18,7 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety. Batch traceability, z-score temperature anomaly detection, allergen matrix. Error handling on all I/O modules, pytest coverage on core paths. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)
 
-**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — daily workflow extracting 15K+ rows from 4 ERP tables (RunNumber, Transactions, PLU, Totals). Watermark-based incremental loading, Pydantic schema enforcement, species/product parsing from description fields. Generic extractor, cleaner, loader modules. dbt staging/marts, 38 tests.
+**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — daily workflow extracting 15K+ rows from 4 ERP tables. Docker sandbox with read-only SQL Server, Pydantic validation, SQL injection guards, watermark-based incremental loading. dbt staging/marts, 53 tests.
 
 ---
 
