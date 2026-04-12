@@ -29,3 +29,7 @@ Incremental ETL from fish production ERP. Extracts 15K+ rows daily from 4 SI tab
 ---
 
 Open source — contributed 5 destination connectors to [drt](https://github.com/drt-hub/drt) (ClickHouse, Parquet, Teams, CSV/JSON) now shipping in v0.5, plus the official connector tutorial. Also contributed to [pandas](https://github.com/pandas-dev/pandas), [ChromaDB](https://github.com/chroma-core/chroma), [pgcli](https://github.com/dbcli/pgspecial), [Electricity Maps](https://github.com/electricitymaps/electricitymaps-contrib), and [Open Climate Fix](https://github.com/openclimatefix/open-source-quartz-solar-forecast).
+
+---
+
+**Stack:** Python, SQL, Bash | FastAPI, Next.js, Streamlit | dbt, Prefect, n8n | PostgreSQL, BigQuery, SQLite, DuckDB | pgvector, ChromaDB | Pydantic, SQLAlchemy, pandas | LangGraph, Ollama (Gemma 3 12B) | Docker, OpenTofu | Sentry, ruff, mypy, pytest | GitHub Actions, pre-commit | Power BI (PL-300), Looker Studio
