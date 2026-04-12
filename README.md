@@ -8,7 +8,12 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 ---
 
-**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — incremental ETL for fish production ERP data. Batch-centric run tracking, waterfall yield across RSPCA/GG/Almaria tiers, OCM scan-back traceability, shelf life automation, Dimarco validation, paperwork digitisation. Prefect orchestration with retry logic. Power BI CSV export. Docker sandbox, Pydantic validation, 6-layer safety, 53 tests.
+**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)**
+Incremental ETL from fish production ERP. Extracts 15K+ rows daily from 4 SI tables.
+- Batch-centric run tracking | waterfall yield (RSPCA/GG/Almaria) | OCM scan-back lineage
+- Shelf life automation | Dimarco validation | paperwork digitisation
+- Prefect orchestration with retry logic | Power BI CSV export
+- Docker sandbox | Pydantic validation | 53 tests
 
 **[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — on-prem AI query tool for manufacturing. Ask production questions in plain English, get SQL + answer in 5 seconds. 19 tables, 7 domains, 8 pre-built queries, 3 production alerts. Powered by Gemma 3 12B via Ollama. RAG document search. Read-only SQL enforcement — no data leaves the network. [docs](https://pawansingh3889.github.io/OpsMind/)
 
