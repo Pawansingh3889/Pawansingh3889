@@ -32,4 +32,15 @@ Open source — contributed 5 destination connectors to [drt](https://github.com
 
 ---
 
-**Stack:** Python, SQL, Bash | FastAPI, Next.js, Streamlit | dbt, Prefect, n8n | PostgreSQL, BigQuery, SQLite, DuckDB | pgvector, ChromaDB | Pydantic, SQLAlchemy, pandas | LangGraph, Ollama (Gemma 3 12B) | Docker, OpenTofu | Sentry, ruff, mypy, pytest | GitHub Actions, pre-commit | Power BI (PL-300), Looker Studio
+**Stack:**
+[Python](https://python.org) | [SQL](https://en.wikipedia.org/wiki/SQL) | [Bash](https://www.gnu.org/software/bash/) |
+[FastAPI](https://fastapi.tiangolo.com) | [Next.js](https://nextjs.org) | [Streamlit](https://streamlit.io) |
+[dbt](https://www.getdbt.com) | [Prefect](https://www.prefect.io) | [n8n](https://n8n.io) |
+[PostgreSQL](https://www.postgresql.org) | [BigQuery](https://cloud.google.com/bigquery) | [SQLite](https://www.sqlite.org) | [DuckDB](https://duckdb.org) |
+[pgvector](https://github.com/pgvector/pgvector) | [ChromaDB](https://www.trychroma.com) |
+[Pydantic](https://docs.pydantic.dev) | [SQLAlchemy](https://www.sqlalchemy.org) | [pandas](https://pandas.pydata.org) |
+[LangGraph](https://langchain-ai.github.io/langgraph/) | [Ollama](https://ollama.com) (Gemma 3 12B) |
+[Docker](https://www.docker.com) | [OpenTofu](https://opentofu.org) |
+[Sentry](https://sentry.io) | [ruff](https://docs.astral.sh/ruff/) | [mypy](https://mypy-lang.org) | [pytest](https://docs.pytest.org) |
+[GitHub Actions](https://github.com/features/actions) | [pre-commit](https://pre-commit.com) |
+[Power BI](https://powerbi.microsoft.com) (PL-300) | [Looker Studio](https://lookerstudio.google.com)
