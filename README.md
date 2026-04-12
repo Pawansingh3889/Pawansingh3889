@@ -12,10 +12,11 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 Incremental ETL from fish production ERP. Extracts 15K+ rows daily from 4 SI tables.
 - Batch-centric run tracking | waterfall yield (RSPCA/GG/Almaria) | OCM scan-back lineage
 - Shelf life automation | Dimarco validation | paperwork digitisation
-- Prefect orchestration with retry logic | Power BI CSV export
-- Docker sandbox | Pydantic validation | 53 tests
+- FastAPI REST API (11 endpoints) | Next.js dashboard | Power BI CSV export
+- Prefect orchestration | Sentry monitoring | n8n visual workflows
+- OpenTofu IaC | Docker sandbox | Pydantic validation | ruff + mypy | 53 tests
 
-**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — on-prem AI query tool for manufacturing. Ask production questions in plain English, get SQL + answer in 5 seconds. 19 tables, 7 domains, 8 pre-built queries, 3 production alerts. Powered by Gemma 3 12B via Ollama. RAG document search. Read-only SQL enforcement — no data leaves the network. [docs](https://pawansingh3889.github.io/OpsMind/)
+**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — on-prem AI query tool for manufacturing. NL-to-SQL in 5 seconds. 19 tables, 7 domains, 8 pre-built queries, 3 alerts. LangGraph multi-step agent. PostgreSQL pgvector + ChromaDB RAG backends. Gemma 3 12B via Ollama. Read-only — no data leaves the network. [docs](https://pawansingh3889.github.io/OpsMind/)
 
 **[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety for fish production. Batch traceability from catch area to packed product including OCM scan-back lineage. Temperature monitoring linked to shelf life extensions (+2/+3 superchill). Allergen matrix (fish, crustaceans, molluscs, wheat, egg, milk, mustard). Weight variance reconciliation. Golden rule enforcement: RSPCA cascades down, GG never goes up, tails never in RSPCA. z-score anomaly detection. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)
 
