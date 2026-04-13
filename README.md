@@ -53,4 +53,37 @@ GitHub Action reviewing `.sql` in PRs using local AI.
 
 ---
 
-**Stack:** [Python](https://python.org) · [SQL](https://en.wikipedia.org/wiki/SQL) · [Bash](https://www.gnu.org/software/bash/) · [FastAPI](https://fastapi.tiangolo.com) · [Next.js](https://nextjs.org) · [Streamlit](https://streamlit.io) · [dbt](https://www.getdbt.com) · [Prefect](https://www.prefect.io) · [n8n](https://n8n.io) · [PostgreSQL](https://www.postgresql.org) · [BigQuery](https://cloud.google.com/bigquery) · [SQLite](https://www.sqlite.org) · [DuckDB](https://duckdb.org) · [pgvector](https://github.com/pgvector/pgvector) · [ChromaDB](https://www.trychroma.com) · [Pydantic](https://docs.pydantic.dev) · [SQLAlchemy](https://www.sqlalchemy.org) · [pandas](https://pandas.pydata.org) · [LangGraph](https://langchain-ai.github.io/langgraph/) · [Ollama](https://ollama.com) · [Docker](https://www.docker.com) · [OpenTofu](https://opentofu.org) · [Sentry](https://sentry.io) · [ruff](https://docs.astral.sh/ruff/) · [mypy](https://mypy-lang.org) · [pytest](https://docs.pytest.org) · [GitHub Actions](https://github.com/features/actions) · [pre-commit](https://pre-commit.com) · [Power BI](https://powerbi.microsoft.com) (PL-300) · [Looker Studio](https://lookerstudio.google.com)
+### Stack — What Each Tool Does
+
+| Tool | Use Case |
+|---|---|
+| [Python](https://python.org) | Core language for all pipelines, APIs, dashboards, and AI tools |
+| [SQL](https://en.wikipedia.org/wiki/SQL) | Query and transform production data across all databases |
+| [FastAPI](https://fastapi.tiangolo.com) | REST API with 11 endpoints — shift managers query data via URL |
+| [Next.js](https://nextjs.org) | Web dashboard — charts, tables, auto-refresh, dark theme |
+| [Streamlit](https://streamlit.io) | Compliance dashboard — live on the web, no install needed |
+| [dbt](https://www.getdbt.com) | Transform raw ERP data into clean staging views and mart tables |
+| [Prefect](https://www.prefect.io) | Orchestrate daily pipeline — retry logic, scheduling, monitoring |
+| [n8n](https://n8n.io) | Visual workflow builder — non-technical users build automations |
+| [PostgreSQL](https://www.postgresql.org) | Production database — stores clean warehouse data |
+| [BigQuery](https://cloud.google.com/bigquery) | Cloud analytics — Looker Studio dashboards |
+| [pgvector](https://github.com/pgvector/pgvector) | Vector search in PostgreSQL — RAG for document search |
+| [ChromaDB](https://www.trychroma.com) | Local vector database — search SOPs and product specs |
+| [Pydantic](https://docs.pydantic.dev) | Validate every row of ERP data — reject bad data before it reaches reports |
+| [SQLAlchemy](https://www.sqlalchemy.org) | Connect to any database — SQLite, PostgreSQL, SQL Server |
+| [LangGraph](https://langchain-ai.github.io/langgraph/) | AI agent with 6-node state graph — structured NL-to-SQL reasoning |
+| [Ollama](https://ollama.com) | Run Gemma 3 12B locally — no cloud, no API keys, data stays on-prem |
+| [Docker](https://www.docker.com) | Isolated SQL Server sandbox — cannot touch the real ERP |
+| [OpenTofu](https://opentofu.org) | Infrastructure as code — deploy containers with one command |
+| [Sentry](https://sentry.io) | Error monitoring — captures pipeline failures with full stack trace |
+| [ruff](https://docs.astral.sh/ruff/) | Python linter — catches code issues in 0.1 seconds |
+| [mypy](https://mypy-lang.org) | Type checking — finds bugs before runtime |
+| [pytest](https://docs.pytest.org) | 53 automated tests — run `make test` to verify everything works |
+| [GitHub Actions](https://github.com/features/actions) | CI/CD — tests and linting run on every push |
+| [pre-commit](https://pre-commit.com) | Runs sql-sop before every commit — dangerous SQL caught early |
+| [Power BI](https://powerbi.microsoft.com) | CSV export feeds Power BI Desktop dashboards (PL-300 certified) |
+| [Looker Studio](https://lookerstudio.google.com) | Cloud dashboard on BigQuery — interactive, shareable |
+| [sql-sop](https://pypi.org/project/sql-sop/) | SQL linter on PyPI — 15 rules, 195+ downloads/month |
+| [scipy](https://scipy.org) | z-score anomaly detection on temperature readings |
+| [Plotly](https://plotly.com) | Interactive charts — hover, zoom, filter production data |
+| [pandas](https://pandas.pydata.org) | Data manipulation and analysis |
