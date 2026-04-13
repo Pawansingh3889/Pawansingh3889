@@ -49,7 +49,10 @@ GitHub Action reviewing `.sql` in PRs using local AI.
 
 ---
 
-**Open source** — contributed 5 destination connectors to [drt](https://github.com/drt-hub/drt) (ClickHouse, Parquet, Teams, CSV/JSON) shipping in v0.5, plus the official connector tutorial. Also contributed to [pandas](https://github.com/pandas-dev/pandas), [ChromaDB](https://github.com/chroma-core/chroma), [pgcli](https://github.com/dbcli/pgspecial), [Electricity Maps](https://github.com/electricitymaps/electricitymaps-contrib), and [Open Climate Fix](https://github.com/openclimatefix/open-source-quartz-solar-forecast).
+**Open source** — 25 PRs across 15+ repos. 12 merged.
+- [drt](https://github.com/drt-hub/drt) — 5 destination connectors (ClickHouse, Parquet, Teams, CSV/JSON) shipping in v0.5 + official connector tutorial
+- [pandas](https://github.com/pandas-dev/pandas) · [ChromaDB](https://github.com/chroma-core/chroma) · [pgcli](https://github.com/dbcli/pgspecial) · [plotly](https://github.com/plotly/plotly.py) · [ollama](https://github.com/ollama/ollama-python) · [fpdf2](https://github.com/py-pdf/fpdf2) · [superset](https://github.com/apache/superset) · [scanapi](https://github.com/scanapi/scanapi) · [openfoodfacts](https://github.com/openfoodfacts/openfoodfacts-python)
+- [Electricity Maps](https://github.com/electricitymaps/electricitymaps-contrib) · [Open Climate Fix](https://github.com/openclimatefix/open-source-quartz-solar-forecast) · [Ocean Cleanup](https://github.com/TheOceanCleanupAlgorithms/ADVECT)
 
 ---
 
