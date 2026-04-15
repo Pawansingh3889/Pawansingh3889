@@ -25,9 +25,10 @@ I build data pipelines for manufacturing and public data. I care about data qual
 - Batch tracking, yield analysis, shelf life management, traceability | 53 tests
 
 **[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API to PostgreSQL and BigQuery. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) / [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211) / [hugging face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics)
-- 99,675 records across 10 UK cities, dbt staging/marts with 65 tests
+- 99,675 records, 10 cities, 6 dbt marts (including outcome analysis and YoY trends), 65 tests
 - Declarative data validation + SLO monitoring (freshness, completeness, volume)
-- 3 CI/CD workflows: lint, daily health check, weekly auto-ingest
+- Polars-based alternative ingestion, pipeline maturity scorecard
+- 3 CI/CD workflows with ty type checker, diskcache + stamina for API resilience
 
 **[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app) / [hugging face](https://huggingface.co/spaces/pawankapkoti/manufacturing-compliance)
 - Full batch traceability from catch area to packed product
