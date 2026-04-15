@@ -49,7 +49,11 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 ### Open source
 
-I contribute where I can — docs, bug fixes, small features.
+I learn tools by reading their source, then fix what I find. Clone the repo, reverse-engineer the architecture, build something with it, contribute back.
+
+With [drt](https://github.com/drt-hub/drt) I studied the Destination Protocol and connector patterns, then shipped 5 destination connectors (ClickHouse, Snowflake, Parquet, Teams, CSV/JSON), a Dockerfile, and pre-commit hooks — all merged. Then I wrote the official [connector tutorial](https://github.com/drt-hub/drt/pull/332) by reverse-engineering every existing connector to document the pattern nobody had written down.
+
+Same approach everywhere — read the internals, find the gap, ship the fix.
 
 [drt](https://github.com/drt-hub/drt) · [pandas](https://github.com/pandas-dev/pandas) · [ChromaDB](https://github.com/chroma-core/chroma) · [pgcli](https://github.com/dbcli/pgspecial) · [ollama](https://github.com/ollama/ollama-python) · [superset](https://github.com/apache/superset) · [plotly](https://github.com/plotly/plotly.py) · [fpdf2](https://github.com/py-pdf/fpdf2)
 
