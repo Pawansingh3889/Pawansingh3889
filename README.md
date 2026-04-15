@@ -10,17 +10,37 @@ I build data pipelines for manufacturing and public data. I care about data qual
 
 ### Projects
 
-**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI query tool for manufacturing. Factory managers type a question in plain English, OpsMind converts it to SQL and returns results in under 5 seconds. Built with a LangGraph multi-step agent (6-node state graph), pgvector + ChromaDB for document retrieval, and a SQL validation layer that checks for injection patterns, validates table/column names against the live schema, and enforces row limits. Runs Gemma 3 12B locally via Ollama — no data leaves the factory. Covers 7 business domains: production, waste, orders, compliance, staff, suppliers, and traceability. [docs](https://pawansingh3889.github.io/OpsMind/)
+**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI query tool for manufacturing. [docs](https://pawansingh3889.github.io/OpsMind/)
+- Ask production questions in plain English, get SQL results in 5 seconds
+- LangGraph multi-step agent (6-node state graph) with SQL validation layer
+- pgvector + ChromaDB retrieval, runtime-loaded domain docs
+- Gemma 3 12B via Ollama — no data leaves the factory
+- 7 business domains: production, waste, orders, compliance, staff, suppliers, traceability
 
-**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from a fish production ERP. Extracts 15K+ rows daily from 4 SI Integreater tables, validates with Pydantic, transforms with dbt into staging views and mart tables. Serves data through a FastAPI REST API (11 endpoints) and a Next.js dashboard for shift managers. Orchestrated with Prefect, monitored with Sentry, deployed with Docker and OpenTofu. Covers batch tracking, waterfall yield analysis (RSPCA/GG/Almaria tiers), shelf life management, and OCM scan-back traceability. 53 automated tests.
+**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP
+- 15K+ rows daily from 4 SI Integreater tables, validated with Pydantic
+- FastAPI REST API (11 endpoints) + Next.js dashboard + Power BI export
+- Prefect orchestration, Sentry monitoring, Docker + OpenTofu deployment
+- Batch tracking, yield analysis, shelf life management, traceability | 53 tests
 
-**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — End-to-end pipeline pulling crime data from the Police UK API for 10 UK cities, loading into PostgreSQL and BigQuery, and transforming with dbt. 99,675 records, 65 dbt tests, 3 CI/CD workflows (lint, daily health check, weekly auto-ingest). Includes a declarative data validation layer checking bounds, nulls, and categories before warehouse load, plus SLO monitoring for freshness, completeness, and volume. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) / [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211)
+**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API to PostgreSQL and BigQuery. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) / [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211) / [hugging face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics)
+- 99,675 records across 10 UK cities, dbt staging/marts with 65 tests
+- Declarative data validation + SLO monitoring (freshness, completeness, volume)
+- 3 CI/CD workflows: lint, daily health check, weekly auto-ingest
 
-**[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety dashboard for fish production. Replaces Excel-based compliance tracking with a live Streamlit app. Full batch traceability from catch area to packed product, real-time temperature monitoring with automatic alerts, allergen matrix covering all 14 EU allergens, and weight variance analysis with z-score anomaly detection. Built for auditors who need answers in seconds, not minutes. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)
+**[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app) / [hugging face](https://huggingface.co/spaces/pawankapkoti/manufacturing-compliance)
+- Full batch traceability from catch area to packed product
+- Real-time temperature monitoring with automatic alerts
+- Allergen matrix (14 EU allergens), weight variance with z-score anomaly detection
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — Rule-based SQL linter published on [PyPI](https://pypi.org/project/sql-sop/). 15 rules (5 errors, 10 warnings), 46 tests, 0.08s scans. Catches dangerous patterns like DELETE without WHERE, SQL injection via string concatenation, and SELECT * before they reach production. Runs as a CLI tool, pre-commit hook, and GitHub Action. v0.2.0 adds a fluent API: `SqlGuard().enable("E001").scan(sql)`. `pip install sql-sop`
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). `pip install sql-sop`
+- 15 rules, 46 tests, 0.08s scans across 200 files
+- Fluent API: `SqlGuard().enable("E001").scan(sql)` (v0.2.0)
+- Pre-commit hook + GitHub Action for CI/CD integration
 
-**[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews .sql files in pull requests using local AI. Pairs with sql-sop for two-layer SQL quality: rule-based pre-commit checks (instant) + AI-powered review in CI (deep analysis).
+**[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action reviewing SQL in PRs
+- Rule-based pre-commit (instant) + AI review in CI (deep)
+- Pairs with sql-sop for two-layer quality
 
 ---
 
