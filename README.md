@@ -32,6 +32,7 @@ I build data pipelines for manufacturing and public data. I care about data qual
 - Full batch traceability from catch area to packed product
 - Real-time temperature monitoring with automatic alerts
 - Allergen matrix (14 EU allergens), weight variance with z-score anomaly detection
+- MCP server (5 compliance tools), NL query for auditors, declarative validation, SLO monitoring
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). `pip install sql-sop`
 - 18 rules (5 errors, 10 warnings, 3 structural), 55 tests, sqlparse AST parsing
