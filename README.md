@@ -20,6 +20,8 @@ Incremental ETL from fish production ERP. Extracts 15K+ rows daily from 4 SI tab
 On-prem AI query tool for manufacturing. NL-to-SQL in 5 seconds. [docs](https://pawansingh3889.github.io/OpsMind/)
 - 19 tables | 7 business domains | 8 pre-built queries | 3 production alerts
 - [LangGraph](https://langchain-ai.github.io/langgraph/) multi-step agent (6-node state graph)
+- SQL validation layer: injection detection, schema-aware table/column checks, auto row limits
+- Runtime-loaded domain docs — compliance, production, and waste rules injected into LLM context
 - [PostgreSQL](https://www.postgresql.org) [pgvector](https://github.com/pgvector/pgvector) + [ChromaDB](https://www.trychroma.com) RAG backends
 - [Gemma 3 12B](https://ai.google.dev/gemma) via [Ollama](https://ollama.com) | read-only SQL enforcement | [Sentry](https://sentry.io) monitoring
 
@@ -32,13 +34,16 @@ BRC/HACCP food safety for fish production. [live](https://manufacturing-complian
 
 ### [sql-sop](https://github.com/Pawansingh3889/sql-guard)
 Rule-based SQL linter published to [PyPI](https://pypi.org/project/sql-sop/). 195+ monthly downloads. [`pip install sql-sop`](https://pypi.org/project/sql-sop/)
-- 15 rules | 21 tests | compiled regex for 0.08s scans across 200 files
+- 15 rules | 46 tests | compiled regex for 0.08s scans across 200 files
+- Fluent API: `SqlGuard().enable("E001").severity("error").scan(sql)` (v0.2.0)
 - Pre-commit hook + GitHub Action | 6-layer safety architecture
 - Used in production pipelines to lint SQL before it reaches ERP databases
 
 ### [UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)
 99,675 records across PostgreSQL and BigQuery. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) · [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211)
 - [dbt](https://www.getdbt.com) staging/marts with 65 tests (53 PostgreSQL + 12 BigQuery)
+- Declarative data validation: fluent API checking bounds, nulls, categories before warehouse load
+- Data SLOs: freshness, completeness, volume, and availability targets with monitoring tests
 - 3 CI/CD workflows | idempotent upserts | retry with backoff
 - [Looker Studio](https://lookerstudio.google.com) dashboard on [BigQuery](https://cloud.google.com/bigquery) | [Streamlit](https://streamlit.io) on [PostgreSQL](https://www.postgresql.org)
 
@@ -90,3 +95,5 @@ GitHub Action reviewing `.sql` in PRs using local AI.
 | [scipy](https://scipy.org) | z-score anomaly detection on temperature readings |
 | [Plotly](https://plotly.com) | Interactive charts — hover, zoom, filter production data |
 | [pandas](https://pandas.pydata.org) | Data manipulation and analysis |
+| [Polars](https://pola.rs) | High-performance DataFrame library for extraction scripts |
+| [sqlparse](https://github.com/andialbrecht/sqlparse) | SQL parsing for validation — injection detection and schema checks |
