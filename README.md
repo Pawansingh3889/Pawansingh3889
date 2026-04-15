@@ -36,8 +36,8 @@ I build data pipelines for manufacturing and public data. I care about data qual
 - Allergen matrix (14 EU allergens), weight variance with z-score anomaly detection
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). `pip install sql-sop`
-- 15 rules, 46 tests, 0.08s scans across 200 files
-- Fluent API: `SqlGuard().enable("E001").scan(sql)` (v0.2.0)
+- 18 rules (5 errors, 10 warnings, 3 structural), 55 tests, sqlparse AST parsing
+- Fluent API + structural rules: implicit cross joins, nested subqueries, unused CTEs (v0.3.0)
 - Pre-commit hook + GitHub Action for CI/CD integration
 
 **[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action reviewing SQL in PRs
