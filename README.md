@@ -10,17 +10,26 @@ I build data pipelines for manufacturing and public data. I care about data qual
 
 ### Projects
 
-**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem NL-to-SQL tool for manufacturing. LangGraph agent, pgvector + ChromaDB retrieval, SQL validation layer, Gemma 3 12B via Ollama. Runs locally, no cloud dependency.
+| Project | Latest Change | Updated |
+|---|---|---|
+| [**OpsMind**](https://github.com/Pawansingh3889/OpsMind) (1 star) | docs: add plain-English sections for non-technical audience | today |
+| [**Production Analytics Pipeline**](https://github.com/Pawansingh3889/production-analytics-pipeline) | docs: add plain-English sections for non-technical audience | today |
+| [**UK Crime Pipeline**](https://github.com/Pawansingh3889/uk-crime-pipeline) [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) / [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211) | docs: add plain-English sections for non-technical audience | today |
+| [**Compliance Dashboard**](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard) [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app) | docs: add plain-English sections for non-technical audience | today |
+| [**sql-sop**](https://github.com/Pawansingh3889/sql-guard) [pypi](https://pypi.org/project/sql-sop/) `pip install sql-sop` | docs: add plain-English sections for non-technical audience | today |
+| [**SQL Ops Reviewer**](https://github.com/Pawansingh3889/sql-ops-reviewer) | chore: clean up gitignore | today |
 
-**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP. FastAPI, Next.js dashboard, Prefect orchestration, dbt transforms, 53 tests.
+**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem NL-to-SQL tool for manufacturing. LangGraph agent, pgvector + ChromaDB retrieval, SQL validation layer, Gemma 3 12B via Ollama.
 
-**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API to PostgreSQL and BigQuery. dbt staging/marts, 65 tests, data validation with SLO monitoring. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) / [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211)
+**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP. FastAPI, Next.js dashboard, Prefect orchestration, dbt transforms.
 
-**[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety. Batch traceability, temperature monitoring, allergen matrix. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)
+**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API to PostgreSQL and BigQuery. dbt staging/marts, data validation with SLO monitoring.
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 15 rules, 46 tests, pre-commit hook. Fluent API in v0.2.0. `pip install sql-sop`
+**[Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety. Batch traceability, temperature monitoring, allergen matrix.
 
-**[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews SQL in pull requests. Pairs with sql-sop for two-layer quality checks.
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on PyPI. Pre-commit hook + fluent API.
+
+**[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that reviews SQL in pull requests. Pairs with sql-sop.
 
 ---
 
@@ -28,10 +37,16 @@ I build data pipelines for manufacturing and public data. I care about data qual
 
 I contribute where I can — docs, bug fixes, small features.
 
-[drt](https://github.com/drt-hub/drt) · [pandas](https://github.com/pandas-dev/pandas) · [ChromaDB](https://github.com/chroma-core/chroma) · [pgcli](https://github.com/dbcli/pgspecial) · [ollama](https://github.com/ollama/ollama-python) · [superset](https://github.com/apache/superset) · [plotly](https://github.com/plotly/plotly.py) · [fpdf2](https://github.com/py-pdf/fpdf2)
+*24 open PRs across external repos*
+
+[drt](https://github.com/drt-hub/drt) / [pandas](https://github.com/pandas-dev/pandas) / [ChromaDB](https://github.com/chroma-core/chroma) / [pgcli](https://github.com/dbcli/pgspecial) / [ollama](https://github.com/ollama/ollama-python) / [superset](https://github.com/apache/superset) / [plotly](https://github.com/plotly/plotly.py) / [fpdf2](https://github.com/py-pdf/fpdf2)
 
 ---
 
 ### Stack
 
 Python, SQL, dbt, PostgreSQL, BigQuery, FastAPI, Streamlit, Prefect, LangGraph, Ollama, Docker, Polars, pandas, Pydantic, pytest, GitHub Actions
+
+---
+
+<sub>Last updated: 15 Apr 2026 — auto-generated by [update_readme.py](update_readme.py)</sub>
