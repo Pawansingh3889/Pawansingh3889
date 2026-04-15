@@ -1,7 +1,5 @@
 # Pawan Singh Kapkoti
 
-Data & Analytics Engineer. MSc Data Analytics. Yorkshire, UK.
-
 I build data pipelines for manufacturing and public data. I care about data quality, testing, and keeping things simple.
 
 [Portfolio](https://pawansingh3889.github.io)
