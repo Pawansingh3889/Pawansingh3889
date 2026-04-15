@@ -12,10 +12,11 @@ I build data pipelines for manufacturing and public data. I care about data qual
 
 **[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI query tool for manufacturing. [docs](https://pawansingh3889.github.io/OpsMind/)
 - Ask production questions in plain English, get SQL results in 5 seconds
-- LangGraph multi-step agent (6-node state graph) with SQL validation layer
+- LangGraph multi-step agent (6-node state graph) with 5-stage SQL validation
+- MCP server architecture: database + doc search as decoupled tool servers
 - pgvector + ChromaDB retrieval, runtime-loaded domain docs
 - Gemma 3 12B via Ollama — no data leaves the factory
-- 7 business domains: production, waste, orders, compliance, staff, suppliers, traceability
+- 7 business domains, formal agent specs, ty type checker in CI
 
 **[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP
 - 15K+ rows daily from 4 SI Integreater tables, validated with Pydantic
