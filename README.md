@@ -1,6 +1,8 @@
 # Pawan Singh Kapkoti
 
-I build data pipelines for manufacturing and public data. I care about data quality, testing, and keeping things simple.
+Data & Analytics Engineer. I build robust data pipelines, read source code, and ship fixes upstream.
+
+MSc Data Analytics. Building pipelines and dev tools on the side. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud. Yorkshire, UK.
 
 [Portfolio](https://pawansingh3889.github.io)
 
