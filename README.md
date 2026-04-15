@@ -44,6 +44,10 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 **[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action reviewing SQL in PRs
 - Rule-based pre-commit (instant) + AI review in CI (deep)
 - Pairs with sql-sop for two-layer quality
+n**[ForThePeople UK](https://github.com/Pawansingh3889/forthepeople-uk)** — UK citizen transparency platform. [hugging face](https://huggingface.co/spaces/pawankapkoti/forthepeople-uk)
+- 13 council-level dashboards: weather, population, housing, crime, health, transport, education
+- 50+ government schemes directory, essential services links
+- API response caching and validation layer
 
 ---
 
