@@ -17,6 +17,7 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 - pgvector + ChromaDB retrieval, runtime-loaded domain docs
 - Gemma 3 12B via Ollama — no data leaves the factory
 - 7 business domains, formal agent specs, ty type checker in CI
+- Docker deployment with isolated Ollama container, structured JSONL audit logging
 
 **[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP
 - 15K+ rows daily from 4 SI Integreater tables, validated with Pydantic
