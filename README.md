@@ -59,6 +59,8 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 - 13 council-level dashboards: weather, population, housing, crime, health, transport, education
 - 50+ government schemes directory, essential services links
 - API response caching and validation layer
+- Apache 2.0 licensed; NOTICE documents the full OGL-v3.0 / CC BY 4.0 chain from ONS, gov.uk, NHS Digital, DfE, Police.UK, Met Office, Open-Meteo
+- Governance and code of conduct published with explicit political-neutrality clause
 
 ---
 
