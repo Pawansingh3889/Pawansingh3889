@@ -50,18 +50,12 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 ### Signature upstream PRs
 
-Merged and pending fixes into projects I use every day.
+Merged contributions into projects I use every day.
 
-- [apache/superset](https://github.com/apache/superset) — renamed `supersetCanCSV` → `supersetCanDownload` across the frontend
-- [vllm-project/vllm](https://github.com/vllm-project/vllm) — improved DCP/PCP error messages with actionable backend guidance
-- [chroma-core/chroma](https://github.com/chroma-core/chroma) — 220-line HNSW index tuning guide + client/server version compat check
-- [pandas-dev/pandas](https://github.com/pandas-dev/pandas) — clarified `str.cat()` return type docs for Index
-- [ollama/ollama-python](https://github.com/ollama/ollama-python) — added `exists()` method, fixed `ShowResponse` ValidationError for cloud models
-- [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) — removed unnecessary profiler context manager argument
-- [dlt-hub/dlt](https://github.com/dlt-hub/dlt) — migrated flake8 config from tox.ini to ruff
-- [plotly/plotly.py](https://github.com/plotly/plotly.py) — Dependabot config for uv.lock
-- [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) — fixed `TextRegion.ln()` double line break regression
-- [dbcli/pgspecial](https://github.com/dbcli/pgspecial) — added `\dS` suffix for system objects (pg_catalog, information_schema)
+- [scanapi/scanapi#868](https://github.com/scanapi/scanapi/pull/868) — `docs: add missing docstrings to spec_evaluator.py` (First Contribution)
+- [pyOpenSci/python-package-guide#622](https://github.com/pyOpenSci/python-package-guide/pull/622) — added Turing Way links for `CITATION.cff` and software citation guidance
+- [dlt-hub/dlt#3830](https://github.com/dlt-hub/dlt/pull/3830) — updated source count from 5,000 to 8,000+ in intro docs
+- [py-pdf/fpdf2#1805](https://github.com/py-pdf/fpdf2/pull/1805) — added Punjabi (`pa`) tutorial translation
 
 ---
 
