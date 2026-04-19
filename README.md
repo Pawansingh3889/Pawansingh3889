@@ -1,6 +1,6 @@
 # Pawan Singh Kapkoti
 
-Data & Analytics Engineer. I build robust data pipelines, read source code, and ship fixes upstream.
+Data engineer. I break things, read source code, and ship fixes upstream.
 
 MSc Data Analytics. Building pipelines and dev tools on the side. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud. Yorkshire, UK.
 
