@@ -18,13 +18,22 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 23 rules, 78 tests, libCST-based injection scanner, pre-commit + GitHub Action. 195+ monthly downloads. `pip install sql-sop`
 
+**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). `pip install pr-sop`
+- 3 config-driven checks: `changelog-required` (error), `version-consistency` (error), `precommit-rev-matches-tag` (warning)
+- 29 tests, pydantic v2 config schema, no network calls, runs in under 1 second per PR
+- CLI, pre-commit hook, or GitHub Action with zero token setup beyond the default `GITHUB_TOKEN`
+- Same philosophy as sql-sop: catch real drift fast, skip the ceremony. No LLM, no Dangerfile to maintain
+- MIT licensed; full governance, security, and contributing docs published. First external consumer: sql-sop itself
+
 ---
 
 ### Open source
 
 **[drt](https://github.com/drt-hub/drt)** — Triage Collaborator. Shipped multi-sync orchestration (`drt run --all`, `--select tag:`, `--threads N`) with a thread-safe StateManager and 11 parallel-dispatch tests. Plus 5 destination connectors, the official [connector tutorial](https://github.com/drt-hub/drt/pull/332), Docker support, and pre-commit hooks — all merged.
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — Maintainer. Review and merge community PRs (W011 union-without-all rule merged, W005-template adoption), publish to PyPI, maintain governance + security policy, triage issues. First-PR-wins soft-assignment policy in place.
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — Maintainer. Review and merge community PRs (W011 union-without-all, W012 group-by-ordinal, W005-template adoption), publish to PyPI, maintain governance + security policy, triage issues. First-PR-wins soft-assignment policy in place.
+
+**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — Creator and maintainer. Shipped v0.1.0 (initial three checks) and v0.1.1 (fix for third-party `rev:` pin false positives) to PyPI within 24 hours. Full governance, security, contributing, and code-of-conduct documents published, matching the sql-sop set.
 
 I learn tools by reading their source: reverse-engineer the architecture, find the gap, ship the fix.
 
