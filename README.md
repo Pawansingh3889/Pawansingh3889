@@ -48,6 +48,8 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[drt](https://github.com/drt-hub/drt)** — Triage Collaborator. Shipped multi-sync orchestration (`drt run --all`, `--select tag:`, `--threads N`) with a thread-safe StateManager and 11 parallel-dispatch tests. Plus 5 destination connectors, the official [connector tutorial](https://github.com/drt-hub/drt/pull/332), Docker support, and pre-commit hooks — all merged.
 
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — Maintainer. Review and merge community PRs (W011 union-without-all rule merged, W005-template adoption), publish to PyPI, maintain governance + security policy, triage issues. First-PR-wins soft-assignment policy in place.
+
 I learn tools by reading their source: reverse-engineer the architecture, find the gap, ship the fix.
 
 [drt](https://github.com/drt-hub/drt) · [pandas](https://github.com/pandas-dev/pandas) · [ChromaDB](https://github.com/chroma-core/chroma) · [pgcli](https://github.com/dbcli/pgspecial) · [ollama](https://github.com/ollama/ollama-python) · [superset](https://github.com/apache/superset) · [plotly](https://github.com/plotly/plotly.py) · [fpdf2](https://github.com/py-pdf/fpdf2)
