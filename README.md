@@ -4,21 +4,37 @@ Data engineer. I break things, read source code, and ship fixes upstream.
 
 MSc Data Analytics. Building pipelines and dev tools on the side. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud. Yorkshire, UK.
 
-[Portfolio](https://pawansingh3889.github.io)
+### Find me around the web
+
+[Portfolio](https://pawansingh3889.github.io) · [LinkedIn](https://www.linkedin.com/in/pawan-singh-kapkoti-100176347) · [Email](mailto:pawankapkoti3889@gmail.com)
 
 ---
 
-### Projects
+### Dev tools on PyPI
 
-**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI for manufacturing. NL-to-SQL in 5s, LangGraph agent, MCP server architecture, pgvector + ChromaDB RAG, Gemma 3 12B via Ollama. Golden-set eval harness with failure-mode taxonomy. [docs](https://pawansingh3889.github.io/OpsMind/)
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 23 rules, 78 tests, libCST-based injection scanner, pre-commit + GitHub Action. 195+ monthly downloads. `pip install sql-sop`
+
+**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). 3 config-driven checks (CHANGELOG drift, version consistency, pre-commit rev pins), 29 tests, pydantic v2 config, runs as CLI, pre-commit hook, or GitHub Action. First external consumer: sql-sop itself. `pip install pr-sop`
+
+---
+
+### Data pipelines
 
 **[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP. 15K+ rows/day, FastAPI (11 endpoints) + Next.js + Power BI, Prefect orchestration, Docker + OpenTofu. 53 tests.
 
 **[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API → PostgreSQL + BigQuery. 99,675 records, 6 dbt marts, 65 tests, Polars ingestion, SLO monitoring. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) · [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211) · [hugging face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics)
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 23 rules, 78 tests, libCST-based injection scanner, pre-commit + GitHub Action. 195+ monthly downloads. `pip install sql-sop`
+---
 
-**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). 3 config-driven checks (CHANGELOG drift, version consistency, pre-commit rev pins), 29 tests, pydantic v2 config, runs as CLI, pre-commit hook, or GitHub Action. First external consumer: sql-sop itself. `pip install pr-sop`
+### AI / on-prem apps
+
+**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI for manufacturing. NL-to-SQL in 5s, LangGraph agent, MCP server architecture, pgvector + ChromaDB RAG, Gemma 3 12B via Ollama. Golden-set eval harness with failure-mode taxonomy. [docs](https://pawansingh3889.github.io/OpsMind/)
+
+**[Manufacturing Compliance Dashboard](https://github.com/Pawansingh3889/manufacturing-compliance-dashboard)** — BRC/HACCP food safety compliance. MCP server exposes 5 compliance tools for LLM agents, NL query interface for auditors, z-score anomaly detection, Four Golden Signals `/metrics` endpoint. [live](https://manufacturing-compliance-dashboard-mjappkncanejzlfr5ngghik.streamlit.app)
+
+**[SQL Ops Reviewer](https://github.com/Pawansingh3889/sql-ops-reviewer)** — GitHub Action that auto-reviews `.sql` files in PRs using local AI. Catches injection risks, performance anti-patterns, style violations. One YAML file to set up, runs on the CI runner, zero API keys.
+
+**[MediAsk](https://github.com/Pawansingh3889/Hackathon-mediask)** — Health Q&A platform for factory workers. NHS-verified guidance, Gemini responses, voice input, 18 languages. Flask + PostgreSQL, Dockerised. [live](https://hackathon-ioqp.onrender.com)
 
 ---
 
@@ -28,7 +44,26 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — Maintainer. Review and merge community PRs (W011 union-without-all, W012 group-by-ordinal, W005-template adoption), publish to PyPI, maintain governance + security policy, triage issues. First-PR-wins soft-assignment policy in place.
 
-**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — Creator and maintainer. Shipped v0.1.0 (initial three checks) and v0.1.1 (fix for third-party `rev:` pin false positives) to PyPI within 24 hours. Full governance, security, contributing, and code-of-conduct documents published, matching the sql-sop set.
+**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — Creator and maintainer. Shipped v0.1.0 (initial three checks), v0.1.1 (fix for third-party `rev:` pin false positives), and v0.1.2 (fix for CI-merge-commit tag lookup) to PyPI in 24 hours. Full governance, security, contributing, and code-of-conduct documents published.
+
+---
+
+### Signature upstream PRs
+
+Merged and pending fixes into projects I use every day.
+
+- [apache/superset](https://github.com/apache/superset) — renamed `supersetCanCSV` → `supersetCanDownload` across the frontend
+- [vllm-project/vllm](https://github.com/vllm-project/vllm) — improved DCP/PCP error messages with actionable backend guidance
+- [chroma-core/chroma](https://github.com/chroma-core/chroma) — 220-line HNSW index tuning guide + client/server version compat check
+- [pandas-dev/pandas](https://github.com/pandas-dev/pandas) — clarified `str.cat()` return type docs for Index
+- [ollama/ollama-python](https://github.com/ollama/ollama-python) — added `exists()` method, fixed `ShowResponse` ValidationError for cloud models
+- [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) — removed unnecessary profiler context manager argument
+- [dlt-hub/dlt](https://github.com/dlt-hub/dlt) — migrated flake8 config from tox.ini to ruff
+- [plotly/plotly.py](https://github.com/plotly/plotly.py) — Dependabot config for uv.lock
+- [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) — fixed `TextRegion.ln()` double line break regression
+- [dbcli/pgspecial](https://github.com/dbcli/pgspecial) — added `\dS` suffix for system objects (pg_catalog, information_schema)
+
+---
 
 I learn tools by reading their source: reverse-engineer the architecture, find the gap, ship the fix.
 
