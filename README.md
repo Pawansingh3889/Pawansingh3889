@@ -10,37 +10,13 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 ### Projects
 
-**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI query tool for manufacturing. [docs](https://pawansingh3889.github.io/OpsMind/)
-- Ask production questions in plain English, get SQL results in 5 seconds
-- LangGraph multi-step agent (6-node state graph) with 5-stage SQL validation
-- MCP server architecture: database + doc search as decoupled tool servers
-- pgvector + ChromaDB retrieval, runtime-loaded domain docs
-- Gemma 3 12B via Ollama — no data leaves the factory
-- 7 business domains, formal agent specs, ty type checker in CI
-- Docker deployment with isolated Ollama container, structured JSONL audit logging
-- Golden-set eval harness (library + LLM paths) with failure-mode taxonomy
-- Governance, security policy, and code of conduct published — first-PR-wins assignment
+**[OpsMind](https://github.com/Pawansingh3889/OpsMind)** — On-prem AI for manufacturing. NL-to-SQL in 5s, LangGraph agent, MCP server architecture, pgvector + ChromaDB RAG, Gemma 3 12B via Ollama. Golden-set eval harness with failure-mode taxonomy. [docs](https://pawansingh3889.github.io/OpsMind/)
 
-**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP
-- 15K+ rows daily from 4 ERP tables, validated with Pydantic
-- FastAPI REST API (11 endpoints) + Next.js dashboard + Power BI export
-- Prefect orchestration, Sentry monitoring, Docker + OpenTofu deployment
-- Batch tracking, yield analysis, shelf life management, traceability | 53 tests
-- Apache 2.0 licensed; governance, security, and code-of-conduct documents published
+**[Production Analytics Pipeline](https://github.com/Pawansingh3889/production-analytics-pipeline)** — Incremental ETL from fish production ERP. 15K+ rows/day, FastAPI (11 endpoints) + Next.js + Power BI, Prefect orchestration, Docker + OpenTofu. 53 tests.
 
-**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API to PostgreSQL and BigQuery. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) / [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211) / [hugging face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics)
-- 99,675 records, 10 cities, 6 dbt marts (including outcome analysis and YoY trends), 65 tests
-- Declarative data validation + SLO monitoring (freshness, completeness, volume)
-- Polars-based alternative ingestion, pipeline maturity scorecard
-- 3 CI/CD workflows with ty type checker, diskcache + stamina for API resilience
-- Apache 2.0 licensed; NOTICE documents the OGL-v3.0 chain on derived datasets
+**[UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline)** — Police UK API → PostgreSQL + BigQuery. 99,675 records, 6 dbt marts, 65 tests, Polars ingestion, SLO monitoring. [streamlit](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) · [looker studio](https://lookerstudio.google.com/reporting/9ee83425-04d3-4192-b4e4-de6a73d10211) · [hugging face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics)
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). `pip install sql-sop`
-- 23 rules (10 errors, 13 warnings) covering DELETE/UPDATE-without-WHERE, implicit cross joins, nested subqueries, unused CTEs, SELECT *, and more
-- 78 tests, sqlparse AST parsing, fluent API (`SqlGuard().enable(...).scan(...)`)
-- libCST-based Python scanner catches SQL injection in `.execute()` / `.read_sql()` calls (v0.4.0)
-- Pre-commit hook + GitHub Action for CI/CD integration, 195+ monthly downloads
-- MIT licensed (deliberately kept — PyPI downstream stability); full governance + security policy published
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 23 rules, 78 tests, libCST-based injection scanner, pre-commit + GitHub Action. 195+ monthly downloads. `pip install sql-sop`
 
 ---
 
