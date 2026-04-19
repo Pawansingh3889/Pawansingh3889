@@ -18,12 +18,7 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 23 rules, 78 tests, libCST-based injection scanner, pre-commit + GitHub Action. 195+ monthly downloads. `pip install sql-sop`
 
-**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). `pip install pr-sop`
-- 3 config-driven checks: `changelog-required` (error), `version-consistency` (error), `precommit-rev-matches-tag` (warning)
-- 29 tests, pydantic v2 config schema, no network calls, runs in under 1 second per PR
-- CLI, pre-commit hook, or GitHub Action with zero token setup beyond the default `GITHUB_TOKEN`
-- Same philosophy as sql-sop: catch real drift fast, skip the ceremony. No LLM, no Dangerfile to maintain
-- MIT licensed; full governance, security, and contributing docs published. First external consumer: sql-sop itself
+**[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). 3 config-driven checks (CHANGELOG drift, version consistency, pre-commit rev pins), 29 tests, pydantic v2 config, runs as CLI, pre-commit hook, or GitHub Action. First external consumer: sql-sop itself. `pip install pr-sop`
 
 ---
 
