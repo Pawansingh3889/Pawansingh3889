@@ -74,3 +74,14 @@ I learn tools by reading their source: reverse-engineer the architecture, find t
 ### Stack
 
 Python, SQL, dbt, PostgreSQL, BigQuery, FastAPI, Streamlit, Prefect, LangGraph, Ollama, Docker, Polars, pandas, Pydantic, pytest, GitHub Actions
+
+---
+
+<p align="center">
+  <a href="https://github.com/Pawansingh3889">
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=Pawansingh3889&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=issues&theme=default" alt="GitHub stats" />
+  </a>
+  <a href="https://github.com/Pawansingh3889">
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pawansingh3889&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
+  </a>
+</p>
