@@ -102,7 +102,7 @@ MSc Data Analytics. I build pipelines and developer tools on the side. I believe
 
 ### Dev tools on PyPI
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 37 rules (5 T-SQL specific), 143 tests, libCST-based injection scanner, inline `-- sql-guard: disable` directives, `.sql-guard.yml` config, SARIF output for GitHub Code Scanning. 195+ monthly downloads. `pip install sql-sop`
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — SQL linter on [PyPI](https://pypi.org/project/sql-sop/). 37 rules (5 T-SQL specific), 143 tests, libCST-based injection scanner, inline `-- sql-guard: disable` directives, `.sql-guard.yml` config, SARIF output for GitHub Code Scanning. 195+ monthly downloads. **Try it live**: [playground](https://pawansingh3889.github.io/sql-guard/) (runs in-browser via Pyodide, no data leaves your machine). `pip install sql-sop`
 
 **[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). 3 config-driven checks (CHANGELOG drift, version consistency, pre-commit rev pins), 29 tests, pydantic v2 config, runs as CLI, pre-commit hook, or GitHub Action. First external consumer: sql-sop itself. `pip install pr-sop`
 
