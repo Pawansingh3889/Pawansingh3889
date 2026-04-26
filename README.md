@@ -16,6 +16,8 @@ MSc Data Analytics. Building pipelines and dev tools on the side. I believe comp
 
 **[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — PR governance checker on [PyPI](https://pypi.org/project/pr-sop/). 3 config-driven checks (CHANGELOG drift, version consistency, pre-commit rev pins), 29 tests, pydantic v2 config, runs as CLI, pre-commit hook, or GitHub Action. First external consumer: sql-sop itself. `pip install pr-sop`
 
+**[morning-brief](https://github.com/Pawansingh3889/morning-brief)** — Rule-based daily Gmail triage on [PyPI](https://pypi.org/project/morning-brief/). Zero LLM, read-only OAuth. Classifies last day of mail into HIGH / MEDIUM / LOW / SPAM via YAML rules, writes a markdown digest, fires a desktop toast. v0.3.0 adds sub-day windows, thread collapse, and `preview` / `why` commands for rule debugging. `pip install morning-brief`
+
 ---
 
 ### Data pipelines
