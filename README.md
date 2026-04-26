@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pawan;Data+engineer+%C2%B7+Yorkshire%2C+UK;I+work+on+sql-sop%2C+pr-sop%2C+morning-brief"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pawan;Data+engineer+%C2%B7+Yorkshire%2C+UK;I+work+on+sql-sop%2C+pr-sop%2C+morning-brief;Read+the+source.+Find+the+gap.+Ship+the+fix."/>
 </h1>
 
 <p align="center">
@@ -23,7 +23,9 @@
 
 <img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-Data engineer based in Yorkshire, UK. MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I maintain three small Python tools on PyPI and contribute to OSS projects I use.
+Data engineer based in Yorkshire, UK. I break things, read source code, and ship fixes upstream.
+
+MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I maintain three small Python tools on PyPI and contribute to OSS projects I use. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud.
 
 - 🔭 Maintaining sql-sop, pr-sop, morning-brief
 - 🌱 Currently learning more about T-SQL internals, on-prem AI orchestration, and dbt's semantic layer
@@ -139,7 +141,9 @@ Data engineer based in Yorkshire, UK. MSc Data Analytics from Aston. Day job is 
 
 ---
 
-### Recent merged PRs into projects I use
+### Signature upstream PRs
+
+Merged contributions into projects I use every day.
 
 - [scanapi/scanapi#868](https://github.com/scanapi/scanapi/pull/868) — `docs: add missing docstrings to spec_evaluator.py` (closed an issue from 2021)
 - [pyOpenSci/python-package-guide#622](https://github.com/pyOpenSci/python-package-guide/pull/622) — added Turing Way links for `CITATION.cff` and software-citation guidance
