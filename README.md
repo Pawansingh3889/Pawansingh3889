@@ -85,3 +85,10 @@ Python, SQL, dbt, PostgreSQL, BigQuery, FastAPI, Streamlit, Prefect, LangGraph, 
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pawansingh3889&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages" />
   </a>
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pawansingh3889/Pawansingh3889/output/github-snake-dark.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/Pawansingh3889/Pawansingh3889/output/github-snake.svg" />
+  </picture>
+</p>
