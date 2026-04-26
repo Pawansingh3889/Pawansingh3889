@@ -101,7 +101,7 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ### Things I maintain on PyPI
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 37 rules, 143 tests, libCST-based injection scanner, inline disable directives, SARIF output. Runs as a CLI, pre-commit hook, or GitHub Action. 500+ monthly downloads on PyPI. There's a [browser playground](https://pawansingh3889.github.io/sql-guard/) (Pyodide, no data leaves your machine). `pip install sql-sop`
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 38 rules, 149 tests, libCST-based injection scanner, inline disable directives, SARIF output. Runs as a CLI, pre-commit hook, or GitHub Action. 500+ monthly downloads on PyPI. There's a [browser playground](https://pawansingh3889.github.io/sql-guard/) (Pyodide, no data leaves your machine). `pip install sql-sop`
 
 **[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — A small PR governance checker. Three configurable checks: CHANGELOG drift, version mismatch between `pyproject.toml` and `__init__.py`, and stale `rev:` pins in pre-commit configs. CLI, pre-commit hook, or GitHub Action. `pip install pr-sop`
 
