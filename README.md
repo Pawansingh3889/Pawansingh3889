@@ -73,7 +73,13 @@ I learn tools by reading their source: reverse-engineer the architecture, find t
 
 ### Stack
 
-Python, SQL, dbt, PostgreSQL, BigQuery, FastAPI, Streamlit, Prefect, LangGraph, Ollama, Docker, Polars, pandas, Pydantic, pytest, GitHub Actions
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,postgres,gcp,fastapi,docker,githubactions,linux,bash,git,github,vscode" alt="Stack" />
+  </a>
+</p>
+
+Plus dbt, Streamlit, Prefect, LangGraph, Ollama, Polars, pandas, Pydantic, pytest.
 
 ---
 
