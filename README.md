@@ -134,7 +134,7 @@ MSc Data Analytics. I build pipelines and developer tools on the side. I believe
 
 **[drt](https://github.com/drt-hub/drt)** — Triage Collaborator. Shipped multi-sync orchestration (`drt run --all`, `--select tag:`, `--threads N`) with a thread-safe StateManager and 11 parallel-dispatch tests. Plus 5 destination connectors, the official [connector tutorial](https://github.com/drt-hub/drt/pull/332), Docker support, and pre-commit hooks — all merged.
 
-**[scanapi](https://github.com/scanapi/scanapi)** — Org member. Merged PR #868 (`spec_evaluator.py` docstrings, closing a 2021 issue), open PR #907 (pipx install path docs). Triaging follow-on TOC issues for the wiki.
+**[scanapi](https://github.com/scanapi/scanapi)** — Active contributor. Merged PR #868 (`spec_evaluator.py` docstrings, closing a 2021 issue), open PR #907 (pipx install path docs). Triaging follow-on TOC issues for the wiki.
 
 **[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — Maintainer. Review and merge community PRs (W011 union-without-all, W012 group-by-ordinal, W005-template adoption), publish to PyPI, maintain governance + security policy, triage issues. First-PR-wins soft-assignment policy in place.
 
