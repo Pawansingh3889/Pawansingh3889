@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=I'm+Pawan;Data+engineer+for+food+manufacturing;On-prem+AI+%C2%B7+SQL+safety+tooling+%C2%B7+Yorkshire+UK;Read+the+source.+Find+the+gap.+Ship+the+fix."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pawan;Data+engineer+%C2%B7+Yorkshire%2C+UK;I+work+on+sql-sop%2C+pr-sop%2C+morning-brief;Read+the+source.+Find+the+gap.+Ship+the+fix."/>
 </h1>
 
 <p align="center">
@@ -23,13 +23,14 @@
 
 <img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-Data engineer for food manufacturing. I make SQL safer and run AI on-prem. Three Python tools on PyPI, two MCP servers in production, one IT rotation in progress. Yorkshire UK.
+Data engineer based in Yorkshire, UK. I break things, read source code, and ship fixes upstream.
 
-I break things, read source code, and ship fixes upstream. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud.
+MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I maintain three small Python tools on PyPI and contribute to OSS projects I use. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud.
 
-- 🔭 Shipping: sql-sop v0.6.0 (37 rules · 195+ DL/mo), OpsMind, Manufacturing Compliance Dashboard
-- 🛠 Stack: Python · SQL Server · dbt · FastAPI · LangGraph · Ollama · MCP
-- 📍 Open to data ops, manufacturing data, and on-prem AI roles. Remote-first or Yorkshire.
+- 🔭 Maintaining sql-sop, pr-sop, morning-brief
+- 🌱 Currently learning more about T-SQL internals, on-prem AI orchestration, and dbt's semantic layer
+- 👯 Happy to collaborate on manufacturing data, SQL safety tooling, or on-prem AI work
+- 💬 Ask me about Python, SQL Server, dbt, FastAPI, LangGraph
 
 <br/>
 
