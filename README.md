@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C81,100:00B8FF&height=140&section=header&text=Pawan%20Singh%20Kapkoti&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Data%20engineer%20%C2%B7%20OSS%20maintainer&descSize=14&descAlignY=62" alt="header" />
+</p>
+
 # Pawan Singh Kapkoti
 
 Data engineer. I break things, read source code, and ship fixes upstream.
