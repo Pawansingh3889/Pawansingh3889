@@ -19,7 +19,7 @@
 
 <img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-Data engineer based in Yorkshire, UK. I break things, read source code, and ship fixes upstream.
+Data engineer based in the UK. I break things, read source code, and ship fixes upstream.
 
 MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I maintain four small Python tools on PyPI and contribute to OSS projects I use. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud.
 
