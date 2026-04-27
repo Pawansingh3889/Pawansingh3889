@@ -101,7 +101,12 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ### Things I maintain on PyPI
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 39 rules, 152 tests, libCST-based injection scanner, inline disable directives, SARIF output. v0.7 milestone in progress (Performance Rules Pack), with [ROADMAP](https://github.com/Pawansingh3889/sql-guard/blob/main/ROADMAP.md) and a [scaffold tool](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. Three external authors have shipped merged rules. 500+ monthly downloads on PyPI. [Browser playground](https://pawansingh3889.github.io/sql-guard/) runs Pyodide so no data leaves the page. `pip install sql-sop`
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 39 rules, 152 tests, libCST-based injection scanner, inline disable directives, SARIF output. v0.6.2 on PyPI; v0.7 milestone in progress (Performance Rules Pack), with [ROADMAP](https://github.com/Pawansingh3889/sql-guard/blob/main/ROADMAP.md) and a [scaffold tool](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. 500+ monthly downloads on PyPI. [Browser playground](https://pawansingh3889.github.io/sql-guard/) runs Pyodide so no data leaves the page. `pip install sql-sop`
+
+> **Contributors to sql-sop** (rules shipped to PyPI)
+> [@tmchow](https://github.com/tmchow) — [W011 union-without-all](https://github.com/Pawansingh3889/sql-guard/pull/12) · [P005 sqlalchemy-text-fstring](https://github.com/Pawansingh3889/sql-guard/pull/25)
+> [@mvanhorn](https://github.com/mvanhorn) — [W019 count-distinct-unbounded](https://github.com/Pawansingh3889/sql-guard/pull/29)
+> [@Prabhu-1409](https://github.com/Prabhu-1409) — [W013 window-without-partition](https://github.com/Pawansingh3889/sql-guard/pull/21)
 
 **[sql-sop-mcp](https://github.com/Pawansingh3889/sql-sop-mcp)** — Model Context Protocol server wrapping sql-sop's linter. Two stdio tools (`lint_sql`, `list_rules`) callable from Claude Desktop, Cursor, ChatGPT desktop, or any MCP-aware LLM client. Built on FastMCP. Trusted-Publishing release pipeline. `pip install sql-sop-mcp`
 
@@ -131,32 +136,49 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ---
 
-### Open source involvement
+### Open source contributions
 
-**[drt](https://github.com/drt-hub/drt)** — Collaborator on the multi-source data sync engine. Shipped destinations (v0.5), `--threads` parallelism (v0.6), `--quiet` for CI/cron use cases (v0.7, approved), plus reviewer voice on the [json_columns config PR](https://github.com/drt-hub/drt/pull/382) where the early-validation suggestion shaped the final implementation. Looking at the v0.7 SIGTERM/SIGINT graceful-shutdown work next.
+Every PR or issue I've made on projects I don't own, with direct links. Anyone can verify.
 
-**[parliament-mcp](https://github.com/i-dot-ai/parliament-mcp)** — UK Cabinet Office AI Incubator's MCP server for Parliament APIs (Hansard, Bills, Members). [PR #50](https://github.com/i-dot-ai/parliament-mcp/pull/50) adds 15 unit tests for the argparse CLI.
+#### Active maintainer relationship
 
-**[dbt-checkpoint](https://github.com/dbt-checkpoint/dbt-checkpoint)** — Datacoves-maintained pre-commit hooks for dbt projects. [PR #351](https://github.com/dbt-checkpoint/dbt-checkpoint/pull/351) fixes a `check-script-has-no-table-name` false positive on `IS NOT DISTINCT FROM`.
+**[drt-hub/drt](https://github.com/drt-hub/drt)** — Collaborator on the multi-source data sync engine. Maintainer's own words: *"Between v0.5's destinations, v0.6's --threads, this one, and the #382 review, you've shaped a real chunk of drt's surface."*
 
-**[sqlfluff](https://github.com/sqlfluff/sqlfluff)** — [Issue #7380](https://github.com/sqlfluff/sqlfluff/issues/7380) claimed: a Postgres / Redshift rule discouraging `SERIAL` in favour of `GENERATED ALWAYS AS IDENTITY`. Awaiting maintainer green-light on dialect handling.
+- [PR #408](https://github.com/drt-hub/drt/pull/408) — `feat(cli): add --quiet flag to run command` (v0.7, approved by maintainer)
+- [PR #382 review](https://github.com/drt-hub/drt/pull/382) — substantive review of `json_columns` config; the early-validation suggestion shaped the final implementation
+- v0.6 — `--threads N` parallel execution with thread-safe StateManager and 11 parallel-dispatch tests
+- v0.5 — destination connectors and the official connector tutorial
+- Next: v0.7 SIGTERM/SIGINT graceful-shutdown for Kubernetes-deployed users
 
-**[scanapi](https://github.com/scanapi/scanapi)** — PR #868 (`spec_evaluator.py` docstrings, closing a 2021 issue) merged, PR #907 (pipx install path docs) open.
+#### In-flight contributions
 
-**sql-sop** — I review and merge community PRs and try to keep the contribution funnel inviting. Recent merges: W013 window-without-partition (Prabhu-1409), W019 count-distinct-unbounded (mvanhorn), W011 union-without-all + P005 sqlalchemy-text-fstring (tmchow). Two more rule PRs in active review (vibeyclaw W022, hellozzm W014).
+- [i-dot-ai/parliament-mcp #50](https://github.com/i-dot-ai/parliament-mcp/pull/50) — 15 unit tests for the argparse CLI on the UK Cabinet Office AI Incubator's MCP server for Parliament APIs
+- [dbt-checkpoint #351](https://github.com/dbt-checkpoint/dbt-checkpoint/pull/351) — fix `check-script-has-no-table-name` false positive on `IS NOT DISTINCT FROM` (Datacoves-maintained pre-commit hooks)
+- [sqlfluff #7380](https://github.com/sqlfluff/sqlfluff/issues/7380) — claimed CV13 rule for Postgres / Redshift `SERIAL` → `GENERATED ALWAYS AS IDENTITY`
+- [scanapi #907](https://github.com/scanapi/scanapi/pull/907) — pipx install path docs
 
-**pr-sop** — Created it, currently the only maintainer.
+#### Merged PRs
+
+- [scanapi #868](https://github.com/scanapi/scanapi/pull/868) — `docs: add missing docstrings to spec_evaluator.py` (closed a 2021 issue)
+- [pyOpenSci/python-package-guide #622](https://github.com/pyOpenSci/python-package-guide/pull/622) — Turing Way links for `CITATION.cff` and software-citation guidance
+- [dlt-hub/dlt #3830](https://github.com/dlt-hub/dlt/pull/3830) — corrected source count in the intro docs
+- [py-pdf/fpdf2 #1805](https://github.com/py-pdf/fpdf2/pull/1805) — Punjabi (`pa`) tutorial translation
+
+#### Earlier merged contributions
+
+Smaller doc, test, and bug-fix PRs into pandas, ChromaDB, dbt-core, ollama-python, and Apache Superset over the last year. [Full GitHub PR history](https://github.com/search?q=is%3Apr+is%3Amerged+author%3APawansingh3889&type=pullrequests).
 
 ---
 
-### Signature upstream PRs
+### My own projects: maintainer summary
 
-Merged contributions into projects I use every day.
+**sql-sop** — I review community PRs, ship releases via Trusted Publishing, maintain governance / security / contributing docs. v0.6.2 on PyPI as of 2026-04-27. v0.7 milestone has 5 ranked rule issues, all `good first issue` labelled, plus a [scaffold script](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. Two new PRs in active review this weekend ([#31 vibeyclaw](https://github.com/Pawansingh3889/sql-guard/pull/31), [#32 hellozzm](https://github.com/Pawansingh3889/sql-guard/pull/32)).
 
-- [scanapi/scanapi#868](https://github.com/scanapi/scanapi/pull/868) — `docs: add missing docstrings to spec_evaluator.py` (closed an issue from 2021)
-- [pyOpenSci/python-package-guide#622](https://github.com/pyOpenSci/python-package-guide/pull/622) — added Turing Way links for `CITATION.cff` and software-citation guidance
-- [dlt-hub/dlt#3830](https://github.com/dlt-hub/dlt/pull/3830) — corrected the source count in the intro docs
-- [py-pdf/fpdf2#1805](https://github.com/py-pdf/fpdf2/pull/1805) — Punjabi (`pa`) tutorial translation
+**pr-sop** — Created and currently sole maintainer. Three releases (v0.1.0, v0.1.1, v0.1.2) on PyPI.
+
+**morning-brief** — Sole maintainer. v0.3.0 on PyPI.
+
+**sql-sop-mcp** — Sole maintainer. v0.1.1 on PyPI via Trusted Publishing.
 
 ---
 
