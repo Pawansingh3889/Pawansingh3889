@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pawan;Data+engineer+%C2%B7+Yorkshire%2C+UK;I+work+on+sql-sop%2C+pr-sop%2C+morning-brief;Read+the+source.+Find+the+gap.+Ship+the+fix."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pawan;I+work+on+sql-sop%2C+pr-sop%2C+morning-brief;Read+the+source.+Find+the+gap.+Ship+the+fix."/>
 </h1>
 
 <p align="center">
