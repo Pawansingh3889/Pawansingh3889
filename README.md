@@ -25,10 +25,10 @@
 
 Data engineer based in Yorkshire, UK. I break things, read source code, and ship fixes upstream.
 
-MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I maintain three small Python tools on PyPI and contribute to OSS projects I use. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud.
+MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I maintain four small Python tools on PyPI and contribute to OSS projects I use. I believe compliance shouldn't mean spreadsheets and AI shouldn't require the cloud.
 
-- 🔭 Maintaining sql-sop, pr-sop, morning-brief
-- 🌱 Currently learning more about T-SQL internals, on-prem AI orchestration, and dbt's semantic layer
+- 🔭 Maintaining sql-sop, sql-sop-mcp, pr-sop, morning-brief
+- 🌱 Currently learning T-SQL internals, on-prem AI orchestration, dbt's semantic layer, async signal handling for Kubernetes-deployed Python services
 - 👯 Happy to collaborate on manufacturing data, SQL safety tooling, or on-prem AI work
 - 💬 Ask me about Python, SQL Server, dbt, FastAPI, LangGraph
 
@@ -101,7 +101,9 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ### Things I maintain on PyPI
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 38 rules, 149 tests, libCST-based injection scanner, inline disable directives, SARIF output. Runs as a CLI, pre-commit hook, or GitHub Action. 500+ monthly downloads on PyPI. There's a [browser playground](https://pawansingh3889.github.io/sql-guard/) (Pyodide, no data leaves your machine). `pip install sql-sop`
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 39 rules, 152 tests, libCST-based injection scanner, inline disable directives, SARIF output. v0.7 milestone in progress (Performance Rules Pack), with [ROADMAP](https://github.com/Pawansingh3889/sql-guard/blob/main/ROADMAP.md) and a [scaffold tool](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. Three external authors have shipped merged rules. 500+ monthly downloads on PyPI. [Browser playground](https://pawansingh3889.github.io/sql-guard/) runs Pyodide so no data leaves the page. `pip install sql-sop`
+
+**[sql-sop-mcp](https://github.com/Pawansingh3889/sql-sop-mcp)** — Model Context Protocol server wrapping sql-sop's linter. Two stdio tools (`lint_sql`, `list_rules`) callable from Claude Desktop, Cursor, ChatGPT desktop, or any MCP-aware LLM client. Built on FastMCP. Trusted-Publishing release pipeline. `pip install sql-sop-mcp`
 
 **[pr-sop](https://github.com/Pawansingh3889/pr-sop)** — A small PR governance checker. Three configurable checks: CHANGELOG drift, version mismatch between `pyproject.toml` and `__init__.py`, and stale `rev:` pins in pre-commit configs. CLI, pre-commit hook, or GitHub Action. `pip install pr-sop`
 
@@ -131,11 +133,17 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ### Open source involvement
 
-**[drt](https://github.com/drt-hub/drt)** — Triage Collaborator. Multi-sync orchestration (`drt run --all`, `--select tag:`, `--threads N`), 5 destination connectors, the official [connector tutorial](https://github.com/drt-hub/drt/pull/332), Docker support, and pre-commit hooks. All merged.
+**[drt](https://github.com/drt-hub/drt)** — Collaborator on the multi-source data sync engine. Shipped destinations (v0.5), `--threads` parallelism (v0.6), `--quiet` for CI/cron use cases (v0.7, approved), plus reviewer voice on the [json_columns config PR](https://github.com/drt-hub/drt/pull/382) where the early-validation suggestion shaped the final implementation. Looking at the v0.7 SIGTERM/SIGINT graceful-shutdown work next.
 
-**[scanapi](https://github.com/scanapi/scanapi)** — PR #868 (`spec_evaluator.py` docstrings, closing a 2021 issue) merged, PR #907 (pipx install path docs) open. Picking off TOC issues for the wiki next.
+**[parliament-mcp](https://github.com/i-dot-ai/parliament-mcp)** — UK Cabinet Office AI Incubator's MCP server for Parliament APIs (Hansard, Bills, Members). [PR #50](https://github.com/i-dot-ai/parliament-mcp/pull/50) adds 15 unit tests for the argparse CLI.
 
-**sql-sop** — I review and merge community PRs (W011 union-without-all, W012 group-by-ordinal, W005 template adoption are recent), publish to PyPI, and try to keep the issue tracker tidy.
+**[dbt-checkpoint](https://github.com/dbt-checkpoint/dbt-checkpoint)** — Datacoves-maintained pre-commit hooks for dbt projects. [PR #351](https://github.com/dbt-checkpoint/dbt-checkpoint/pull/351) fixes a `check-script-has-no-table-name` false positive on `IS NOT DISTINCT FROM`.
+
+**[sqlfluff](https://github.com/sqlfluff/sqlfluff)** — [Issue #7380](https://github.com/sqlfluff/sqlfluff/issues/7380) claimed: a Postgres / Redshift rule discouraging `SERIAL` in favour of `GENERATED ALWAYS AS IDENTITY`. Awaiting maintainer green-light on dialect handling.
+
+**[scanapi](https://github.com/scanapi/scanapi)** — PR #868 (`spec_evaluator.py` docstrings, closing a 2021 issue) merged, PR #907 (pipx install path docs) open.
+
+**sql-sop** — I review and merge community PRs and try to keep the contribution funnel inviting. Recent merges: W013 window-without-partition (Prabhu-1409), W019 count-distinct-unbounded (mvanhorn), W011 union-without-all + P005 sqlalchemy-text-fstring (tmchow). Two more rule PRs in active review (vibeyclaw W022, hellozzm W014).
 
 **pr-sop** — Created it, currently the only maintainer.
 
