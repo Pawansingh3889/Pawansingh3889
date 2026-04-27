@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E27,50:00D4FF,100:0A0E27&height=200&section=header&text=Pawan%20Singh%20Kapkoti&fontSize=40&fontColor=ffffff"/>
-</p>
-
 <h1 align="center">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pawan;Data+engineer+%C2%B7+Yorkshire%2C+UK;I+work+on+sql-sop%2C+pr-sop%2C+morning-brief;Read+the+source.+Find+the+gap.+Ship+the+fix."/>
 </h1>
@@ -133,47 +129,7 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ### Open source contributions
 
-Every PR or issue I've made on projects I don't own, with direct links. Anyone can verify.
-
-#### Active maintainer relationship
-
-**[drt-hub/drt](https://github.com/drt-hub/drt)** — Collaborator on the multi-source data sync engine. Maintainer's own words: *"Between v0.5's destinations, v0.6's --threads, this one, and the #382 review, you've shaped a real chunk of drt's surface."*
-
-- [PR #408](https://github.com/drt-hub/drt/pull/408) — `feat(cli): add --quiet flag to run command` (v0.7, approved by maintainer)
-- [PR #382 review](https://github.com/drt-hub/drt/pull/382) — substantive review of `json_columns` config; the early-validation suggestion shaped the final implementation
-- v0.6 — `--threads N` parallel execution with thread-safe StateManager and 11 parallel-dispatch tests
-- v0.5 — destination connectors and the official connector tutorial
-- Next: v0.7 SIGTERM/SIGINT graceful-shutdown for Kubernetes-deployed users
-
-#### In-flight contributions
-
-- [i-dot-ai/parliament-mcp #50](https://github.com/i-dot-ai/parliament-mcp/pull/50) — 15 unit tests for the argparse CLI on the UK Cabinet Office AI Incubator's MCP server for Parliament APIs
-- [dbt-checkpoint #351](https://github.com/dbt-checkpoint/dbt-checkpoint/pull/351) — fix `check-script-has-no-table-name` false positive on `IS NOT DISTINCT FROM` (Datacoves-maintained pre-commit hooks)
-- [sqlfluff #7380](https://github.com/sqlfluff/sqlfluff/issues/7380) — claimed CV13 rule for Postgres / Redshift `SERIAL` → `GENERATED ALWAYS AS IDENTITY`
-- [scanapi #907](https://github.com/scanapi/scanapi/pull/907) — pipx install path docs
-
-#### Merged PRs
-
-- [scanapi #868](https://github.com/scanapi/scanapi/pull/868) — `docs: add missing docstrings to spec_evaluator.py` (closed a 2021 issue)
-- [pyOpenSci/python-package-guide #622](https://github.com/pyOpenSci/python-package-guide/pull/622) — Turing Way links for `CITATION.cff` and software-citation guidance
-- [dlt-hub/dlt #3830](https://github.com/dlt-hub/dlt/pull/3830) — corrected source count in the intro docs
-- [py-pdf/fpdf2 #1805](https://github.com/py-pdf/fpdf2/pull/1805) — Punjabi (`pa`) tutorial translation
-
-#### Earlier merged contributions
-
-Smaller doc, test, and bug-fix PRs into pandas, ChromaDB, dbt-core, ollama-python, and Apache Superset over the last year. [Full GitHub PR history](https://github.com/search?q=is%3Apr+is%3Amerged+author%3APawansingh3889&type=pullrequests).
-
----
-
-### My own projects: maintainer summary
-
-**sql-sop** — I review community PRs, ship releases via Trusted Publishing, maintain governance / security / contributing docs. v0.6.2 on PyPI as of 2026-04-27. v0.7 milestone has 5 ranked rule issues, all `good first issue` labelled, plus a [scaffold script](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. Two new PRs in active review this weekend ([#31 vibeyclaw](https://github.com/Pawansingh3889/sql-guard/pull/31), [#32 hellozzm](https://github.com/Pawansingh3889/sql-guard/pull/32)).
-
-**pr-sop** — Created and currently sole maintainer. Three releases (v0.1.0, v0.1.1, v0.1.2) on PyPI.
-
-**morning-brief** — Sole maintainer. v0.3.0 on PyPI.
-
-**sql-sop-mcp** — Sole maintainer. v0.1.1 on PyPI via Trusted Publishing.
+[Full GitHub PR history](https://github.com/search?q=is%3Apr+author%3APawansingh3889&type=pullrequests).
 
 ---
 
@@ -184,8 +140,3 @@ Smaller doc, test, and bug-fix PRs into pandas, ChromaDB, dbt-core, ollama-pytho
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Pawansingh3889/Pawansingh3889/output/github-snake.svg">
 </picture>
 
----
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E27,50:00D4FF,100:0A0E27&height=120&section=footer"/>
-</p>
