@@ -131,12 +131,3 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 [Full GitHub PR history](https://github.com/search?q=is%3Apr+author%3APawansingh3889&type=pullrequests).
 
----
-
-## 🐍 GitHub Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pawansingh3889/Pawansingh3889/output/github-snake-dark.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Pawansingh3889/Pawansingh3889/output/github-snake.svg">
-</picture>
-
