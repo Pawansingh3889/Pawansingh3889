@@ -97,7 +97,7 @@ MSc Data Analytics from Aston. Day job is in food manufacturing; on the side I m
 
 ### Things I maintain on PyPI
 
-**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 39 rules, 152 tests, libCST-based injection scanner, inline disable directives, SARIF output. v0.6.2 on PyPI; v0.7 milestone in progress (Performance Rules Pack), with [ROADMAP](https://github.com/Pawansingh3889/sql-guard/blob/main/ROADMAP.md) and a [scaffold tool](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. 500+ monthly downloads on PyPI. [Browser playground](https://pawansingh3889.github.io/sql-guard/) runs Pyodide so no data leaves the page. `pip install sql-sop`
+**[sql-sop](https://github.com/Pawansingh3889/sql-guard)** — A Python SQL linter. 43 rules, 210 tests, libCST-based injection scanner, inline disable directives, SARIF output. v0.6.2 on PyPI; v0.7 milestone in progress (Performance Rules Pack), with [ROADMAP](https://github.com/Pawansingh3889/sql-guard/blob/main/ROADMAP.md) and a [scaffold tool](https://github.com/Pawansingh3889/sql-guard/blob/main/scripts/scaffold_rule.py) for new contributors. 500+ monthly downloads on PyPI. [Browser playground](https://pawansingh3889.github.io/sql-guard/) runs Pyodide so no data leaves the page. `pip install sql-sop`
 
 **[sql-sop-mcp](https://github.com/Pawansingh3889/sql-sop-mcp)** — Model Context Protocol server wrapping sql-sop's linter. Two stdio tools (`lint_sql`, `list_rules`) callable from Claude Desktop, Cursor, ChatGPT desktop, or any MCP-aware LLM client. Built on FastMCP. Trusted-Publishing release pipeline. `pip install sql-sop-mcp`
 
