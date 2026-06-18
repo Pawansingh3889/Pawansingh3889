@@ -5,6 +5,7 @@ SQL work, and send fixes upstream to the projects I use. MSc Data Analytics,
 Aston.
 
 [Portfolio](https://pawan-portfolio.pawankapkoti3889.workers.dev) ·
+[Governed Agent Stack](https://github.com/Pawansingh3889/governed-agent-stack) ·
 [LinkedIn](https://www.linkedin.com/in/pawan-singh-kapkoti-100176347) ·
 [PyPI](https://pypi.org/user/pawansingh3889/)
 
