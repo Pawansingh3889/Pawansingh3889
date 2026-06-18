@@ -24,8 +24,11 @@ Aston.
   append-only, hash-chained ledger that gives agent actions a tamper-evident
   audit trail. On-prem, zero dependencies.
 - **[sql-explorer-mcp](https://github.com/Pawansingh3889/sql-explorer-mcp)**:
-  read-only MCP server for SQL Server, Postgres, and SQLite, with a three-layer
+  read-only MCP server for SQL Server, Postgres, and SQLite, with a layered
   safety stack. `pip install sql-explorer-mcp`
+- **[query-warden](https://github.com/Pawansingh3889/query-warden)**:
+  role-based access control for SQL. Decides whether a role may touch the tables
+  and columns a query references, before it runs. On-prem.
 
 ## Tools
 
