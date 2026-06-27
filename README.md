@@ -59,8 +59,10 @@ Aston.
 
 ## Tech
 
-Python · SQL Server / PostgreSQL · dbt · pandas / Polars · FastAPI ·
-Ollama / LangGraph (on-prem AI) · Docker · GitHub Actions
+Python · SQL / T-SQL · dbt · SQL Server / PostgreSQL / BigQuery · pandas / Polars ·
+FastAPI · Ollama / LangGraph (on-prem AI) · MCP · Docker · GitHub Actions
+
+Learning (2026): Microsoft Fabric · KQL · Azure · Snowflake
 
 ## Open source
 
