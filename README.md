@@ -17,13 +17,5 @@ MSc Data Analytics, Aston.
 - **[payoptimize](https://github.com/Pawansingh3889/payoptimize)** — routes each payment to the provider most likely to authorise it. Thompson sampling, decline-aware cascade.
 - **[sql-sop](https://github.com/Pawansingh3889/sql-sop)** — rule-based SQL linter on PyPI. 48 rules, SARIF output, pre-commit hook.
 
-### Upstream
-
-32 merged PRs in [drt-hub/drt](https://github.com/drt-hub/drt), plus
-[Superset](https://github.com/apache/superset), [SQLGlot](https://github.com/tobymao/sqlglot),
-[SQLFluff](https://github.com/sqlfluff/sqlfluff), [DuckDB](https://github.com/duckdb/duckdb-web),
-[dlt](https://github.com/dlt-hub/verified-sources) and
-[Open Food Facts](https://github.com/openfoodfacts/openfoodfacts-server) —
-[all of them](https://github.com/search?q=is%3Apr+author%3APawansingh3889&type=pullrequests).
 
 Python · SQL · dbt · FastAPI · Ollama / LangGraph · Docker. On-prem by default.
