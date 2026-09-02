@@ -1,5 +1,6 @@
 # Pawan Singh Kapkoti
 
-Data and AI engineer. I build the systems a regulated site actually runs on, and the
-controls that make it safe to point a model at a real database.
-
+## Looking for a role in India or Remote.
+Contact: 
+Email: pawankapkoti3889@gmail.com
+Phone: +919911931695
