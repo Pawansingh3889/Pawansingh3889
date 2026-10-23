@@ -6,14 +6,21 @@ Open to Data, Analytics and AI Engineering roles in India or remote.
 
 ## What I am building
 
-| Project | What it does |
-| --- | --- |
-| [Rigel ERP](https://rigel.kapkotisolution.com) | ERP for Indian workshops and traders: GST billing, inventory, purchasing, BOM production, payments. React, TypeScript, Supabase. |
-| [FloorMind](https://floormind.pages.dev) | Offline AI assistant for food and FMCG factories. Ask production data questions in plain English; nothing leaves the factory network. |
-| [sql-sop](https://github.com/Pawansingh3889/sql-sop) | Open-source SQL linter on [PyPI](https://pypi.org/project/sql-sop/) with 2,000+ installs. 48 rules, SARIF output, pre-commit hook and GitHub Action. |
-| [Elenchus](https://github.com/Pawansingh3889/elenchus) | Conversational survey service: respondents answer through a guided AI conversation. FastAPI, PostgreSQL, Next.js. |
-| [pay-warden](https://github.com/Pawansingh3889/pay-warden) | MCP policy firewall that checks budgets and limits before an AI agent can spend. Built for the Prava agentic payments hackathon. |
-| [uk-crime-pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | Police UK API to PostgreSQL and BigQuery with dbt staging and marts, 65 tests, Looker Studio and Streamlit dashboards. |
+An honest snapshot, checked on 23 Oct 2026. Status means what it says: live is running today, in development is not finished, and private means the code is not public yet.
+
+| Project | Status | Code | What it is |
+| --- | --- | --- | --- |
+| [Rigel ERP](https://rigel.kapkotisolution.com) | Live, I am technical lead | Private | ERP for Indian workshops and traders: GST billing, inventory, purchasing, BOM production runs, payments and returns. React, TypeScript, Supabase (469 migrations, 29 edge functions), Playwright browser tests, deployed on Cloudflare Pages. |
+| [FloorMind](https://floormind.pages.dev) | Live site, product in development | [Public](https://github.com/Pawansingh3889/governed-agent-stack/tree/main/apps/floormind) | Offline AI assistant for food and FMCG factories. Ask production data questions in plain English with a local LLM; queries are read-only, linted by sql-sop and audit-logged. 128 tests plus an eval harness. |
+| [Governed Agent Stack](https://github.com/Pawansingh3889/governed-agent-stack) | In development | Public | The monorepo FloorMind now lives in: free, on-prem building blocks (schema-scout, sql-explorer-mcp, agent-blackbox, pii-veil and more) for an AI agent you can point at a real database and audit. |
+| [sql-sop](https://github.com/Pawansingh3889/sql-sop) | Released, v0.11.0 | Public | SQL linter on [PyPI](https://pypi.org/project/sql-sop/): 48 core rules plus contracts and dbt packs, 489 tests, 14 releases, 3,100+ downloads in the last 180 days excluding mirrors ([pypistats](https://pypistats.org/packages/sql-sop)). |
+| [Vega](https://github.com/Pawansingh3889/vega) | In development, phase 3 (invoicing) | Public, AGPL-3.0 | UK-first ERP for small British businesses with MTD VAT, EU trade and product carbon in the schema. First target is small UK food manufacturers; that is still a hypothesis with no customer discovery behind it. |
+| [Elenchus](https://frontend-three-zeta-45.vercel.app) | Live demo | [Public](https://github.com/Pawansingh3889/elenchus) | Survey service where respondents answer through a guided AI conversation. FastAPI, PostgreSQL, Next.js. |
+| [pay-warden](https://github.com/Pawansingh3889/pay-warden) and [steward](https://github.com/Pawansingh3889/steward) | Hackathon build, finished | Public | Prava agentic payments hackathon: an MCP policy firewall that checks budgets and limits before an AI agent can spend, and an agent that spends delegated funds under a sponsor's policy (584 tests). |
+| [canibuy](https://github.com/Pawansingh3889/canibuy) | Hackathon build, finished | Public | Probes whether an AI agent can actually check out at a merchant. Graded 23 merchants across 4 browser clients: only 9% had a checkout path an agent could use today. |
+| [uk-crime-pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | Finished, weekly ingest | Public | Police UK API to PostgreSQL and BigQuery with dbt staging and marts, SLO checks and 3 CI workflows. 99,675 records across 10 cities, [dashboard on Hugging Face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics). |
+
+**Also right now:** a data science internship with YuvaIntern ([notebooks](https://github.com/Pawansingh3889/yuvaintern), [Sephora review analysis](https://github.com/Pawansingh3889/beauty-review-analysis)), which is why Jupyter Notebook shows up in my language mix.
 
 ## Toolbox
 
