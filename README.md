@@ -1,12 +1,14 @@
 # Pawan Singh Kapkoti
 
-**Technical Lead at [Rigel ERP](https://rigel.kapkotisolution.com)**, Data and AI Engineer, and founder of [Kapkoti Solution](https://kapkotisolution.com). MSc Data Analytics (Aston University). I build data pipelines with dbt and SQL, ERP systems for small businesses, and governed AI agents that answer business questions in plain English while staying read-only and audited.
+I am an early-career data and AI engineer, still learning and very much a junior. I finished an MSc in Data Analytics at Aston University, worked as a data analyst at a UK seafood processor, and now build small products under [Kapkoti Solution](https://kapkotisolution.com), where I am technical lead on [Rigel ERP](https://rigel.kapkotisolution.com).
 
-Open to Data, Analytics and AI Engineering roles in India or remote.
+Most of what is below is me learning in public: some of it is live, a lot of it is unfinished, and I try to say which is which. Feedback and code review are very welcome.
+
+Looking for a junior Data, Analytics or AI Engineering role in India or remote, ideally on a team I can learn from.
 
 ## What I am building
 
-An honest snapshot, checked on 23 Oct 2026. Status means what it says: live is running today, in development is not finished, and private means the code is not public yet.
+An honest snapshot, checked on 23 Oct 2026. Numbers come from the repos themselves. Status means what it says: live is running today, in development is not finished, and private means the code is not public yet.
 
 | Project | Status | Code | What it is |
 | --- | --- | --- | --- |
@@ -18,11 +20,13 @@ An honest snapshot, checked on 23 Oct 2026. Status means what it says: live is r
 | [Elenchus](https://frontend-three-zeta-45.vercel.app) | Live demo | [Public](https://github.com/Pawansingh3889/elenchus) | Survey service where respondents answer through a guided AI conversation. FastAPI, PostgreSQL, Next.js. |
 | [pay-warden](https://github.com/Pawansingh3889/pay-warden) and [steward](https://github.com/Pawansingh3889/steward) | Hackathon build, finished | Public | Prava agentic payments hackathon: an MCP policy firewall that checks budgets and limits before an AI agent can spend, and an agent that spends delegated funds under a sponsor's policy (584 tests). |
 | [canibuy](https://github.com/Pawansingh3889/canibuy) | Hackathon build, finished | Public | Probes whether an AI agent can actually check out at a merchant. Graded 23 merchants across 4 browser clients: only 9% had a checkout path an agent could use today. |
-| [uk-crime-pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | Finished, weekly ingest | Public | Police UK API to PostgreSQL and BigQuery with dbt staging and marts, SLO checks and 3 CI workflows. 99,675 records across 10 cities, [dashboard on Hugging Face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics). |
+| [uk-crime-pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | Learning project, weekly ingest | Public | A learning project: Police UK API to PostgreSQL with dbt staging and marts, pytest health and SLO checks and 3 CI workflows. 99,675 records across 10 cities. dbt data tests are next on my list. [Dashboard on Hugging Face](https://huggingface.co/spaces/pawankapkoti/uk-crime-analytics). |
 
 **Also right now:** a data science internship with YuvaIntern ([notebooks](https://github.com/Pawansingh3889/yuvaintern), [Sephora review analysis](https://github.com/Pawansingh3889/beauty-review-analysis)), which is why Jupyter Notebook shows up in my language mix.
 
 ## Toolbox
+
+Tools I have used in the projects above. I am comfortable with some and still learning most of them.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,postgres,ts,js,react,nextjs,tailwind,fastapi,flask,docker,aws,gcp,cloudflare,supabase,githubactions,threejs,terraform,linux&perline=9" alt="Python, PostgreSQL, TypeScript, JavaScript, React, Next.js, Tailwind, FastAPI, Flask, Docker, AWS, GCP, Cloudflare, Supabase, GitHub Actions, Three.js, Terraform, Linux">
@@ -31,7 +35,6 @@ An honest snapshot, checked on 23 Oct 2026. Status means what it says: live is r
 <p align="center">
   <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge" alt="dbt">
   <img src="https://img.shields.io/badge/Prefect-070E10?style=for-the-badge&logo=prefect&logoColor=white" alt="Prefect">
-  <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery">
   <img src="https://img.shields.io/badge/DuckDB-1A1A1A?style=for-the-badge&logo=duckdb&logoColor=white" alt="DuckDB">
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
