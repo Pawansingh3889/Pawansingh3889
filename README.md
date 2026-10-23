@@ -4,7 +4,7 @@
 
 # Pawan Singh Kapkoti
 
-**Data and AI Engineer** and founder of [Kapkoti Solution](https://kapkotisolution.com). MSc Data Analytics (Aston University). I build data pipelines with dbt and SQL, ERP systems for small businesses, and governed AI agents that answer business questions in plain English while staying read-only and audited.
+**Technical Lead at [Rigel ERP](https://rigel.kapkotisolution.com)**, Data and AI Engineer, and founder of [Kapkoti Solution](https://kapkotisolution.com). MSc Data Analytics (Aston University). I build data pipelines with dbt and SQL, ERP systems for small businesses, and governed AI agents that answer business questions in plain English while staying read-only and audited.
 
 Open to Data, Analytics and AI Engineering roles in India or remote.
 
@@ -21,15 +21,13 @@ Open to Data, Analytics and AI Engineering roles in India or remote.
 
 ## Toolbox
 
-**Data:** Python, SQL (T-SQL, PostgreSQL), dbt, Prefect, BigQuery, DuckDB, SQL Server, SSRS, Power BI
-**AI:** LangGraph, RAG, pgvector, ChromaDB, MCP servers, NL-to-SQL agents, Ollama, Claude API
-**Web and cloud:** TypeScript, React, Next.js, FastAPI, Cloudflare Workers, Supabase, AWS, Docker, GitHub Actions
+- **Data:** Python, SQL (T-SQL, PostgreSQL), dbt, Prefect, BigQuery, DuckDB, SQL Server, SSRS, Power BI
+- **AI:** LangGraph, RAG, pgvector, ChromaDB, MCP servers, NL-to-SQL agents, Ollama, Claude API
+- **Web and cloud:** TypeScript, React, Next.js, FastAPI, Cloudflare Workers, Supabase, AWS, Docker, GitHub Actions
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=Pawansingh3889&theme=aurora" alt="GitHub stats" width="100%">
-  <img src="https://www.gitskins.com/api/section/stack?username=Pawansingh3889&theme=aurora" alt="Language stack" width="100%">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=Pawansingh3889&theme=aurora" alt="Contribution activity" width="100%">
-</p>
+<p align="center"><img src="https://www.gitskins.com/api/section/stats?username=Pawansingh3889&theme=aurora" alt="GitHub stats" width="100%"></p>
+
+<p align="center"><img src="https://www.gitskins.com/api/section/stack?username=Pawansingh3889&theme=aurora" alt="Language stack" width="100%"></p>
 
 ## Contact
 
