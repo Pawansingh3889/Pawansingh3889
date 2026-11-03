@@ -1,58 +1,68 @@
 # Pawan Singh Kapkoti
 
-<a href="https://linkedin.com/in/pawan-singh-kapkoti-100176347/details/connected-accounts/"><img src="https://img.shields.io/badge/GitHub%20Copilot%20Proficiency-Intermediate%20(verified)-8957e5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot Proficiency: Intermediate, verified by GitHub Learn"></a>
+**Data engineer.** I build pipelines and data products where the numbers can be trusted: checked before they move, loaded once, and defined in one place.
 
-I am an early-career data engineer, still learning and very much a junior. I work with SQL, Python, dbt, Snowflake and Airflow. I finished an MSc in Data Analytics at Aston University, worked as a data analyst at a UK seafood processor, and I co-founded [Rigel ERP](https://rigel.kapkotisolution.com), where I lead the technical side.
+<a href="https://linkedin.com/in/pawan-singh-kapkoti-100176347/details/connected-accounts/"><img src="https://img.shields.io/badge/GitHub%20Copilot%20Proficiency-Intermediate%20(verified)-8957e5?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot Proficiency: Intermediate, verified by GitHub Learn"></a>
+<a href="https://pypi.org/project/sql-sop"><img src="https://img.shields.io/pypi/v/sql-sop?style=flat-square&label=sql-sop&color=3775A9" alt="sql-sop on PyPI"></a>
+<a href="https://linkedin.com/in/pawan-singh-kapkoti-100176347"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
-Most of what is below is me learning in public: some of it is live, a lot of it is unfinished, and I try to say which is which. Feedback and code review are very welcome.
+MSc Data Analytics, Aston University. Previously a data analyst at a UK seafood processor (batch traceability, yield and audit data on SQL Server). Co-founder of [Rigel ERP](https://rigel.kapkotisolution.com), where I lead the technical side.
 
-Looking for a junior Data Engineering or Analytics Engineering role in India (ready to relocate) or remote, ideally on a team I can learn from.
+## Selected work
 
-## What I am building
+### [UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline): Snowflake, dbt, Airflow
 
-An honest snapshot, checked on 4 Nov 2026. Numbers come from the repos themselves. Status means what it says: live is running today, in development is not finished, and private means the code is not public yet.
+Police UK data for 10 cities, from API to tested marts.
 
-| Project | Status | Code | What it is |
-| --- | --- | --- | --- |
-| [UK Crime Pipeline](https://github.com/Pawansingh3889/uk-crime-pipeline) | Live dashboard | [Public](https://github.com/Pawansingh3889/uk-crime-pipeline) | Police UK data for 10 cities. Loads into Snowflake through a stage, COPY INTO and an idempotent MERGE, then dbt builds and tests 6 models (31 tests), all run by an Airflow DAG. The same models also run on PostgreSQL behind a [Streamlit dashboard](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/). |
-| [sql-sop](https://pypi.org/project/sql-sop) | Live on PyPI | [Public](https://github.com/Pawansingh3889/sql-sop) | Open-source SQL linter that catches dangerous SQL, like a DELETE with no WHERE, before it reaches production. 48 rules including a dbt pack; runs as a CLI, pre-commit hook and GitHub Action. |
-| [Rigel ERP](https://rigel.kapkotisolution.com) | Live, I co-founded it and lead the tech | Private | ERP for Indian workshops and traders: GST billing, inventory, purchasing, BOM production runs, payments and returns. React, TypeScript, Supabase (469 migrations, 29 edge functions), Playwright browser tests, deployed on Cloudflare Pages. |
-| [Governed Agent Stack](https://github.com/Pawansingh3889/governed-agent-stack) | In development | Public | The monorepo FloorMind now lives in: free, on-prem building blocks (schema-scout, sql-explorer-mcp, agent-blackbox, pii-veil and more) for an AI agent you can point at a real database and audit. |
-| [Elenchus](https://frontend-three-zeta-45.vercel.app) | Live demo | [Public](https://github.com/Pawansingh3889/elenchus) | Survey service where respondents answer through a guided AI conversation. FastAPI, PostgreSQL, Next.js. |
+- **Idempotent loads.** Files land in a Snowflake stage, `COPY INTO` a temporary table, then `MERGE` on the natural key with `QUALIFY ROW_NUMBER()` to drop in-batch duplicates. Loading the same month twice inserted 17,534 rows, then 0.
+- **One set of models, two warehouses.** The dbt project (6 models, 31 tests, source freshness) runs on Snowflake and PostgreSQL. Postgres-only SQL was replaced with portable SQL to get there.
+- **Least privilege.** Separate loader and transformer roles, a key-pair service user, an X-Small auto-suspend warehouse and a monthly credit limit.
+- **Orchestration with honest trade-offs.** An Airflow DAG (load, freshness, `dbt build`, retries) for the Snowflake path; a weekly GitHub Actions schedule for the free hosted Postgres version, because an always-on Airflow server is not worth the cost for it.
 
-**Also right now:** a data science internship with YuvaIntern ([notebooks](https://github.com/Pawansingh3889/yuvaintern), [Sephora review analysis](https://github.com/Pawansingh3889/beauty-review-analysis)), which is why Jupyter Notebook shows up in my language mix.
+[Live dashboard](https://uk-crime-pipeline-6nydeza7je8kiwsfl6deuw.streamlit.app/) · [Runbook](https://github.com/Pawansingh3889/uk-crime-pipeline/blob/main/RUNBOOK.md)
 
-## Toolbox
+### [Rigel ERP](https://rigel.kapkotisolution.com): reporting layer for an ERP I co-founded
 
-Tools I have used in the projects above. I am comfortable with some and still learning most of them.
+A live, phone-first ERP for Indian workshops and traders (code is private).
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,postgres,ts,js,react,nextjs,tailwind,fastapi,flask,docker,aws,gcp,cloudflare,supabase,githubactions,threejs,terraform,linux&perline=9" alt="Python, PostgreSQL, TypeScript, JavaScript, React, Next.js, Tailwind, FastAPI, Flask, Docker, AWS, GCP, Cloudflare, Supabase, GitHub Actions, Three.js, Terraform, Linux">
-</p>
+- **One definition per number.** A metric registry of 25 headline figures, one function each, shared by the dashboard, reports, Excel, PDF and the AI assistant, so they cannot disagree.
+- **Permissions inside the database,** checked per figure and per login, so a storekeeper sees stock but never margins, on every surface.
+- **History that does not drift.** Nightly snapshots; a missed night shows "not available", never zero.
+- **AI that cannot invent numbers.** The model picks an approved metric and period; code computes the value. A money question with no approved metric is refused.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake">
-  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Apache Airflow">
-  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge" alt="dbt">
-  <img src="https://img.shields.io/badge/Prefect-070E10?style=for-the-badge&logo=prefect&logoColor=white" alt="Prefect">
-  <img src="https://img.shields.io/badge/DuckDB-1A1A1A?style=for-the-badge&logo=duckdb&logoColor=white" alt="DuckDB">
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP">
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
-</p>
+PostgreSQL on Supabase, 469 append-only migrations, 29 edge functions, CI with type checks, unit and browser tests on every pull request.
 
-<p align="center"><b>Also:</b> SQL Server (T-SQL), SSRS, Power BI, Looker Studio, SI Integreater ERP, pgvector, ChromaDB, RAG, Playwright</p>
+### [sql-sop](https://github.com/Pawansingh3889/sql-sop): SQL safety linter on PyPI
 
-<p align="center"><img src="https://www.gitskins.com/api/section/stats?username=Pawansingh3889&theme=aurora" alt="GitHub stats" width="100%"></p>
+Catches dangerous SQL before it reaches production: a `DELETE` or `UPDATE` with no `WHERE`, injection-prone string building, T-SQL pitfalls, SQL inside Python, and dbt project issues. 48 rules, 489 tests, 14 releases, 3,100+ downloads in six months. Runs as a CLI, pre-commit hook and GitHub Action.
 
-<p align="center"><img src="https://www.gitskins.com/api/section/stack?username=Pawansingh3889&theme=aurora" alt="Language stack" width="100%"></p>
+### [Governed Agent Stack](https://github.com/Pawansingh3889/governed-agent-stack): auditable database agents
 
-## Contact
+On-prem building blocks for pointing an AI agent at a real database safely: read-only access, schema discovery, a query linter in the loop and an audit trail. Home of FloorMind, a plain-English query tool for factory data. In development.
+
+## How I work
+
+- **Make it safe to run twice.** Retries and backfills should never duplicate data.
+- **Fail loudly.** Zero rows from a source is an error, not a successful run.
+- **Define once, reuse everywhere.** Metrics, permissions and tests live in one place.
+- **Least privilege by default,** for people, services and AI.
+- **Tests and CI on every model and pull request.**
+- **Write the trade-off down,** including what I chose not to build.
+
+## Stack
+
+**Data:** SQL (PostgreSQL, SQL Server, Snowflake) · dbt · Apache Airflow · Python (pandas, pytest) · Power BI
+**Platform:** Docker · GitHub Actions · Supabase · Cloudflare · Git
+**AI:** NL-to-SQL with guardrails · MCP servers · local LLMs (Ollama)
+
+## Also built
+
+- [Elenchus](https://github.com/Pawansingh3889/elenchus): surveys answered through a guided AI conversation. FastAPI, PostgreSQL, Next.js. [Demo](https://frontend-three-zeta-45.vercel.app)
+- [morning-brief](https://github.com/Pawansingh3889/morning-brief): rule-based daily Gmail triage on PyPI. No LLM, read-only OAuth.
+- [beauty-review-analysis](https://github.com/Pawansingh3889/beauty-review-analysis): Sephora review analysis from a data science internship.
+
+## Now
+
+Open to **Data Engineering** and **Analytics Engineering** roles in India (ready to relocate) or remote. Going deeper on Snowflake, dbt incremental models and Copilot-assisted workflows.
 
 [Email](mailto:pawankapkoti3889@gmail.com) · [LinkedIn](https://linkedin.com/in/pawan-singh-kapkoti-100176347) · [kapkotisolution.com](https://kapkotisolution.com)
